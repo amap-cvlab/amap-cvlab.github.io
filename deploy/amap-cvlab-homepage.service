@@ -1,0 +1,14 @@
+[Unit]
+Description=AMAP CV Lab static website
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/git/amap-cvlab-homepage
+ExecStart=/usr/bin/python3 -m http.server 8888 --bind 0.0.0.0 --directory %h/git/amap-cvlab-homepage/dist/client
+Restart=on-failure
+RestartSec=3
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target

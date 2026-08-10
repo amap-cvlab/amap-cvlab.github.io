@@ -1,0 +1,3470 @@
+{
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2026-08-10",
+  "section": {
+    "index": "WORK / 03",
+    "eyebrow": {
+      "en": "Selected work",
+      "zh": "精选成果"
+    },
+    "action": {
+      "label": {
+        "en": "View all works",
+        "zh": "查看全部成果"
+      },
+      "href": "/works/"
+    }
+  },
+  "ui": {
+    "filterLabel": {
+      "en": "Filter public projects",
+      "zh": "筛选公开项目"
+    },
+    "abotLabel": {
+      "en": "ABot",
+      "zh": "ABot"
+    },
+    "labLabel": {
+      "en": "AMAP CV Lab",
+      "zh": "高德视觉技术中心"
+    }
+  },
+  "title": {
+    "en": "Selected work across the stack",
+    "zh": "贯穿全栈的精选成果"
+  },
+  "description": {
+    "en": "Representative projects open a direct path into the lab’s complete project and publication archive.",
+    "zh": "代表性成果覆盖主要研究方向，并可进一步进入完整项目与论文档案。"
+  },
+  "filters": [],
+  "projects": [
+    {
+      "id": "abot-world",
+      "slug": "abot-world",
+      "name": {
+        "en": "ABot-World-0",
+        "zh": "ABot-World-0"
+      },
+      "tagline": {
+        "en": "Infinite Interactive World Rollout on a Single Desktop GPU",
+        "zh": "在单张桌面级 GPU 上实现无限交互式世界推演"
+      },
+      "summary": {
+        "en": "A real-time action-conditioned world model for open-ended exploration at 720P and 16 FPS on one RTX 5090.",
+        "zh": "在单张 RTX 5090 上以 720P、16 FPS 支持开放式探索的实时动作条件世界模型。"
+      },
+      "categoryIds": [
+        "abot",
+        "world-modeling"
+      ],
+      "stageIds": [
+        "world-foundation-models"
+      ],
+      "date": {
+        "value": "2026-07-09",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Model, inference, demo, and data released",
+          "zh": "模型、推理、演示与数据已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "inferenceCode": "released",
+          "modelWeights": "released",
+          "demo": "released",
+          "data": "released",
+          "teacherModel": "not-announced"
+        },
+        "note": {
+          "en": "The public release centers on the causal student model; the bidirectional teacher model remains on the roadmap.",
+          "zh": "当前公开发布以因果学生模型为核心；双向教师模型仍在路线图中。"
+        }
+      },
+      "links": [
+        {
+          "type": "studio",
+          "label": {
+            "en": "Studio",
+            "zh": "Studio"
+          },
+          "url": "https://abot-world.amap.com"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-World"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2607.19191"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://huggingface.co/acvlab/ABot-World-0-5B-LF"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-world-cover.webp",
+        "alt": {
+          "en": "ABot-World interactive generated environments",
+          "zh": "ABot-World 交互式生成环境"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-World official repository",
+          "url": "https://github.com/amap-cvlab/ABot-World",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABot-World-0 technical report",
+          "url": "https://arxiv.org/abs/2607.19191",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 1,
+      "canonicalWorkId": "abot-world",
+      "primaryResearchAreaId": "research-world-modeling",
+      "researchAreaIds": [
+        "research-world-modeling"
+      ],
+      "featuredOnHome": false
+    },
+    {
+      "id": "abot-m05",
+      "slug": "abot-m0-5",
+      "name": {
+        "en": "ABot-M0.5",
+        "zh": "ABot-M0.5"
+      },
+      "tagline": {
+        "en": "Unified Mobility-and-Manipulation World Action Model",
+        "zh": "统一移动与操作的世界动作模型"
+      },
+      "summary": {
+        "en": "A World Action Model for long-horizon mobile manipulation with temporal, action-space, and train-test alignment.",
+        "zh": "通过时间、动作空间与训练—测试条件对齐实现长时程移动操作的世界动作模型。"
+      },
+      "categoryIds": [
+        "abot",
+        "embodied-ai",
+        "world-modeling"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "date": {
+        "value": "2026-07-01",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "partial-release",
+        "label": {
+          "en": "Inference, weights, and evaluation released",
+          "zh": "推理、权重与评测已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "inferenceCode": "released",
+          "modelWeights": "released",
+          "evaluationCode": "released",
+          "trainingCode": "not-announced"
+        },
+        "note": {
+          "en": "No full M0.5 training-code release is claimed.",
+          "zh": "不宣称 M0.5 的完整训练代码已发布。"
+        }
+      },
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://amap-cvlab.github.io/ABot-Manipulation/"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-Manipulation"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2607.00678"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://huggingface.co/acvlab/abot-m0.5"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-m05-cover.webp",
+        "alt": {
+          "en": "ABot-M0.5 mobile manipulation tasks",
+          "zh": "ABot-M0.5 移动操作任务"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-Manipulation official repository",
+          "url": "https://github.com/amap-cvlab/ABot-Manipulation",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 2,
+      "canonicalWorkId": "abot-m05",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "featuredOnHome": false
+    },
+    {
+      "id": "abot-n1",
+      "slug": "abot-n1",
+      "name": {
+        "en": "ABot-N1",
+        "zh": "ABot-N1"
+      },
+      "tagline": {
+        "en": "Toward a General Visual-Language Navigation Foundation Model",
+        "zh": "迈向通用视觉语言导航基础模型"
+      },
+      "summary": {
+        "en": "A slow-fast foundation model architecture for five navigation paradigms, paired with new open benchmarks for real-world closed-loop evaluation.",
+        "zh": "覆盖五类导航范式的快慢双系统基础模型架构，并配套面向真实世界闭环评测的新开放基准。"
+      },
+      "categoryIds": [
+        "abot",
+        "embodied-ai"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "date": {
+        "value": "2026-07-11",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "partial-release",
+        "label": {
+          "en": "Paper, benchmarks, data, and evaluation released",
+          "zh": "论文、基准、数据与评测已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "projectPage": "released",
+          "benchmark": "released",
+          "data": "released",
+          "evaluationCode": "released",
+          "modelCode": "not-announced",
+          "modelWeights": "not-announced"
+        },
+        "note": {
+          "en": "The ABot-N1 model implementation and weights are not presented as released.",
+          "zh": "不将 ABot-N1 模型实现与权重表述为已发布。"
+        }
+      },
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://amap-cvlab.github.io/ABot-Navigation/ABot-N1/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2607.10383"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "Benchmarks",
+            "zh": "基准"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-Navigation/tree/ABotN-Bench"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-n1-cover.webp",
+        "alt": {
+          "en": "ABot-N1 navigation in real environments",
+          "zh": "ABot-N1 在真实环境中的导航"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-N1 technical report",
+          "url": "https://arxiv.org/abs/2607.10383",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABotN-Bench official branch",
+          "url": "https://github.com/amap-cvlab/ABot-Navigation/tree/ABotN-Bench",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 3,
+      "canonicalWorkId": "abot-n1",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "featuredOnHome": false
+    },
+    {
+      "id": "abot-3dworld",
+      "slug": "abot-3dworld",
+      "name": {
+        "en": "ABot-3DWorld",
+        "zh": "ABot-3DWorld"
+      },
+      "tagline": {
+        "en": "A Universal World Model to Explore Any 3D Space",
+        "zh": "探索任意三维空间的通用世界模型"
+      },
+      "summary": {
+        "en": "One multimodal pipeline turns text, images, and video into explorable, geographically anchored 3D worlds.",
+        "zh": "通过统一多模态管线，将文本、图像与视频转化为锚定真实地理地点的可探索三维世界。"
+      },
+      "categoryIds": [
+        "abot",
+        "world-modeling",
+        "spatial-foundations"
+      ],
+      "stageIds": [
+        "world-foundation-models"
+      ],
+      "date": {
+        "value": "2026-07-13",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Paper, project page, and Studio released",
+          "zh": "论文、项目页与 Studio 已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "projectPage": "released",
+          "studio": "released",
+          "code": "not-announced",
+          "modelWeights": "not-announced"
+        },
+        "note": {
+          "en": "No code or model release is claimed.",
+          "zh": "不宣称代码或模型权重已经发布。"
+        }
+      },
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://amap-cvlab.github.io/ABot-3DWorld/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2607.11673"
+        },
+        {
+          "type": "studio",
+          "label": {
+            "en": "Studio",
+            "zh": "Studio"
+          },
+          "url": "https://abot-world.amap.com/plaza"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-3dworld-cover.webp",
+        "alt": {
+          "en": "Explorable places generated by ABot-3DWorld",
+          "zh": "ABot-3DWorld 生成的可探索地点"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-3DWorld technical report",
+          "url": "https://arxiv.org/abs/2607.11673",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABot-3DWorld official project repository",
+          "url": "https://github.com/amap-cvlab/ABot-3DWorld",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 4,
+      "canonicalWorkId": "abot-3dworld",
+      "primaryResearchAreaId": "research-world-modeling",
+      "researchAreaIds": [
+        "research-world-modeling",
+        "research-3d-generation-reconstruction"
+      ],
+      "featuredOnHome": false
+    },
+    {
+      "id": "abot-earth",
+      "slug": "abot-earth-0-5",
+      "name": {
+        "en": "ABot-Earth-0.5",
+        "zh": "ABot-Earth-0.5"
+      },
+      "tagline": {
+        "en": "Generative 3D Earth Model",
+        "zh": "生成式三维地球模型"
+      },
+      "summary": {
+        "en": "A generative model for creating explorable 3D spatial content connected to geographic places.",
+        "zh": "面向真实地理地点生成可探索三维空间内容的模型。"
+      },
+      "categoryIds": [
+        "abot",
+        "world-modeling",
+        "spatial-foundations"
+      ],
+      "stageIds": [
+        "spatial-data-foundations"
+      ],
+      "date": {
+        "value": "2026-06-08",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Paper and interactive experience released",
+          "zh": "论文与交互体验已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "projectPage": "released",
+          "studio": "released",
+          "code": "not-announced",
+          "modelWeights": "not-announced"
+        },
+        "note": {
+          "en": "The 2026 arXiv date is used; the repository's 2025 news line is treated as a typo.",
+          "zh": "采用 2026 年 arXiv 日期；仓库中 2025 年的新闻日期按笔误处理。"
+        }
+      },
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Experience",
+            "zh": "体验"
+          },
+          "url": "https://abot-earth.amap.com/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2606.09967"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "Repository",
+            "zh": "仓库"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-Earth-0.5"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-earth-cover.webp",
+        "alt": {
+          "en": "ABot-Earth global 3D model",
+          "zh": "ABot-Earth 全球三维模型"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-Earth-0.5 arXiv record",
+          "url": "https://arxiv.org/abs/2606.09967",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABot-Earth-0.5 official repository",
+          "url": "https://github.com/amap-cvlab/ABot-Earth-0.5",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 5,
+      "canonicalWorkId": "abot-earth",
+      "primaryResearchAreaId": "research-world-modeling",
+      "researchAreaIds": [
+        "research-world-modeling",
+        "research-3d-generation-reconstruction"
+      ],
+      "featuredOnHome": false
+    },
+    {
+      "id": "abot-physworld",
+      "slug": "abot-physworld",
+      "name": {
+        "en": "ABot-PhysWorld",
+        "zh": "ABot-PhysWorld"
+      },
+      "tagline": {
+        "en": "Physics-Aligned Interactive World Model for Robotic Manipulation",
+        "zh": "面向机器人操作的物理对齐交互式世界模型"
+      },
+      "summary": {
+        "en": "An action-controllable 14B video world model with physics-aware alignment and zero-shot manipulation evaluation.",
+        "zh": "具备物理感知对齐与零样本操作评测能力的 140 亿参数动作可控视频世界模型。"
+      },
+      "categoryIds": [
+        "abot",
+        "world-modeling",
+        "embodied-ai"
+      ],
+      "stageIds": [
+        "world-foundation-models"
+      ],
+      "date": {
+        "value": "2026-03-24",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Model, training, inference, data, and benchmark released",
+          "zh": "模型、训练、推理、数据与基准已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "inferenceCode": "released",
+          "trainingCode": "released",
+          "a2vCode": "released",
+          "dpoCode": "released",
+          "modelWeights": "released",
+          "data": "released",
+          "benchmark": "released"
+        },
+        "note": {
+          "en": "The release includes SFT, A2V, DPO, and EZS-Bench resources.",
+          "zh": "发布范围包括 SFT、A2V、DPO 与 EZS-Bench 资源。"
+        }
+      },
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-PhysWorld"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2603.23376"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://www.modelscope.cn/models/amap_cvlab/Abot-PhysWorld"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-physworld-cover.webp",
+        "alt": {
+          "en": "ABot-PhysWorld robot manipulation sequences",
+          "zh": "ABot-PhysWorld 机器人操作序列"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-PhysWorld official repository",
+          "url": "https://github.com/amap-cvlab/ABot-PhysWorld",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 6,
+      "canonicalWorkId": "abot-physworld",
+      "primaryResearchAreaId": "research-world-modeling",
+      "researchAreaIds": [
+        "research-world-modeling"
+      ],
+      "featuredOnHome": false
+    },
+    {
+      "id": "abot-agentos",
+      "slug": "abot-agentos",
+      "name": {
+        "en": "ABot-AgentOS",
+        "zh": "ABot-AgentOS"
+      },
+      "tagline": {
+        "en": "A General Robotic Agent OS with Lifelong Multimodal Memory",
+        "zh": "具备终身多模态记忆的通用机器人 Agent OS"
+      },
+      "summary": {
+        "en": "A modular embodied-agent runtime for reasoning, skills, tools, verification, memory, and heterogeneous robot interfaces.",
+        "zh": "面向推理、技能、工具、验证、记忆与异构机器人接口的模块化具身智能体运行时。"
+      },
+      "categoryIds": [
+        "abot",
+        "embodied-ai"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "date": {
+        "value": "2026-07-11",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Report and project page released",
+          "zh": "报告与项目页已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "projectPage": "released",
+          "code": "preparing",
+          "resources": "preparing"
+        },
+        "note": {
+          "en": "Code and resources are explicitly described as being prepared.",
+          "zh": "代码与资源被明确标注为仍在准备中。"
+        }
+      },
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://amap-cvlab.github.io/ABot-AgentOS"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2607.10350"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "Release status",
+            "zh": "发布状态"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-AgentOS"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-agentos-framework.webp",
+        "alt": {
+          "en": "ABot-AgentOS system architecture",
+          "zh": "ABot-AgentOS 系统架构"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-AgentOS official repository",
+          "url": "https://github.com/amap-cvlab/ABot-AgentOS",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 7,
+      "canonicalWorkId": "abot-agentos",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "featuredOnHome": false
+    },
+    {
+      "id": "abot-ocr",
+      "slug": "abot-ocr",
+      "name": {
+        "en": "ABot-OCR",
+        "zh": "ABot-OCR"
+      },
+      "tagline": {
+        "en": "High-precision document OCR with structured Markdown output",
+        "zh": "将文档图像高精度转换为结构化 Markdown"
+      },
+      "summary": {
+        "en": "An end-to-end vision-language model that preserves text, formulas, tables, and layout in a single forward pass.",
+        "zh": "一次前向推理即可保留文本、公式、表格与版式的端到端视觉语言模型。"
+      },
+      "categoryIds": [
+        "abot"
+      ],
+      "stageIds": [
+        "world-foundation-models"
+      ],
+      "date": {
+        "value": "2026-05-29",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Paper, inference, and weights released",
+          "zh": "论文、推理与权重已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "inferenceCode": "released",
+          "modelWeights": "released"
+        },
+        "note": {
+          "en": "The official repository provides a vLLM inference path and public weights.",
+          "zh": "官方仓库提供 vLLM 推理路径与公开权重。"
+        }
+      },
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-OCR"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2605.27978"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://huggingface.co/acvlab/ABot-OCR"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-ocr-cover.webp",
+        "alt": {
+          "en": "ABot-OCR structured document transcription",
+          "zh": "ABot-OCR 结构化文档转写"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-OCR official repository",
+          "url": "https://github.com/amap-cvlab/ABot-OCR",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 8,
+      "canonicalWorkId": "abot-ocr",
+      "primaryResearchAreaId": "research-general-deep-learning",
+      "researchAreaIds": [
+        "research-general-deep-learning"
+      ],
+      "featuredOnHome": true,
+      "homeRank": 6
+    },
+    {
+      "id": "abot-explorer",
+      "slug": "abot-explorer",
+      "name": {
+        "en": "ABot-Explorer",
+        "zh": "ABot-Explorer"
+      },
+      "tagline": {
+        "en": "Explore Like Humans",
+        "zh": "像人类一样探索"
+      },
+      "summary": {
+        "en": "A vision-language autonomous exploration agent for scene understanding and navigation in 3DGS and Habitat environments.",
+        "zh": "面向 3DGS 与 Habitat 环境中场景理解和导航的视觉语言自主探索智能体。"
+      },
+      "categoryIds": [
+        "abot",
+        "embodied-ai",
+        "spatial-foundations"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "date": {
+        "value": "2026-04-21",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "partial-release",
+        "label": {
+          "en": "Paper and evaluation code released",
+          "zh": "论文与评测代码已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "inferenceCode": "released",
+          "evaluationCode": "released",
+          "modelWeights": "announced"
+        },
+        "note": {
+          "en": "The repository marks the fine-tuned model weights as coming soon.",
+          "zh": "仓库将微调模型权重标注为即将发布。"
+        }
+      },
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-Explorer"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2604.19034"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-explorer-cover.webp",
+        "alt": {
+          "en": "ABot-Explorer autonomous 3D scene exploration",
+          "zh": "ABot-Explorer 自主三维场景探索"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-Explorer official repository",
+          "url": "https://github.com/amap-cvlab/ABot-Explorer",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABot-Explorer technical report",
+          "url": "https://arxiv.org/abs/2604.19034",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 9,
+      "canonicalWorkId": "abot-explorer",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "featuredOnHome": false
+    },
+    {
+      "id": "omninav",
+      "slug": "omninav",
+      "name": {
+        "en": "OmniNav",
+        "zh": "OmniNav"
+      },
+      "tagline": {
+        "en": "Unified Prospective Exploration and Visual-Language Navigation",
+        "zh": "统一前瞻探索与视觉语言导航"
+      },
+      "summary": {
+        "en": "A fast-slow navigation framework spanning instruction, object, and point goals with public training, inference, and checkpoints.",
+        "zh": "覆盖指令、目标物体与目标点导航，并公开训练、推理与检查点的快慢协同框架。"
+      },
+      "categoryIds": [
+        "embodied-ai"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "date": {
+        "value": "2025-09",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Training, inference, and checkpoints released",
+          "zh": "训练、推理与检查点已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "trainingCode": "released",
+          "inferenceCode": "released",
+          "modelWeights": "released"
+        },
+        "note": {
+          "en": "The repository documents releases for visual-only and slow-fast systems.",
+          "zh": "仓库记录了纯视觉系统与快慢协同系统的公开发布。"
+        }
+      },
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://astra-amap.github.io/omninav.github.io"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/OmniNav"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.25687"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/omninav-cover.webp",
+        "alt": {
+          "en": "OmniNav prospective visual-language navigation",
+          "zh": "OmniNav 前瞻视觉语言导航"
+        }
+      },
+      "evidence": [
+        {
+          "source": "OmniNav official repository",
+          "url": "https://github.com/amap-cvlab/OmniNav",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 10,
+      "canonicalWorkId": "omninav",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "featuredOnHome": false
+    },
+    {
+      "id": "unimapgen",
+      "slug": "unimapgen",
+      "name": {
+        "en": "UniMapGen",
+        "zh": "UniMapGen"
+      },
+      "tagline": {
+        "en": "Generative Large-Scale Map Construction from Multimodal Data",
+        "zh": "从多模态数据生成大规模地图"
+      },
+      "summary": {
+        "en": "An autoregressive framework for smooth, topologically consistent vector maps from multimodal inputs; AAAI 2026 Oral.",
+        "zh": "从多模态输入自回归生成平滑、拓扑一致矢量地图的框架，获 AAAI 2026 Oral。"
+      },
+      "categoryIds": [
+        "spatial-foundations"
+      ],
+      "stageIds": [
+        "spatial-data-foundations"
+      ],
+      "date": {
+        "value": "2025-09",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Paper and project page released",
+          "zh": "论文与项目页已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "projectPage": "released",
+          "code": "announced",
+          "modelWeights": "announced"
+        },
+        "note": {
+          "en": "The official release plan still lists code and checkpoints as forthcoming.",
+          "zh": "官方发布计划仍将代码与检查点列为后续发布项。"
+        }
+      },
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://amap-cvlab.github.io/UniMapGen/"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "Release plan",
+            "zh": "发布计划"
+          },
+          "url": "https://github.com/amap-cvlab/UniMapGen"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.22262"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/unimapgen-cover.webp",
+        "alt": {
+          "en": "UniMapGen vector map generation",
+          "zh": "UniMapGen 矢量地图生成"
+        }
+      },
+      "evidence": [
+        {
+          "source": "UniMapGen official repository",
+          "url": "https://github.com/amap-cvlab/UniMapGen",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 11,
+      "canonicalWorkId": "unimapgen",
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "featuredOnHome": false
+    },
+    {
+      "id": "future-sight-drive",
+      "slug": "future-sight-drive",
+      "name": {
+        "en": "FutureSightDrive",
+        "zh": "FutureSightDrive"
+      },
+      "tagline": {
+        "en": "Thinking Visually with Spatio-Temporal CoT for Autonomous Driving",
+        "zh": "以时空思维链实现自动驾驶视觉思考"
+      },
+      "summary": {
+        "en": "A visual-reasoning VLA that unifies generation and understanding for trajectory planning; NeurIPS 2025 Spotlight.",
+        "zh": "统一生成与理解以完成轨迹规划的视觉推理 VLA，获 NeurIPS 2025 Spotlight。"
+      },
+      "categoryIds": [
+        "spatial-foundations",
+        "embodied-ai"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "date": {
+        "value": "2025-05",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Full project released",
+          "zh": "完整项目已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "projectPage": "released",
+          "trainingCode": "released",
+          "inferenceCode": "released",
+          "evaluationCode": "released"
+        },
+        "note": {
+          "en": "The official project includes data preparation, training, inference, evaluation, and visualization workflows.",
+          "zh": "官方项目包含数据准备、训练、推理、评测与可视化流程。"
+        }
+      },
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://miv-xjtu.github.io/FSDrive.github.io/"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/MIV-XJTU/FSDrive"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2505.17685"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/future-sight-drive-cover.webp",
+        "alt": {
+          "en": "FutureSightDrive spatiotemporal visual reasoning",
+          "zh": "FutureSightDrive 时空视觉推理"
+        }
+      },
+      "evidence": [
+        {
+          "source": "FutureSightDrive official repository",
+          "url": "https://github.com/MIV-XJTU/FSDrive",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "AMAP CV Lab official organization profile",
+          "url": "https://github.com/amap-cvlab",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 12,
+      "canonicalWorkId": "future-sight-drive",
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "featuredOnHome": true,
+      "homeRank": 1
+    },
+    {
+      "id": "clod-gs",
+      "slug": "clod-gs",
+      "name": {
+        "en": "CLoD-GS",
+        "zh": "CLoD-GS"
+      },
+      "tagline": {
+        "en": "Continuous Level of Detail for 3D Gaussian Splatting",
+        "zh": "面向 3D Gaussian Splatting 的连续细节层级"
+      },
+      "summary": {
+        "en": "A single 3DGS model with smooth, distance-adaptive quality and performance scaling, without discrete LoD switching.",
+        "zh": "以单一 3DGS 模型实现随距离平滑变化的质量与性能调节，避免离散 LoD 切换。"
+      },
+      "categoryIds": [
+        "spatial-foundations"
+      ],
+      "stageIds": [
+        "spatial-data-foundations"
+      ],
+      "date": {
+        "value": "2025-10",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Paper and implementation released",
+          "zh": "论文与实现已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "trainingCode": "released",
+          "inferenceCode": "released"
+        },
+        "note": {
+          "en": "The repository includes training and rendering workflows.",
+          "zh": "仓库包含训练与渲染流程。"
+        }
+      },
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/CLoD-GS"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2510.09997"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/clod-gs-cover.webp",
+        "alt": {
+          "en": "CLoD-GS continuous-detail rendering",
+          "zh": "CLoD-GS 连续细节渲染"
+        }
+      },
+      "evidence": [
+        {
+          "source": "CLoD-GS official repository",
+          "url": "https://github.com/amap-cvlab/CLoD-GS",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 13,
+      "canonicalWorkId": "clod-gs",
+      "primaryResearchAreaId": "research-3d-generation-reconstruction",
+      "researchAreaIds": [
+        "research-3d-generation-reconstruction"
+      ],
+      "featuredOnHome": true,
+      "homeRank": 5
+    },
+    {
+      "id": "fantasy-talking",
+      "slug": "fantasy-talking",
+      "name": {
+        "en": "FantasyTalking",
+        "zh": "FantasyTalking"
+      },
+      "tagline": {
+        "en": "Realistic Talking Portrait Generation via Coherent Motion Synthesis",
+        "zh": "通过连贯运动合成生成逼真说话人像"
+      },
+      "summary": {
+        "en": "A Wan-based audio-driven portrait system for synchronized expression, lip motion, and body gesture generation.",
+        "zh": "基于 Wan 的音频驱动人像系统，实现表情、口型与身体动作的同步生成。"
+      },
+      "categoryIds": [
+        "generative-ai"
+      ],
+      "stageIds": [
+        "world-foundation-models"
+      ],
+      "date": {
+        "value": "2025-04",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Inference, weights, and demo released",
+          "zh": "推理、权重与演示已发布"
+        },
+        "artifacts": {
+          "paper": "released",
+          "inferenceCode": "released",
+          "modelWeights": "released",
+          "demo": "released"
+        },
+        "note": {
+          "en": "Weights are available on Hugging Face and ModelScope, with online and local Gradio demos.",
+          "zh": "权重已在 Hugging Face 与 ModelScope 发布，并提供在线和本地 Gradio 演示。"
+        }
+      },
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://fantasy-amap.github.io/fantasy-talking/"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/Fantasy-AMAP/fantasy-talking"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://huggingface.co/acvlab/FantasyTalking"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2504.04842"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/fantasy-talking-cover.webp",
+        "alt": {
+          "en": "FantasyTalking audio-driven portrait animation",
+          "zh": "FantasyTalking 音频驱动人像动画"
+        }
+      },
+      "evidence": [
+        {
+          "source": "FantasyTalking official repository",
+          "url": "https://github.com/Fantasy-AMAP/fantasy-talking",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "AMAP CV Lab official organization profile",
+          "url": "https://github.com/amap-cvlab",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 14,
+      "canonicalWorkId": "fantasy-talking",
+      "primaryResearchAreaId": "research-human-centric-ai",
+      "researchAreaIds": [
+        "research-human-centric-ai"
+      ],
+      "featuredOnHome": true,
+      "homeRank": 2
+    },
+    {
+      "id": "online-navigation-refinement",
+      "canonicalWorkId": "online-navigation-refinement",
+      "slug": "online-navigation-refinement",
+      "name": {
+        "en": "Online Navigation Refinement",
+        "zh": "Online Navigation Refinement"
+      },
+      "tagline": {
+        "en": "Lane-level guidance from standard and online perception maps",
+        "zh": "关联标准地图与在线感知地图，实现车道级导航细化"
+      },
+      "summary": {
+        "en": "A path-aware mapping approach that connects global topology with real-time geometry for lane-level guidance.",
+        "zh": "首个在线导航细化基准，以路径感知方法统一全局拓扑与实时几何信息，实现低成本车道级导航。"
+      },
+      "date": {
+        "value": "2026-01",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Public research resources available",
+          "zh": "公开研究资源可用"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released",
+          "repository": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "stageIds": [
+        "spatial-data-foundations"
+      ],
+      "categoryIds": [
+        "spatial-foundations"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://wallelwan.github.io/OMA-MAT/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2507.07487"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/WallelWan/OMA-MAT"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "Online Navigation Refinement official resource",
+          "url": "https://wallelwan.github.io/OMA-MAT/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "prior-drive",
+      "canonicalWorkId": "prior-drive",
+      "slug": "prior-drive",
+      "name": {
+        "en": "PriorDrive",
+        "zh": "PriorDrive"
+      },
+      "tagline": {
+        "en": "Unified vector priors for online HD mapping",
+        "zh": "以统一矢量先验增强在线高精地图构建"
+      },
+      "summary": {
+        "en": "A framework that encodes and fuses multiple vectorized map priors for online HD mapping.",
+        "zh": "首个统一编码并融合多种矢量化先验地图、增强在线高精地图构建的框架。"
+      },
+      "date": {
+        "value": "2025-11",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Public research resources available",
+          "zh": "公开研究资源可用"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released",
+          "repository": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "stageIds": [
+        "spatial-data-foundations"
+      ],
+      "categoryIds": [
+        "spatial-foundations"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://miv-xjtu.github.io/PriorDrive/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2409.05352"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/MIV-XJTU/PriorDrive"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "PriorDrive official resource",
+          "url": "https://miv-xjtu.github.io/PriorDrive/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "pamr",
+      "canonicalWorkId": "pamr",
+      "slug": "pamr",
+      "name": {
+        "en": "PAMR",
+        "zh": "PAMR"
+      },
+      "tagline": {
+        "en": "Persistent autoregressive mapping with traffic rules",
+        "zh": "融合几何与交通规则的持久化自回归建图"
+      },
+      "summary": {
+        "en": "A joint generative reasoning framework for lane vectors, persistent traffic rules, and long-term scene memory.",
+        "zh": "融合几何与规则的生成式联合推理范式，统一构建车道向量与持久化交通规则。"
+      },
+      "date": {
+        "value": "2025-11",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Public research resources available",
+          "zh": "公开研究资源可用"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released",
+          "repository": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "stageIds": [
+        "spatial-data-foundations"
+      ],
+      "categoryIds": [
+        "spatial-foundations"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://miv-xjtu.github.io/PAMR/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.22756"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/MIV-XJTU/PAMR"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "PAMR official resource",
+          "url": "https://miv-xjtu.github.io/PAMR/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "mapdr",
+      "canonicalWorkId": "mapdr",
+      "slug": "mapdr",
+      "name": {
+        "en": "MapDR",
+        "zh": "MapDR"
+      },
+      "tagline": {
+        "en": "Traffic-rule reasoning for vectorized HD maps",
+        "zh": "面向矢量化高精地图的交通规则理解"
+      },
+      "summary": {
+        "en": "A benchmark and multimodal approach for lane-level traffic-rule understanding and map association.",
+        "zh": "交通标志中的车道级规则理解、绑路评测基准与多模态解决方案。"
+      },
+      "date": {
+        "value": "2025-06",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Public research resources available",
+          "zh": "公开研究资源可用"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "stageIds": [
+        "spatial-data-foundations"
+      ],
+      "categoryIds": [
+        "spatial-foundations"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://miv-xjtu.github.io/MapDR/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2410.23780"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "MapDR official resource",
+          "url": "https://miv-xjtu.github.io/MapDR/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "reasoning-over-space",
+      "canonicalWorkId": "reasoning-over-space",
+      "slug": "reasoning-over-space",
+      "name": {
+        "en": "Reasoning Over Space",
+        "zh": "Reasoning Over Space"
+      },
+      "tagline": {
+        "en": "Geographic reasoning for generative next-POI recommendation",
+        "zh": "面向生成式下一兴趣点推荐的地理空间推理"
+      },
+      "summary": {
+        "en": "A framework that equips language-model recommenders with explicit geographic reasoning.",
+        "zh": "让基于大语言模型的生成式下一兴趣点推荐具备显式地理空间推理能力。"
+      },
+      "date": {
+        "value": "2026-07",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "repository": "released",
+          "paper": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "stageIds": [
+        "spatial-data-foundations"
+      ],
+      "categoryIds": [
+        "spatial-foundations"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/Reasoning-Over-Space"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://aclanthology.org/2026.acl-long.332/"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "Reasoning Over Space official resource",
+          "url": "https://github.com/amap-cvlab/Reasoning-Over-Space",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "fantasy-talking2",
+      "canonicalWorkId": "fantasy-talking2",
+      "slug": "fantasy-talking2",
+      "name": {
+        "en": "FantasyTalking2",
+        "zh": "FantasyTalking2"
+      },
+      "tagline": {
+        "en": "Adaptive preference optimization for audio-driven portraits",
+        "zh": "面向音频驱动人像动画的自适应偏好优化"
+      },
+      "summary": {
+        "en": "Timestep-layer adaptive multi-expert preference optimization improves lip sync, motion, and visual quality.",
+        "zh": "通过时间步—网络层自适应多专家偏好优化，提升口型一致性、动作自然度与视觉质量。"
+      },
+      "date": {
+        "value": "2025-11",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Public research resources available",
+          "zh": "公开研究资源可用"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released",
+          "repository": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-human-centric-ai",
+      "researchAreaIds": [
+        "research-human-centric-ai"
+      ],
+      "stageIds": [
+        "world-foundation-models"
+      ],
+      "categoryIds": [
+        "generative-ai"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://fantasy-amap.github.io/fantasy-talking2/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2508.11255"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/Fantasy-AMAP/fantasy-talking2"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "FantasyTalking2 official resource",
+          "url": "https://fantasy-amap.github.io/fantasy-talking2/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "fantasy-hsi",
+      "canonicalWorkId": "fantasy-hsi",
+      "slug": "fantasy-hsi",
+      "name": {
+        "en": "FantasyHSI",
+        "zh": "FantasyHSI"
+      },
+      "tagline": {
+        "en": "Multi-agent 4D human synthesis in any scene",
+        "zh": "面向任意场景的多智能体四维人体生成"
+      },
+      "summary": {
+        "en": "A graph-based multi-agent framework connects video generation with dynamic 3D worlds for autonomous digital humans.",
+        "zh": "基于图结构的多智能体框架，将视频生成与三维世界动态融合，使数字人具备感知、规划与自主行动能力。"
+      },
+      "date": {
+        "value": "2025-11",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Public research resources available",
+          "zh": "公开研究资源可用"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released",
+          "repository": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-human-centric-ai",
+      "researchAreaIds": [
+        "research-human-centric-ai",
+        "research-embodied-intelligence"
+      ],
+      "stageIds": [
+        "world-foundation-models",
+        "agents-real-execution"
+      ],
+      "categoryIds": [
+        "generative-ai",
+        "embodied-ai"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://fantasy-amap.github.io/fantasy-hsi/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.01232"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/Fantasy-AMAP/fantasy-hsi"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "FantasyHSI official resource",
+          "url": "https://fantasy-amap.github.io/fantasy-hsi/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "fantasy-portrait",
+      "canonicalWorkId": "fantasy-portrait",
+      "slug": "fantasy-portrait",
+      "name": {
+        "en": "FantasyPortrait",
+        "zh": "FantasyPortrait"
+      },
+      "tagline": {
+        "en": "Expression-augmented multi-character portrait animation",
+        "zh": "表情增强的多角色人像动画"
+      },
+      "summary": {
+        "en": "Expression-aware diffusion generates expressive animation for single- and multi-character portraits.",
+        "zh": "结合情绪增强学习与掩码交叉注意力，为单人或多人肖像生成高质量、富有表现力的动画。"
+      },
+      "date": {
+        "value": "2025-07",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released",
+          "repository": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-human-centric-ai",
+      "researchAreaIds": [
+        "research-human-centric-ai"
+      ],
+      "stageIds": [
+        "world-foundation-models"
+      ],
+      "categoryIds": [
+        "generative-ai"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://fantasy-amap.github.io/fantasy-portrait/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2507.12956"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/Fantasy-AMAP/fantasy-portrait"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "FantasyPortrait official resource",
+          "url": "https://fantasy-amap.github.io/fantasy-portrait/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "fantasy-id",
+      "canonicalWorkId": "fantasy-id",
+      "slug": "fantasy-id",
+      "name": {
+        "en": "FantasyID",
+        "zh": "FantasyID"
+      },
+      "tagline": {
+        "en": "Identity-preserving video generation with face knowledge",
+        "zh": "融合人脸知识的身份保持视频生成"
+      },
+      "summary": {
+        "en": "A framework using 3D face priors, multiview augmentation, and layer-aware injection to preserve identity in motion.",
+        "zh": "通过三维面部先验、多视角增强与层感知注入，提升运动场景中的身份保持能力。"
+      },
+      "date": {
+        "value": "2025-04",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released",
+          "repository": "released",
+          "model": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-human-centric-ai",
+      "researchAreaIds": [
+        "research-human-centric-ai"
+      ],
+      "stageIds": [
+        "world-foundation-models"
+      ],
+      "categoryIds": [
+        "generative-ai"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://fantasy-amap.github.io/fantasy-id/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2502.13995"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/Fantasy-AMAP/fantasy-id"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://huggingface.co/acvlab/FantasyID"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "FantasyID official resource",
+          "url": "https://fantasy-amap.github.io/fantasy-id/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "humanrig",
+      "canonicalWorkId": "humanrig",
+      "slug": "humanrig",
+      "name": {
+        "en": "HumanRig",
+        "zh": "HumanRig"
+      },
+      "tagline": {
+        "en": "Automatic rigging for humanoid characters",
+        "zh": "面向类人角色的自动绑骨"
+      },
+      "summary": {
+        "en": "A large-scale rigging dataset and transformer-based end-to-end automatic rigging method for generated humanoid characters.",
+        "zh": "首个面向三维生成数字人的自动绑骨数据集，以及基于 Transformer 的端到端自动绑骨算法。"
+      },
+      "date": {
+        "value": "2025-06",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released",
+          "repository": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-human-centric-ai",
+      "researchAreaIds": [
+        "research-human-centric-ai",
+        "research-3d-generation-reconstruction"
+      ],
+      "stageIds": [
+        "world-foundation-models",
+        "spatial-data-foundations"
+      ],
+      "categoryIds": [
+        "generative-ai",
+        "spatial-foundations"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://c8241998.github.io/HumanRig/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chu_HumanRig_Learning_Automatic_Rigging_for_Humanoid_Character_in_a_Large_CVPR_2025_paper.html"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/c8241998/HumanRig"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "HumanRig official resource",
+          "url": "https://c8241998.github.io/HumanRig/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "janusvln",
+      "canonicalWorkId": "janusvln",
+      "slug": "janusvln",
+      "name": {
+        "en": "JanusVLN",
+        "zh": "JanusVLN"
+      },
+      "tagline": {
+        "en": "Dual implicit memory for vision-language navigation",
+        "zh": "面向视觉语言导航的双重隐式记忆"
+      },
+      "summary": {
+        "en": "Dual implicit memory separates semantic and spatial representations for compact, effective navigation.",
+        "zh": "以双重隐式记忆解耦视觉语义与空间感知，并分别建模为紧凑的隐式神经表示。"
+      },
+      "date": {
+        "value": "2026-01",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released",
+          "repository": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "categoryIds": [
+        "embodied-ai"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://miv-xjtu.github.io/JanusVLN.github.io/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.22548"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/MIV-XJTU/JanusVLN"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "JanusVLN official resource",
+          "url": "https://miv-xjtu.github.io/JanusVLN.github.io/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "ce-nav",
+      "canonicalWorkId": "ce-nav",
+      "slug": "ce-nav",
+      "name": {
+        "en": "CE-Nav",
+        "zh": "CE-Nav"
+      },
+      "tagline": {
+        "en": "Cross-embodiment local navigation",
+        "zh": "跨具身实体的局部导航"
+      },
+      "summary": {
+        "en": "A flow-guided reinforcement refinement framework that serves as a plug-and-play fast system across embodiments.",
+        "zh": "一种新颖的跨具身实体局部导航框架，可作为一脑多形、可插拔的快系统。"
+      },
+      "date": {
+        "value": "2026-01",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released",
+          "repository": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "categoryIds": [
+        "embodied-ai"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://ce-nav.github.io/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.23203"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/CE-Nav"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "CE-Nav official resource",
+          "url": "https://ce-nav.github.io/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "fantasy-vln",
+      "canonicalWorkId": "fantasy-vln",
+      "slug": "fantasy-vln",
+      "name": {
+        "en": "FantasyVLN",
+        "zh": "FantasyVLN"
+      },
+      "tagline": {
+        "en": "Unified multimodal chain-of-thought for navigation",
+        "zh": "面向导航的统一多模态思维链推理"
+      },
+      "summary": {
+        "en": "A unified multimodal reasoning framework for efficient, precise navigation from language instructions and visual observations.",
+        "zh": "将世界模型的推演能力内化到视觉语言导航架构中，实现高效且精确的多模态推理。"
+      },
+      "date": {
+        "value": "2026-01",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "project": "released",
+          "repository": "released",
+          "paper": "released",
+          "model": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "categoryIds": [
+        "embodied-ai"
+      ],
+      "media": {
+        "cover": "/assets/projects/fantasy-vln-cover.webp",
+        "alt": {
+          "en": "FantasyVLN multimodal navigation framework",
+          "zh": "FantasyVLN 多模态导航框架"
+        }
+      },
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://fantasy-amap.github.io/fantasy-vln/"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/Fantasy-AMAP/fantasy-vln"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2601.13976"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://huggingface.co/acvlab/FantasyVLN"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "FantasyVLN official resource",
+          "url": "https://fantasy-amap.github.io/fantasy-vln/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": true,
+      "homeRank": 3
+    },
+    {
+      "id": "fantasy-world",
+      "canonicalWorkId": "fantasy-world",
+      "slug": "fantasy-world",
+      "name": {
+        "en": "FantasyWorld",
+        "zh": "FantasyWorld"
+      },
+      "tagline": {
+        "en": "Geometry-consistent video and 3D world modeling",
+        "zh": "几何一致的视频与三维世界联合建模"
+      },
+      "summary": {
+        "en": "A unified feed-forward model jointly generates video and explorable, geometry-consistent 3D scenes.",
+        "zh": "统一视频先验与三维几何，生成几何一致、可探索的三维场景。"
+      },
+      "date": {
+        "value": "2026-02",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "project": "released",
+          "repository": "released",
+          "paper": "released",
+          "model": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-world-modeling",
+      "researchAreaIds": [
+        "research-world-modeling",
+        "research-3d-generation-reconstruction"
+      ],
+      "stageIds": [
+        "world-foundation-models",
+        "spatial-data-foundations"
+      ],
+      "categoryIds": [
+        "world-modeling",
+        "spatial-foundations",
+        "generative-ai"
+      ],
+      "media": {
+        "cover": "/assets/projects/fantasy-world-cover.webp",
+        "alt": {
+          "en": "FantasyWorld unified video and 3D generation overview",
+          "zh": "FantasyWorld 统一视频与三维生成概览"
+        }
+      },
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://fantasy-amap.github.io/fantasy-world/"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/Fantasy-AMAP/fantasy-world"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.21657"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://huggingface.co/acvlab/FantasyWorld-Wan2.1-I2V-14B-480P"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "FantasyWorld official resource",
+          "url": "https://fantasy-amap.github.io/fantasy-world/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": true,
+      "homeRank": 4
+    },
+    {
+      "id": "world-env",
+      "canonicalWorkId": "world-env",
+      "slug": "world-env",
+      "name": {
+        "en": "World-Env",
+        "zh": "World-Env"
+      },
+      "tagline": {
+        "en": "World models as virtual environments for VLA post-training",
+        "zh": "以世界模型作为 VLA 后训练的虚拟环境"
+      },
+      "summary": {
+        "en": "A post-training framework that uses a world model as a virtual environment for vision-language-action agents.",
+        "zh": "一个以世界模型作为虚拟环境的视觉语言动作模型后训练框架。"
+      },
+      "date": {
+        "value": "2025-09",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Public research resources available",
+          "zh": "公开研究资源可用"
+        },
+        "artifacts": {
+          "repository": "released",
+          "paper": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-world-modeling",
+      "researchAreaIds": [
+        "research-world-modeling",
+        "research-embodied-intelligence"
+      ],
+      "stageIds": [
+        "world-foundation-models",
+        "agents-real-execution"
+      ],
+      "categoryIds": [
+        "world-modeling",
+        "embodied-ai"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/world-env"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.24948"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "World-Env official resource",
+          "url": "https://github.com/amap-cvlab/world-env",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "abot-n0",
+      "canonicalWorkId": "abot-n0",
+      "slug": "abot-n0",
+      "name": {
+        "en": "ABot-N0",
+        "zh": "ABot-N0"
+      },
+      "tagline": {
+        "en": "VLA foundation model for versatile embodied navigation",
+        "zh": "面向通用具身导航的视觉语言动作基础模型"
+      },
+      "summary": {
+        "en": "A technical foundation model for versatile embodied navigation.",
+        "zh": "面向多样化具身导航任务的视觉语言动作基础模型。"
+      },
+      "date": {
+        "value": "2026-02",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Public research resources available",
+          "zh": "公开研究资源可用"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released",
+          "repository": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "categoryIds": [
+        "abot",
+        "embodied-ai"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://amap-cvlab.github.io/ABot-Navigation/ABot-N0/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2602.11598"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-Navigation/tree/ABot-N0"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "ABot-N0 official resource",
+          "url": "https://amap-cvlab.github.io/ABot-Navigation/ABot-N0/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "abot-m0",
+      "canonicalWorkId": "abot-m0",
+      "slug": "abot-m0",
+      "name": {
+        "en": "ABot-M0",
+        "zh": "ABot-M0"
+      },
+      "tagline": {
+        "en": "VLA foundation model for robotic manipulation",
+        "zh": "面向机器人操作的视觉语言动作基础模型"
+      },
+      "summary": {
+        "en": "A manipulation foundation model built around action manifold learning.",
+        "zh": "围绕动作流形学习构建的机器人操作基础模型。"
+      },
+      "date": {
+        "value": "2026-02",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Code, weights, training resources, and data available",
+          "zh": "代码、权重、训练资源与数据已公开"
+        },
+        "artifacts": {
+          "project": "released",
+          "repository": "released",
+          "paper": "released",
+          "inferenceCode": "released",
+          "trainingCode": "released",
+          "modelWeights": "released",
+          "data": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "categoryIds": [
+        "abot",
+        "embodied-ai"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://amap-cvlab.github.io/ABot-Manipulation/"
+        },
+        {
+          "type": "code",
+          "label": {
+            "en": "Code",
+            "zh": "代码"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-Manipulation/tree/ABot-M0"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://www.modelscope.cn/models/amap_cvlab/ABot-M0-Pretrain"
+        },
+        {
+          "type": "data",
+          "label": {
+            "en": "Data",
+            "zh": "数据"
+          },
+          "url": "https://www.modelscope.cn/datasets/amap_cvlab/Abot-M0-MetaData"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2602.11236"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "ABot-M0 official resource",
+          "url": "https://github.com/amap-cvlab/ABot-Manipulation/tree/ABot-M0",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "abot-claw",
+      "canonicalWorkId": "abot-claw",
+      "slug": "abot-claw",
+      "name": {
+        "en": "ABot-Claw",
+        "zh": "ABot-Claw"
+      },
+      "tagline": {
+        "en": "Persistent, cooperative, self-evolving robotic agents",
+        "zh": "持久、协作、自我演进的机器人智能体"
+      },
+      "summary": {
+        "en": "A foundation for persistent, cooperative, and self-evolving robotic agents.",
+        "zh": "面向持久运行、协同工作与自我演进机器人智能体的基础框架。"
+      },
+      "date": {
+        "value": "2026",
+        "precision": "year"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "repository": "released",
+          "report": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "categoryIds": [
+        "abot",
+        "embodied-ai"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-Claw"
+        },
+        {
+          "type": "report",
+          "label": {
+            "en": "Report",
+            "zh": "报告"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-Claw/blob/main/tech_report/ABot-Claw_Technical_Report.pdf"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "ABot-Claw official resource",
+          "url": "https://github.com/amap-cvlab/ABot-Claw",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "abot-er-preview",
+      "canonicalWorkId": "abot-er-preview",
+      "slug": "abot-er-preview",
+      "name": {
+        "en": "ABot-ER",
+        "zh": "ABot-ER"
+      },
+      "tagline": {
+        "en": "Embodied-reasoning research preview",
+        "zh": "具身推理研究预览"
+      },
+      "summary": {
+        "en": "An official research preview; the formal technical report has not yet been announced.",
+        "zh": "官方研究预览；正式技术报告尚未发布。"
+      },
+      "date": {
+        "value": "2026",
+        "precision": "year"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Preview available · report coming soon",
+          "zh": "预览已公开 · 正式报告即将发布"
+        },
+        "artifacts": {
+          "preview": "released",
+          "report": "preparing"
+        },
+        "note": {
+          "en": "No paper or formal technical report is claimed.",
+          "zh": "不宣称论文或正式技术报告已经发布。"
+        }
+      },
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "categoryIds": [
+        "abot",
+        "embodied-ai"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-ER"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "ABot-ER official resource",
+          "url": "https://github.com/amap-cvlab/ABot-ER",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "astranav-memory",
+      "canonicalWorkId": "astranav-memory",
+      "slug": "astranav-memory",
+      "name": {
+        "en": "AstraNav-Memory",
+        "zh": "AstraNav-Memory"
+      },
+      "tagline": {
+        "en": "Context compression for long navigation memory",
+        "zh": "面向长时导航记忆的上下文压缩"
+      },
+      "summary": {
+        "en": "A context-compression approach for retaining long-horizon navigation memory.",
+        "zh": "通过上下文压缩保留长时程导航记忆。"
+      },
+      "date": {
+        "value": "2026-06",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "repository": "released",
+          "paper": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "categoryIds": [
+        "embodied-ai"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/AstraNav-Memory"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_AstraNav-Memory_Contexts_Compression_for_Long_Memory_CVPR_2026_paper.html"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "AstraNav-Memory official resource",
+          "url": "https://github.com/amap-cvlab/AstraNav-Memory",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "astranav-world",
+      "canonicalWorkId": "astranav-world",
+      "slug": "astranav-world",
+      "name": {
+        "en": "AstraNav-World",
+        "zh": "AstraNav-World"
+      },
+      "tagline": {
+        "en": "World modeling for foresight control and consistency",
+        "zh": "用于前瞻控制与一致性的导航世界模型"
+      },
+      "summary": {
+        "en": "A navigation world model designed for foresight control and temporal consistency.",
+        "zh": "面向前瞻控制与时间一致性的导航世界模型。"
+      },
+      "date": {
+        "value": "2025-12",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "partial-release",
+        "label": {
+          "en": "Action-Former inference and checkpoint released",
+          "zh": "Action-Former 推理代码与权重已发布"
+        },
+        "artifacts": {
+          "project": "released",
+          "repository": "released",
+          "paper": "released",
+          "inferenceCode": "released",
+          "modelWeights": "released",
+          "trainingCode": "preparing",
+          "diffusionPolicy": "preparing"
+        },
+        "note": {
+          "en": "Only Action-Former inference and its checkpoint are released; training code and diffusion-policy inference and training are coming soon.",
+          "zh": "当前仅发布 Action-Former 推理代码与对应权重；训练代码以及 Diffusion Policy 的推理和训练资源即将发布。"
+        }
+      },
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence",
+        "research-world-modeling"
+      ],
+      "stageIds": [
+        "agents-real-execution",
+        "world-foundation-models"
+      ],
+      "categoryIds": [
+        "embodied-ai",
+        "world-modeling"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://astra-amap.github.io/AstraNav-World.github.io/"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/AstraNav-World"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://modelscope.ai/models/chongchongjj/AstraNav_World_ActionFormer"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2512.21714"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "AstraNav-World official resource",
+          "url": "https://github.com/amap-cvlab/AstraNav-World",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "socialnav",
+      "canonicalWorkId": "socialnav",
+      "slug": "socialnav",
+      "name": {
+        "en": "SocialNav",
+        "zh": "SocialNav"
+      },
+      "tagline": {
+        "en": "Human-inspired socially-aware embodied navigation",
+        "zh": "受人类启发的社会感知具身导航"
+      },
+      "summary": {
+        "en": "A foundation model for socially aware embodied navigation trained with human-inspired signals.",
+        "zh": "以人类行为启发信号训练的社会感知具身导航基础模型。"
+      },
+      "date": {
+        "value": "2026-06",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "repository": "released",
+          "paper": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "categoryIds": [
+        "embodied-ai"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/AMAP-EAI/SocialNav"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_SocialNav_Training_Human-Inspired_Foundation_Model_for_Socially-Aware_Embodied_Navigation_CVPR_2026_paper.html"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "SocialNav official resource",
+          "url": "https://github.com/AMAP-EAI/SocialNav",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "sat3dgen",
+      "canonicalWorkId": "sat3dgen",
+      "slug": "sat3dgen",
+      "name": {
+        "en": "Sat3DGen",
+        "zh": "Sat3DGen"
+      },
+      "tagline": {
+        "en": "Street-level 3D generation from one satellite image",
+        "zh": "从单张卫星图像生成街景级三维场景"
+      },
+      "summary": {
+        "en": "A geometry-first feed-forward framework unifies 3D reconstruction and street-view video generation from a single satellite image.",
+        "zh": "无需三维标注，仅用单张遥感图像统一实现高保真几何重建与街景视频生成。"
+      },
+      "date": {
+        "value": "2026-05",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Code, data, weights, and interactive demo available",
+          "zh": "代码、数据、权重与在线演示已公开"
+        },
+        "artifacts": {
+          "project": "released",
+          "repository": "released",
+          "paper": "released",
+          "trainingCode": "released",
+          "inferenceCode": "released",
+          "modelWeights": "released",
+          "data": "released",
+          "demo": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-3d-generation-reconstruction",
+      "researchAreaIds": [
+        "research-3d-generation-reconstruction"
+      ],
+      "stageIds": [
+        "spatial-data-foundations",
+        "world-foundation-models"
+      ],
+      "categoryIds": [
+        "spatial-foundations",
+        "generative-ai"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://qianmingduowan.github.io/Sat3DGen_project_page/"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/qianmingduowan/Sat3DGen"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://huggingface.co/qian43/Sat3DGen"
+        },
+        {
+          "type": "data",
+          "label": {
+            "en": "Data",
+            "zh": "数据"
+          },
+          "url": "https://huggingface.co/datasets/qian43/VIGOR_SAT3DGEN_add_skymask_DSM_satdepth"
+        },
+        {
+          "type": "demo",
+          "label": {
+            "en": "Demo",
+            "zh": "演示"
+          },
+          "url": "https://huggingface.co/spaces/qian43/Sat3DGen"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2605.14984"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "Sat3DGen official resource",
+          "url": "https://github.com/qianmingduowan/Sat3DGen",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "gf-nerf",
+      "canonicalWorkId": "gf-nerf",
+      "slug": "gf-nerf",
+      "name": {
+        "en": "GF-NeRF",
+        "zh": "GF-NeRF"
+      },
+      "tagline": {
+        "en": "Global-guided focal neural radiance fields",
+        "zh": "全局引导的聚焦神经辐射场"
+      },
+      "summary": {
+        "en": "A global-guided two-stage architecture renders large-scale scenes consistently and at high fidelity without prior knowledge.",
+        "zh": "通过全局引导的双阶段架构，无需先验知识即可实现大规模场景的一致、高保真渲染。"
+      },
+      "date": {
+        "value": "2025-01",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "research-preview",
+        "label": {
+          "en": "Public research resources available",
+          "zh": "公开研究资源可用"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-3d-generation-reconstruction",
+      "researchAreaIds": [
+        "research-3d-generation-reconstruction"
+      ],
+      "stageIds": [
+        "spatial-data-foundations",
+        "world-foundation-models"
+      ],
+      "categoryIds": [
+        "spatial-foundations",
+        "generative-ai"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://shaomq2187.github.io/GF-NeRF/"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2403.12839"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "GF-NeRF official resource",
+          "url": "https://shaomq2187.github.io/GF-NeRF/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "mvpainter",
+      "canonicalWorkId": "mvpainter",
+      "slug": "mvpainter",
+      "name": {
+        "en": "MVPainter",
+        "zh": "MVPainter"
+      },
+      "tagline": {
+        "en": "Geometrically controlled multi-view 3D texturing",
+        "zh": "几何控制的多视角三维纹理生成"
+      },
+      "summary": {
+        "en": "Multi-view diffusion with geometric control produces detailed, consistent 3D textures and PBR materials from one reference image.",
+        "zh": "基于几何控制的多视角扩散，从单张参考图生成高精度、细节丰富且几何一致的三维纹理与 PBR 材质。"
+      },
+      "date": {
+        "value": "2025-05",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "project": "released",
+          "paper": "released",
+          "repository": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-3d-generation-reconstruction",
+      "researchAreaIds": [
+        "research-3d-generation-reconstruction"
+      ],
+      "stageIds": [
+        "spatial-data-foundations",
+        "world-foundation-models"
+      ],
+      "categoryIds": [
+        "spatial-foundations",
+        "generative-ai"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://amap-cvlab.github.io/MV-Painter"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2505.12635"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/amap-cvlab/MV-Painter"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "MVPainter official resource",
+          "url": "https://amap-cvlab.github.io/MV-Painter",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    },
+    {
+      "id": "dfvt",
+      "canonicalWorkId": "dfvt",
+      "slug": "dfvt",
+      "name": {
+        "en": "DFvT",
+        "zh": "DFvT"
+      },
+      "tagline": {
+        "en": "Doubly-fused vision transformer streams",
+        "zh": "双流融合视觉 Transformer"
+      },
+      "summary": {
+        "en": "A dual-stream transformer architecture combines global context with fine spatial detail efficiently.",
+        "zh": "双融合视觉 Transformer 架构兼顾全局上下文建模与精细空间细节保留。"
+      },
+      "date": {
+        "value": "2022-10",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "open-source",
+        "label": {
+          "en": "Public code and research resources available",
+          "zh": "代码与研究资源已公开"
+        },
+        "artifacts": {
+          "repository": "released",
+          "paper": "released"
+        }
+      },
+      "primaryResearchAreaId": "research-general-deep-learning",
+      "researchAreaIds": [
+        "research-general-deep-learning"
+      ],
+      "stageIds": [
+        "spatial-data-foundations",
+        "world-foundation-models",
+        "agents-real-execution"
+      ],
+      "categoryIds": [
+        "generative-ai"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/ginobilinie/DFvT"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830723.pdf"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "DFvT official resource",
+          "url": "https://github.com/ginobilinie/DFvT",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false,
+      "featuredOnHome": false
+    }
+  ]
+}

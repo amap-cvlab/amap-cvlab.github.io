@@ -1,0 +1,1930 @@
+{
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2026-08-10",
+  "section": {
+    "index": "RELEASES / 04",
+    "eyebrow": {
+      "en": "Latest from the lab",
+      "zh": "实验室动态"
+    },
+    "readLabel": {
+      "en": "Read update",
+      "zh": "查看动态"
+    },
+    "archiveLabel": {
+      "en": "Full timeline",
+      "zh": "完整时间线"
+    },
+    "archiveTitle": {
+      "en": "More releases, in sequence",
+      "zh": "更多发布动态"
+    },
+    "archiveDescription": {
+      "en": "Every verified lab update remains available in chronological order.",
+      "zh": "所有已核验的实验室动态均按时间顺序完整保留。"
+    },
+    "entriesLabel": {
+      "en": "entries",
+      "zh": "条记录"
+    }
+  },
+  "title": {
+    "en": "Latest releases",
+    "zh": "最新发布"
+  },
+  "description": {
+    "en": "Research, open-source releases, datasets, and real-world deployments from AMAP CV Lab.",
+    "zh": "高德视觉技术中心的研究、开源发布、数据集与真实世界落地动态。"
+  },
+  "news": [
+    {
+      "id": "news-abot-world-500h-dataset",
+      "date": {
+        "value": "2026-08-03",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "released",
+        "label": {
+          "en": "Dataset released",
+          "zh": "数据集已发布"
+        }
+      },
+      "category": {
+        "en": "Open data",
+        "zh": "开放数据"
+      },
+      "title": {
+        "en": "ABot-World Explorer 500-hour dataset released",
+        "zh": "ABot-World Explorer 500 小时数据集发布"
+      },
+      "summary": {
+        "en": "The 500-hour video training dataset with action annotations is now available on Hugging Face and ModelScope.",
+        "zh": "带动作标注的 500 小时视频训练数据现已在 Hugging Face 与 ModelScope 发布。"
+      },
+      "projectIds": [
+        "abot-world"
+      ],
+      "links": [
+        {
+          "type": "dataset",
+          "label": {
+            "en": "Hugging Face",
+            "zh": "Hugging Face"
+          },
+          "url": "https://huggingface.co/datasets/acvlab/ABot-World-Explorer-500h"
+        },
+        {
+          "type": "dataset",
+          "label": {
+            "en": "ModelScope",
+            "zh": "ModelScope"
+          },
+          "url": "https://modelscope.cn/datasets/amap_cvlab/ABot-World-Explorer-500h"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-world-dataset-cover.webp",
+        "alt": {
+          "en": "Samples from the ABot-World Explorer training dataset",
+          "zh": "ABot-World Explorer 训练数据样例"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-World official release log",
+          "url": "https://github.com/amap-cvlab/ABot-World",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABot-World Explorer 500h dataset page",
+          "url": "https://huggingface.co/datasets/acvlab/ABot-World-Explorer-500h",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": true,
+      "featuredRank": 1
+    },
+    {
+      "id": "news-abot-world-technical-report",
+      "date": {
+        "value": "2026-07-22",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Technical report published",
+          "zh": "技术报告已发布"
+        }
+      },
+      "category": {
+        "en": "Research",
+        "zh": "研究"
+      },
+      "title": {
+        "en": "ABot-World-0 technical report released",
+        "zh": "ABot-World-0 技术报告发布"
+      },
+      "summary": {
+        "en": "The report details real-time, open-ended, action-conditioned world rollout on a single desktop GPU.",
+        "zh": "报告系统阐述了在单张桌面级 GPU 上实现实时、开放式、动作条件世界推演的方法。"
+      },
+      "projectIds": [
+        "abot-world"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Read the report",
+            "zh": "阅读报告"
+          },
+          "url": "https://arxiv.org/abs/2607.19191"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "Project repository",
+            "zh": "项目仓库"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-World"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-world-cover.webp",
+        "alt": {
+          "en": "ABot-World interactive rollout",
+          "zh": "ABot-World 交互式推演"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-World official release log",
+          "url": "https://github.com/amap-cvlab/ABot-World",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABot-World-0 arXiv record",
+          "url": "https://arxiv.org/abs/2607.19191",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": true,
+      "featuredRank": 2
+    },
+    {
+      "id": "news-abot-m05-code-release",
+      "date": {
+        "value": "2026-07-21",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "released",
+        "label": {
+          "en": "Code and weights released",
+          "zh": "代码与权重已发布"
+        }
+      },
+      "category": {
+        "en": "Open source",
+        "zh": "开源"
+      },
+      "title": {
+        "en": "ABot-M0.5 inference, weights, and evaluation released",
+        "zh": "ABot-M0.5 推理代码、权重与评测发布"
+      },
+      "summary": {
+        "en": "The public release includes inference code, pretrained weights, and evaluation scripts for LIBERO and RoboCasa365.",
+        "zh": "本次公开发布包含推理代码、预训练权重，以及面向 LIBERO 和 RoboCasa365 的评测脚本。"
+      },
+      "projectIds": [
+        "abot-m05"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "Code",
+            "zh": "代码"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-Manipulation"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Weights",
+            "zh": "权重"
+          },
+          "url": "https://huggingface.co/acvlab/abot-m0.5"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-m05-cover.webp",
+        "alt": {
+          "en": "ABot-M0.5 mobile manipulation",
+          "zh": "ABot-M0.5 移动操作"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-Manipulation official release log",
+          "url": "https://github.com/amap-cvlab/ABot-Manipulation",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": true,
+      "featuredRank": 3
+    },
+    {
+      "id": "news-abot-agentos-project-page",
+      "date": {
+        "value": "2026-07-21",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Project page published",
+          "zh": "项目页已发布"
+        }
+      },
+      "category": {
+        "en": "Research",
+        "zh": "研究"
+      },
+      "title": {
+        "en": "ABot-AgentOS project page launched",
+        "zh": "ABot-AgentOS 项目页上线"
+      },
+      "summary": {
+        "en": "The project page presents the Agent OS architecture, lifelong multimodal memory, and embodied execution framework; code remains in preparation.",
+        "zh": "项目页展示了 Agent OS 架构、终身多模态记忆与具身执行框架；代码仍在准备中。"
+      },
+      "projectIds": [
+        "abot-agentos"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project page",
+            "zh": "项目页"
+          },
+          "url": "https://amap-cvlab.github.io/ABot-AgentOS"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "Release status",
+            "zh": "发布状态"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-AgentOS"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-agentos-framework.webp",
+        "alt": {
+          "en": "ABot-AgentOS project architecture",
+          "zh": "ABot-AgentOS 项目架构"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-AgentOS official release log",
+          "url": "https://github.com/amap-cvlab/ABot-AgentOS",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 4
+    },
+    {
+      "id": "news-abot-3dworld-report",
+      "date": {
+        "value": "2026-07-13",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Paper and experience published",
+          "zh": "论文与体验已发布"
+        }
+      },
+      "category": {
+        "en": "World models",
+        "zh": "世界模型"
+      },
+      "title": {
+        "en": "ABot-3DWorld introduced",
+        "zh": "ABot-3DWorld 发布"
+      },
+      "summary": {
+        "en": "ABot-3DWorld unifies text, image, and video inputs into explorable 3D worlds connected to real geographic places.",
+        "zh": "ABot-3DWorld 将文本、图像与视频统一转化为连接真实地理地点的可探索三维世界。"
+      },
+      "projectIds": [
+        "abot-3dworld"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2607.11673"
+        },
+        {
+          "type": "project",
+          "label": {
+            "en": "Project page",
+            "zh": "项目页"
+          },
+          "url": "https://amap-cvlab.github.io/ABot-3DWorld/"
+        },
+        {
+          "type": "studio",
+          "label": {
+            "en": "Studio",
+            "zh": "Studio"
+          },
+          "url": "https://abot-world.amap.com/plaza"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-3dworld-cover.webp",
+        "alt": {
+          "en": "ABot-3DWorld explorable worlds",
+          "zh": "ABot-3DWorld 可探索世界"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-3DWorld arXiv record",
+          "url": "https://arxiv.org/abs/2607.11673",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABot-3DWorld official project repository",
+          "url": "https://github.com/amap-cvlab/ABot-3DWorld",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": true,
+      "featuredRank": 5
+    },
+    {
+      "id": "news-abot-n1-report",
+      "date": {
+        "value": "2026-07-11",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Report and benchmarks published",
+          "zh": "报告与基准已发布"
+        }
+      },
+      "category": {
+        "en": "Embodied AI",
+        "zh": "具身智能"
+      },
+      "title": {
+        "en": "ABot-N1 technical report and benchmark suite released",
+        "zh": "ABot-N1 技术报告与基准套件发布"
+      },
+      "summary": {
+        "en": "The report presents a general visual-language navigation foundation model; benchmark data and evaluation tools are public, while model weights are not presented as released.",
+        "zh": "报告提出通用视觉语言导航基础模型；基准数据与评测工具已公开，但不将模型权重表述为已发布。"
+      },
+      "projectIds": [
+        "abot-n1"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2607.10383"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "Benchmarks",
+            "zh": "基准"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-Navigation/tree/ABotN-Bench"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-n1-cover.webp",
+        "alt": {
+          "en": "ABot-N1 visual-language navigation",
+          "zh": "ABot-N1 视觉语言导航"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-N1 arXiv record",
+          "url": "https://arxiv.org/abs/2607.10383",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABotN-Bench official release branch",
+          "url": "https://github.com/amap-cvlab/ABot-Navigation/tree/ABotN-Bench",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": true,
+      "featuredRank": 6
+    },
+    {
+      "id": "news-abot-agentos-report",
+      "date": {
+        "value": "2026-07-11",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Technical report published",
+          "zh": "技术报告已发布"
+        }
+      },
+      "category": {
+        "en": "Embodied AI",
+        "zh": "具身智能"
+      },
+      "title": {
+        "en": "ABot-AgentOS technical report released",
+        "zh": "ABot-AgentOS 技术报告发布"
+      },
+      "summary": {
+        "en": "ABot-AgentOS introduces a general robotic Agent OS with a reasoning-execution-verification loop and lifelong multimodal memory.",
+        "zh": "ABot-AgentOS 提出具备推理—执行—验证闭环与终身多模态记忆的通用机器人 Agent OS。"
+      },
+      "projectIds": [
+        "abot-agentos"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2607.10350"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-agentos-framework.webp",
+        "alt": {
+          "en": "ABot-AgentOS embodied agent system",
+          "zh": "ABot-AgentOS 具身智能体系统"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-AgentOS arXiv record",
+          "url": "https://arxiv.org/abs/2607.10350",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABot-AgentOS official release log",
+          "url": "https://github.com/amap-cvlab/ABot-AgentOS",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 7
+    },
+    {
+      "id": "news-abot-world-open-release",
+      "date": {
+        "value": "2026-07-09",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "released",
+        "label": {
+          "en": "Model and inference released",
+          "zh": "模型与推理已发布"
+        }
+      },
+      "category": {
+        "en": "Open source",
+        "zh": "开源"
+      },
+      "title": {
+        "en": "ABot-World-0 causal model, inference, Gradio, and Studio released",
+        "zh": "ABot-World-0 因果模型、推理、Gradio 与 Studio 发布"
+      },
+      "summary": {
+        "en": "The first public ABot-World release includes the 5B causal student model, inference code, an easy-to-run local Gradio demo, and the online ABot World Studio.",
+        "zh": "ABot-World 首次公开发布包含 5B 因果学生模型、推理代码、易于运行的本地 Gradio 演示与在线 ABot World Studio。"
+      },
+      "projectIds": [
+        "abot-world"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "Code",
+            "zh": "代码"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-World"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://huggingface.co/acvlab/ABot-World-0-5B-LF"
+        },
+        {
+          "type": "studio",
+          "label": {
+            "en": "Studio",
+            "zh": "Studio"
+          },
+          "url": "https://abot-world.amap.com"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-world-cover.webp",
+        "alt": {
+          "en": "ABot-World real-time interactive generation",
+          "zh": "ABot-World 实时交互生成"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-World official release log",
+          "url": "https://github.com/amap-cvlab/ABot-World",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": true,
+      "featuredRank": 8
+    },
+    {
+      "id": "news-abot-m05-report",
+      "date": {
+        "value": "2026-07-01",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Technical report published",
+          "zh": "技术报告已发布"
+        }
+      },
+      "category": {
+        "en": "Embodied AI",
+        "zh": "具身智能"
+      },
+      "title": {
+        "en": "ABot-M0.5 technical report released",
+        "zh": "ABot-M0.5 技术报告发布"
+      },
+      "summary": {
+        "en": "The report introduces a unified mobility-and-manipulation World Action Model built around three levels of alignment.",
+        "zh": "报告提出以三层对齐为核心的统一移动与操作世界动作模型。"
+      },
+      "projectIds": [
+        "abot-m05"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2607.00678"
+        },
+        {
+          "type": "project",
+          "label": {
+            "en": "Project page",
+            "zh": "项目页"
+          },
+          "url": "https://amap-cvlab.github.io/ABot-Manipulation/"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-m05-cover.webp",
+        "alt": {
+          "en": "ABot-M0.5 world action model",
+          "zh": "ABot-M0.5 世界动作模型"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-Manipulation official release log",
+          "url": "https://github.com/amap-cvlab/ABot-Manipulation",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABot-M0.5 arXiv record",
+          "url": "https://arxiv.org/abs/2607.00678",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 9
+    },
+    {
+      "id": "news-abot-earth-release",
+      "date": {
+        "value": "2026-06-08",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Paper and experience published",
+          "zh": "论文与体验已发布"
+        }
+      },
+      "category": {
+        "en": "Spatial intelligence",
+        "zh": "空间智能"
+      },
+      "title": {
+        "en": "ABot-Earth-0.5 introduced",
+        "zh": "ABot-Earth-0.5 发布"
+      },
+      "summary": {
+        "en": "The generative 3D Earth model launches with a technical report and interactive site; no code or model release is claimed.",
+        "zh": "生成式三维地球模型发布技术报告与交互网站；不宣称代码或模型权重已经发布。"
+      },
+      "projectIds": [
+        "abot-earth"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2606.09967"
+        },
+        {
+          "type": "project",
+          "label": {
+            "en": "Experience",
+            "zh": "体验"
+          },
+          "url": "https://abot-earth.amap.com/"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-earth-cover.webp",
+        "alt": {
+          "en": "ABot-Earth generative 3D Earth",
+          "zh": "ABot-Earth 生成式三维地球"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-Earth-0.5 arXiv record",
+          "url": "https://arxiv.org/abs/2606.09967",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABot-Earth-0.5 official repository",
+          "url": "https://github.com/amap-cvlab/ABot-Earth-0.5",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "editorialNote": "The arXiv publication record is used as the date source. The July 29, 2025 line in the repository README is inconsistent and is not used.",
+      "featured": true,
+      "featuredRank": 10
+    },
+    {
+      "id": "news-abot-ocr-release",
+      "date": {
+        "value": "2026-05-29",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "released",
+        "label": {
+          "en": "Model and inference released",
+          "zh": "模型与推理已发布"
+        }
+      },
+      "category": {
+        "en": "Foundation models",
+        "zh": "基础模型"
+      },
+      "title": {
+        "en": "ABot-OCR report, weights, and inference released",
+        "zh": "ABot-OCR 报告、权重与推理发布"
+      },
+      "summary": {
+        "en": "ABot-OCR converts document page images directly into structured Markdown while preserving text, formulas, tables, and layout.",
+        "zh": "ABot-OCR 将文档页面图像直接转化为结构化 Markdown，并保留文本、公式、表格与版式。"
+      },
+      "projectIds": [
+        "abot-ocr"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "Code",
+            "zh": "代码"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-OCR"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Weights",
+            "zh": "权重"
+          },
+          "url": "https://huggingface.co/acvlab/ABot-OCR"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2605.27978"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-ocr-cover.webp",
+        "alt": {
+          "en": "ABot-OCR document understanding",
+          "zh": "ABot-OCR 文档理解"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-OCR official release log",
+          "url": "https://github.com/amap-cvlab/ABot-OCR",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 11
+    },
+    {
+      "id": "news-abot-explorer-report",
+      "date": {
+        "value": "2026-04-21",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Technical report published",
+          "zh": "技术报告已发布"
+        }
+      },
+      "category": {
+        "en": "Embodied AI",
+        "zh": "具身智能"
+      },
+      "title": {
+        "en": "ABot-Explorer technical report released",
+        "zh": "ABot-Explorer 技术报告发布"
+      },
+      "summary": {
+        "en": "ABot-Explorer studies human-like autonomous exploration with vision-language models across 3DGS and Habitat environments.",
+        "zh": "ABot-Explorer 研究视觉语言模型在 3DGS 与 Habitat 环境中的类人自主探索。"
+      },
+      "projectIds": [
+        "abot-explorer"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2604.19034"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "Repository",
+            "zh": "仓库"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-Explorer"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-explorer-cover.webp",
+        "alt": {
+          "en": "ABot-Explorer autonomous exploration",
+          "zh": "ABot-Explorer 自主探索"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-Explorer arXiv record",
+          "url": "https://arxiv.org/abs/2604.19034",
+          "verifiedAt": "2026-08-08"
+        },
+        {
+          "source": "ABot-Explorer official repository",
+          "url": "https://github.com/amap-cvlab/ABot-Explorer",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 12
+    },
+    {
+      "id": "news-amap-tutu-debut",
+      "date": {
+        "value": "2026-04-19",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "demonstrated",
+        "label": {
+          "en": "Public demonstration",
+          "zh": "公开演示"
+        }
+      },
+      "category": {
+        "en": "Real-world execution",
+        "zh": "真实世界执行"
+      },
+      "title": {
+        "en": "AMAP debuts Tutu, its first quadruped embodied robot",
+        "zh": "高德首款四足具身机器人“途途”公开亮相"
+      },
+      "summary": {
+        "en": "Tutu appeared at the 2026 Beijing E-Town Humanoid Robot Half-Marathon, demonstrating AMAP's physical-AI path from navigation research to real-world guidance.",
+        "zh": "“途途”亮相 2026 北京亦庄人形机器人半程马拉松，展示高德从导航研究走向真实引导服务的 Physical AI 路径。"
+      },
+      "projectIds": [],
+      "links": [
+        {
+          "type": "news",
+          "label": {
+            "en": "Alibaba Group story",
+            "zh": "阿里巴巴集团官网报道"
+          },
+          "url": "https://www.alibabagroup.com/en-US/document-1985777930214572032"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/tutu-robot-cover.webp",
+        "alt": {
+          "en": "AMAP quadruped robot Tutu at a public demonstration",
+          "zh": "高德四足机器人“途途”公开演示"
+        }
+      },
+      "evidence": [
+        {
+          "source": "Alibaba Group official story",
+          "url": "https://www.alibabagroup.com/en-US/document-1985777930214572032",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": true,
+      "featuredRank": 13
+    },
+    {
+      "id": "news-abot-physworld-open-release",
+      "date": {
+        "value": "2026-04",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "released",
+        "label": {
+          "en": "Expanded open-source release",
+          "zh": "扩展开源发布"
+        }
+      },
+      "category": {
+        "en": "Open source",
+        "zh": "开源"
+      },
+      "title": {
+        "en": "ABot-PhysWorld expands its open-source stack",
+        "zh": "ABot-PhysWorld 扩展开源技术栈"
+      },
+      "summary": {
+        "en": "April releases added action-to-video training and inference, physics-aware DPO, and public benchmark results to the existing inference, SFT, data, and EZS-Bench resources.",
+        "zh": "4 月发布新增动作到视频训练与推理、物理感知 DPO 和公开基准结果，并延续此前的推理、SFT、数据与 EZS-Bench 资源。"
+      },
+      "projectIds": [
+        "abot-physworld"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "Code and resources",
+            "zh": "代码与资源"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-PhysWorld"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-physworld-cover.webp",
+        "alt": {
+          "en": "ABot-PhysWorld physically aligned manipulation",
+          "zh": "ABot-PhysWorld 物理对齐操作"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-PhysWorld official release log",
+          "url": "https://github.com/amap-cvlab/ABot-PhysWorld",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 14
+    },
+    {
+      "id": "news-abot-physworld-report",
+      "date": {
+        "value": "2026-03-24",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Technical report published",
+          "zh": "技术报告已发布"
+        }
+      },
+      "category": {
+        "en": "World models",
+        "zh": "世界模型"
+      },
+      "title": {
+        "en": "ABot-PhysWorld technical report released",
+        "zh": "ABot-PhysWorld 技术报告发布"
+      },
+      "summary": {
+        "en": "The report introduces a physics-aligned, action-controllable video world model for robotic manipulation.",
+        "zh": "报告提出面向机器人操作、经过物理对齐且可由动作控制的视频世界模型。"
+      },
+      "projectIds": [
+        "abot-physworld"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2603.23376"
+        },
+        {
+          "type": "github",
+          "label": {
+            "en": "Project repository",
+            "zh": "项目仓库"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-PhysWorld"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/abot-physworld-cover.webp",
+        "alt": {
+          "en": "ABot-PhysWorld robot-object interaction",
+          "zh": "ABot-PhysWorld 机器人—物体交互"
+        }
+      },
+      "evidence": [
+        {
+          "source": "ABot-PhysWorld arXiv record",
+          "url": "https://arxiv.org/abs/2603.23376",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 15
+    },
+    {
+      "id": "news-amap-flying-street-view",
+      "date": {
+        "value": "2026-01-07",
+        "precision": "day"
+      },
+      "releaseStatus": {
+        "state": "deployed",
+        "label": {
+          "en": "Product deployment",
+          "zh": "产品落地"
+        }
+      },
+      "category": {
+        "en": "Real-world impact",
+        "zh": "真实世界影响"
+      },
+      "title": {
+        "en": "AMAP launches AI-powered Flying Street View",
+        "zh": "高德发布 AI 驱动的“飞行街景”"
+      },
+      "summary": {
+        "en": "Built on AMAP's world-model technology, Flying Street View creates continuous 3D-like tours from streets into local businesses and is being opened to one million merchants.",
+        "zh": "“飞行街景”基于高德自研世界模型，从街道连续进入门店，生成沉浸式实景体验，并向 100 万商家开放。"
+      },
+      "projectIds": [],
+      "links": [
+        {
+          "type": "news",
+          "label": {
+            "en": "Alibaba Group story",
+            "zh": "阿里巴巴集团官网报道"
+          },
+          "url": "https://www.alibabagroup.com/en-US/document-1945578421555822592"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/flying-street-view-cover.webp",
+        "alt": {
+          "en": "AMAP Flying Street View experience",
+          "zh": "高德“飞行街景”体验"
+        }
+      },
+      "evidence": [
+        {
+          "source": "Alibaba Group official story",
+          "url": "https://www.alibabagroup.com/en-US/document-1945578421555822592",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": true,
+      "featuredRank": 16
+    },
+    {
+      "id": "news-iclr-2026-seven-papers",
+      "date": {
+        "value": "2026-01",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "accepted",
+        "label": {
+          "en": "Seven papers accepted",
+          "zh": "七篇论文录用"
+        }
+      },
+      "category": {
+        "en": "Research",
+        "zh": "研究"
+      },
+      "title": {
+        "en": "Seven AMAP CV Lab papers accepted to ICLR 2026",
+        "zh": "高德视觉技术中心七篇论文获 ICLR 2026 录用"
+      },
+      "summary": {
+        "en": "The accepted work spans online navigation refinement, embodied navigation, world modeling, and 3D generation, including JanusVLN, CE-Nav, OmniNav, FantasyWorld, Sat3DGen, and CLoD-GS.",
+        "zh": "录用工作覆盖在线导航优化、具身导航、世界建模与三维生成，包括 JanusVLN、CE-Nav、OmniNav、FantasyWorld、Sat3DGen 与 CLoD-GS。"
+      },
+      "projectIds": [
+        "online-navigation-refinement",
+        "janusvln",
+        "ce-nav",
+        "omninav",
+        "fantasy-world",
+        "sat3dgen",
+        "clod-gs"
+      ],
+      "links": [
+        {
+          "type": "news",
+          "label": {
+            "en": "Official lab announcement",
+            "zh": "实验室官方公告"
+          },
+          "url": "https://amap-cvlab.github.io/"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/iclr-2026-cover.webp",
+        "alt": {
+          "en": "ICLR 2026 research announcement",
+          "zh": "ICLR 2026 研究成果公告"
+        }
+      },
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official homepage announcement",
+          "url": "https://amap-cvlab.github.io/",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "featured": false,
+      "featuredRank": 17
+    },
+    {
+      "id": "news-fantasy-vln-open-release",
+      "date": {
+        "value": "2026-01",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Open source",
+        "zh": "开源发布"
+      },
+      "title": {
+        "en": "FantasyVLN training, inference, and model released",
+        "zh": "FantasyVLN 训练、推理代码与模型权重开源"
+      },
+      "summary": {
+        "en": "The official FantasyVLN repository and model checkpoints are now public.",
+        "zh": "FantasyVLN 的训练与推理代码及模型权重已正式公开。"
+      },
+      "projectIds": [
+        "fantasy-vln"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/Fantasy-AMAP/fantasy-vln"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://huggingface.co/acvlab/FantasyVLN"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/fantasy-vln-cover.webp",
+        "alt": {
+          "en": "FantasyVLN framework",
+          "zh": "FantasyVLN 框架"
+        }
+      },
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://github.com/Fantasy-AMAP/fantasy-vln",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-fantasy-world-worldscore",
+      "date": {
+        "value": "2025-12",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Benchmark",
+        "zh": "评测"
+      },
+      "title": {
+        "en": "FantasyWorld ranks first on WorldScore",
+        "zh": "FantasyWorld 登顶 WorldScore 评测"
+      },
+      "summary": {
+        "en": "FantasyWorld reached the top position on the public WorldScore leaderboard.",
+        "zh": "FantasyWorld 在公开 WorldScore 评测中位列第一。"
+      },
+      "projectIds": [
+        "fantasy-world"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://fantasy-amap.github.io/fantasy-world/"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/fantasy-world-cover.webp",
+        "alt": {
+          "en": "FantasyWorld generated scenes",
+          "zh": "FantasyWorld 生成场景"
+        }
+      },
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://fantasy-amap.github.io/fantasy-world/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-aaai-2026-five-papers",
+      "date": {
+        "value": "2025-11",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Research",
+        "zh": "研究成果"
+      },
+      "title": {
+        "en": "Five papers accepted to AAAI 2026",
+        "zh": "五篇论文获 AAAI 2026 录用"
+      },
+      "summary": {
+        "en": "UniMapGen was selected for an oral presentation alongside PriorDrive, PAMR, FantasyTalking2, and FantasyHSI.",
+        "zh": "UniMapGen 获 Oral；PriorDrive、PAMR、FantasyTalking2 与 FantasyHSI 同期录用。"
+      },
+      "projectIds": [
+        "unimapgen",
+        "prior-drive",
+        "pamr",
+        "fantasy-talking2",
+        "fantasy-hsi"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://amap-cvlab.github.io/"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://amap-cvlab.github.io/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-futuresightdrive-neurips",
+      "date": {
+        "value": "2025-09",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Research",
+        "zh": "研究成果"
+      },
+      "title": {
+        "en": "FutureSightDrive selected as a NeurIPS 2025 Spotlight",
+        "zh": "FutureSightDrive 入选 NeurIPS 2025 Spotlight"
+      },
+      "summary": {
+        "en": "The autonomous-driving work was accepted to NeurIPS 2025 as a Spotlight paper.",
+        "zh": "该自动驾驶研究获 NeurIPS 2025 录用并入选 Spotlight。"
+      },
+      "projectIds": [
+        "future-sight-drive"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://miv-xjtu.github.io/FSDrive.github.io/"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/future-sight-drive-cover.webp",
+        "alt": {
+          "en": "FutureSightDrive visual reasoning",
+          "zh": "FutureSightDrive 视觉推理"
+        }
+      },
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://miv-xjtu.github.io/FSDrive.github.io/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-fantasy-talking-acmmm",
+      "date": {
+        "value": "2025-07",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Research",
+        "zh": "研究成果"
+      },
+      "title": {
+        "en": "FantasyTalking accepted to ACM MM 2025",
+        "zh": "FantasyTalking 获 ACM MM 2025 录用"
+      },
+      "summary": {
+        "en": "FantasyTalking’s coherent-motion approach was accepted to ACM Multimedia 2025.",
+        "zh": "FantasyTalking 的连贯运动生成研究获 ACM Multimedia 2025 录用。"
+      },
+      "projectIds": [
+        "fantasy-talking"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2504.04842"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/fantasy-talking-cover.webp",
+        "alt": {
+          "en": "FantasyTalking portrait animation",
+          "zh": "FantasyTalking 人像动画"
+        }
+      },
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://arxiv.org/abs/2504.04842",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-seqgrowgraph-iccv",
+      "date": {
+        "value": "2025-06",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Research",
+        "zh": "研究成果"
+      },
+      "title": {
+        "en": "SeqGrowGraph accepted to ICCV 2025",
+        "zh": "SeqGrowGraph 获 ICCV 2025 录用"
+      },
+      "summary": {
+        "en": "The lane-topology work was accepted to ICCV 2025.",
+        "zh": "该车道拓扑研究获 ICCV 2025 录用。"
+      },
+      "projectIds": [],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2507.04822"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://arxiv.org/abs/2507.04822",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-futuresightdrive-project",
+      "date": {
+        "value": "2025-05",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Project",
+        "zh": "项目发布"
+      },
+      "title": {
+        "en": "FutureSightDrive full project released",
+        "zh": "FutureSightDrive 完整项目发布"
+      },
+      "summary": {
+        "en": "The complete FutureSightDrive project page and resources became public.",
+        "zh": "FutureSightDrive 完整项目页面与资源正式发布。"
+      },
+      "projectIds": [
+        "future-sight-drive"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://miv-xjtu.github.io/FSDrive.github.io/"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/future-sight-drive-cover.webp",
+        "alt": {
+          "en": "FutureSightDrive project",
+          "zh": "FutureSightDrive 项目"
+        }
+      },
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://miv-xjtu.github.io/FSDrive.github.io/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-g3pt-ijcai",
+      "date": {
+        "value": "2025-04",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Research",
+        "zh": "研究成果"
+      },
+      "title": {
+        "en": "G3PT accepted to IJCAI 2025",
+        "zh": "G3PT 获 IJCAI 2025 录用"
+      },
+      "summary": {
+        "en": "The autoregressive 3D generation work was accepted to IJCAI 2025.",
+        "zh": "该自回归三维生成研究获 IJCAI 2025 录用。"
+      },
+      "projectIds": [],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2409.06322"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://arxiv.org/abs/2409.06322",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-fantasy-code-weights",
+      "date": {
+        "value": "2025-04",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Open source",
+        "zh": "开源发布"
+      },
+      "title": {
+        "en": "FantasyTalking and FantasyID code and weights released",
+        "zh": "FantasyTalking 与 FantasyID 代码及权重发布"
+      },
+      "summary": {
+        "en": "Inference code and model weights for both projects became public.",
+        "zh": "两个项目的推理代码与模型权重正式公开。"
+      },
+      "projectIds": [
+        "fantasy-talking",
+        "fantasy-id"
+      ],
+      "links": [
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://fantasy-amap.github.io/fantasy-talking/"
+        },
+        {
+          "type": "project",
+          "label": {
+            "en": "Project",
+            "zh": "项目"
+          },
+          "url": "https://fantasy-amap.github.io/fantasy-id/"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://fantasy-amap.github.io/fantasy-talking/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-fantasy-world-open-release",
+      "date": {
+        "value": "2026-02",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Open source",
+        "zh": "开源发布"
+      },
+      "title": {
+        "en": "FantasyWorld code and model weights released",
+        "zh": "FantasyWorld 代码与模型权重发布"
+      },
+      "summary": {
+        "en": "The official repository released inference code and model checkpoints.",
+        "zh": "官方仓库发布推理代码与模型权重。"
+      },
+      "projectIds": [
+        "fantasy-world"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/Fantasy-AMAP/fantasy-world"
+        },
+        {
+          "type": "model",
+          "label": {
+            "en": "Model",
+            "zh": "模型"
+          },
+          "url": "https://huggingface.co/acvlab/FantasyWorld-Wan2.1-I2V-14B-480P"
+        }
+      ],
+      "media": {
+        "cover": "/assets/projects/fantasy-world-cover.webp",
+        "alt": {
+          "en": "FantasyWorld overview",
+          "zh": "FantasyWorld 概览"
+        }
+      },
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://github.com/Fantasy-AMAP/fantasy-world",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-abot-n0-m0-reports",
+      "date": {
+        "value": "2026-02",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Technical reports",
+        "zh": "技术报告"
+      },
+      "title": {
+        "en": "ABot-N0 and ABot-M0 technical reports released",
+        "zh": "ABot-N0 与 ABot-M0 技术报告发布"
+      },
+      "summary": {
+        "en": "The navigation and manipulation foundation-model reports were published as separate works.",
+        "zh": "导航与操作基础模型分别发布独立技术报告。"
+      },
+      "projectIds": [
+        "abot-n0",
+        "abot-m0"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2602.11598"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2602.11236"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://arxiv.org/abs/2602.11598",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-astranav-world",
+      "date": {
+        "value": "2025-12",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Research",
+        "zh": "研究成果"
+      },
+      "title": {
+        "en": "AstraNav-World report released",
+        "zh": "AstraNav-World 研究发布"
+      },
+      "summary": {
+        "en": "The navigation world model for foresight control and consistency was published.",
+        "zh": "面向前瞻控制与一致性的导航世界模型正式发布。"
+      },
+      "projectIds": [
+        "astranav-world"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2512.21714"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://arxiv.org/abs/2512.21714",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-cvpr-2026-navigation",
+      "date": {
+        "value": "2026-06",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Research",
+        "zh": "研究成果"
+      },
+      "title": {
+        "en": "AstraNav-Memory, SocialNav, and FantasyVLN appear at CVPR 2026",
+        "zh": "AstraNav-Memory、SocialNav 与 FantasyVLN 亮相 CVPR 2026"
+      },
+      "summary": {
+        "en": "The three navigation works joined CVPR 2026, with SocialNav selected as an Oral.",
+        "zh": "三项导航研究入选 CVPR 2026，其中 SocialNav 获 Oral。"
+      },
+      "projectIds": [
+        "astranav-memory",
+        "socialnav",
+        "fantasy-vln"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_SocialNav_Training_Human-Inspired_Foundation_Model_for_Socially-Aware_Embodied_Navigation_CVPR_2026_paper.html"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_SocialNav_Training_Human-Inspired_Foundation_Model_for_Socially-Aware_Embodied_Navigation_CVPR_2026_paper.html",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-sat3dgen-release",
+      "date": {
+        "value": "2026-05",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Research",
+        "zh": "研究成果"
+      },
+      "title": {
+        "en": "Sat3DGen research and code released",
+        "zh": "Sat3DGen 研究与代码发布"
+      },
+      "summary": {
+        "en": "The satellite-to-street-level 3D generation project is publicly available.",
+        "zh": "从卫星图像生成街景级三维场景的项目已公开。"
+      },
+      "projectIds": [
+        "sat3dgen"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "label": {
+            "en": "GitHub",
+            "zh": "GitHub"
+          },
+          "url": "https://github.com/qianmingduowan/Sat3DGen"
+        },
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2605.14984"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://github.com/qianmingduowan/Sat3DGen",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "news-reasoning-over-space-acl",
+      "date": {
+        "value": "2026-07",
+        "precision": "month"
+      },
+      "releaseStatus": {
+        "state": "published",
+        "label": {
+          "en": "Official update",
+          "zh": "官方动态"
+        }
+      },
+      "category": {
+        "en": "Research",
+        "zh": "研究成果"
+      },
+      "title": {
+        "en": "Reasoning Over Space published at ACL 2026",
+        "zh": "Reasoning Over Space 发表于 ACL 2026"
+      },
+      "summary": {
+        "en": "The geographic-reasoning work appears as an ACL 2026 Long Paper.",
+        "zh": "该地理空间推理研究以 ACL 2026 Long Paper 发表。"
+      },
+      "projectIds": [
+        "reasoning-over-space"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://aclanthology.org/2026.acl-long.332/"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official update",
+          "url": "https://aclanthology.org/2026.acl-long.332/",
+          "verifiedAt": "2026-08-10"
+        }
+      ],
+      "featured": false
+    }
+  ]
+}

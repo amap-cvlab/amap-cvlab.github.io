@@ -1,0 +1,2066 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-08-10",
+  "publications": [
+    {
+      "id": "pub-online-navigation-refinement",
+      "canonicalWorkId": "online-navigation-refinement",
+      "title": {
+        "en": "Online Navigation Refinement: Achieving Lane-Level Guidance by Associating Standard-Definition and Online Perception Maps",
+        "zh": "Online Navigation Refinement: Achieving Lane-Level Guidance by Associating Standard-Definition and Online Perception Maps"
+      },
+      "summary": {
+        "en": "A path-aware mapping approach that connects global topology with real-time geometry for lane-level guidance.",
+        "zh": "首个在线导航细化基准，提出路径感知方法关联标准地图与在线感知，并统一全局拓扑与实时几何信息。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "ICLR 2026",
+        "zh": "ICLR 2026"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "projectIds": [
+        "online-navigation-refinement"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2507.07487"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "Online Navigation Refinement: Achieving Lane-Level Guidance by Associating Standard-Definition and Online Perception Maps official publication record",
+          "url": "https://arxiv.org/abs/2507.07487",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-future-sight-drive",
+      "canonicalWorkId": "future-sight-drive",
+      "title": {
+        "en": "FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving",
+        "zh": "FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving"
+      },
+      "summary": {
+        "en": "A visual-reasoning VLA that unifies generation and understanding for trajectory planning; NeurIPS 2025 Spotlight.",
+        "zh": "在自动驾驶方向提出时空思维链推理方法，通过视觉生成与理解统一的预训练范式进行未来世界预测与轨迹规划。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "NeurIPS 2025 Spotlight",
+        "zh": "NeurIPS 2025 Spotlight"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "projectIds": [
+        "future-sight-drive"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2505.17685"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving official publication record",
+          "url": "https://arxiv.org/abs/2505.17685",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-unimapgen",
+      "canonicalWorkId": "unimapgen",
+      "title": {
+        "en": "UniMapGen: A Generative Framework for Large-Scale Map Construction from Multi-modal Data",
+        "zh": "UniMapGen: A Generative Framework for Large-Scale Map Construction from Multi-modal Data"
+      },
+      "summary": {
+        "en": "An autoregressive framework for smooth, topologically consistent vector maps from multimodal inputs; AAAI 2026 Oral.",
+        "zh": "通过自回归方式从多模态输入生成平滑且拓扑一致的矢量化地图，实现大规模城市地图构建。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "AAAI 2026 Oral",
+        "zh": "AAAI 2026 Oral"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "projectIds": [
+        "unimapgen"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.22262"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "UniMapGen: A Generative Framework for Large-Scale Map Construction from Multi-modal Data official publication record",
+          "url": "https://arxiv.org/abs/2509.22262",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-prior-drive",
+      "canonicalWorkId": "prior-drive",
+      "title": {
+        "en": "PriorDrive: Enhancing Online HD Mapping with Unified Vector Priors",
+        "zh": "PriorDrive: Enhancing Online HD Mapping with Unified Vector Priors"
+      },
+      "summary": {
+        "en": "A framework that encodes and fuses multiple vectorized map priors for online HD mapping.",
+        "zh": "统一编码并融合多种矢量化先验地图，以增强在线高精地图构建。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "AAAI 2026",
+        "zh": "AAAI 2026"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "projectIds": [
+        "prior-drive"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2409.05352"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "PriorDrive: Enhancing Online HD Mapping with Unified Vector Priors official publication record",
+          "url": "https://arxiv.org/abs/2409.05352",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-pamr",
+      "canonicalWorkId": "pamr",
+      "title": {
+        "en": "Persistent Autoregressive Mapping with Traffic Rules for Autonomous Driving",
+        "zh": "Persistent Autoregressive Mapping with Traffic Rules for Autonomous Driving"
+      },
+      "summary": {
+        "en": "A joint generative reasoning framework for lane vectors, persistent traffic rules, and long-term scene memory.",
+        "zh": "以自回归方式统一构建车道向量与持久化交通规则，实现长时序场景记忆与规则遵循。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "AAAI 2026",
+        "zh": "AAAI 2026"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "projectIds": [
+        "pamr"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.22756"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "Persistent Autoregressive Mapping with Traffic Rules for Autonomous Driving official publication record",
+          "url": "https://arxiv.org/abs/2509.22756",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-seq-grow-graph",
+      "canonicalWorkId": "seq-grow-graph",
+      "title": {
+        "en": "SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions",
+        "zh": "SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions"
+      },
+      "summary": {
+        "en": "A generative framework reframes lane-topology learning as a chain of graph expansions.",
+        "zh": "一种以增量式构建邻接矩阵过程重新阐释车道网学习的生成框架。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "ICCV 2025",
+        "zh": "ICCV 2025"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "projectIds": [],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2507.04822"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions official publication record",
+          "url": "https://arxiv.org/abs/2507.04822",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-mapdr",
+      "canonicalWorkId": "mapdr",
+      "title": {
+        "en": "Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map",
+        "zh": "Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map"
+      },
+      "summary": {
+        "en": "A benchmark and multimodal approach for lane-level traffic-rule understanding and map association.",
+        "zh": "交通标志中的车道级交通规则理解与绑路评测基准及多模态解决方案。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "CVPR 2025 Highlight",
+        "zh": "CVPR 2025 Highlight"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "projectIds": [
+        "mapdr"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2410.23780"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map official publication record",
+          "url": "https://arxiv.org/abs/2410.23780",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-reasoning-over-space",
+      "canonicalWorkId": "reasoning-over-space",
+      "title": {
+        "en": "Reasoning Over Space: Enabling Geographic Reasoning for LLM-Based Generative Next POI Recommendation",
+        "zh": "Reasoning Over Space: Enabling Geographic Reasoning for LLM-Based Generative Next POI Recommendation"
+      },
+      "summary": {
+        "en": "A framework that equips language-model recommenders with explicit geographic reasoning.",
+        "zh": "面向大语言模型生成式下一兴趣点推荐的地理空间推理方法。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "ACL 2026 Long",
+        "zh": "ACL 2026 Long"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-map-autonomous-driving",
+      "researchAreaIds": [
+        "research-map-autonomous-driving"
+      ],
+      "projectIds": [
+        "reasoning-over-space"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://aclanthology.org/2026.acl-long.332/"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "Reasoning Over Space: Enabling Geographic Reasoning for LLM-Based Generative Next POI Recommendation official publication record",
+          "url": "https://aclanthology.org/2026.acl-long.332/",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-fantasy-talking",
+      "canonicalWorkId": "fantasy-talking",
+      "title": {
+        "en": "FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis",
+        "zh": "FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis"
+      },
+      "summary": {
+        "en": "A Wan-based audio-driven portrait system for synchronized expression, lip motion, and body gesture generation.",
+        "zh": "通过双阶段音视对齐与可控运动调制，实现动态场景中的表情、唇动与身体姿态同步。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "ACM MM 2025",
+        "zh": "ACM MM 2025"
+      },
+      "publicationType": "paper",
+      "series": "Fantasy",
+      "primaryResearchAreaId": "research-human-centric-ai",
+      "researchAreaIds": [
+        "research-human-centric-ai"
+      ],
+      "projectIds": [
+        "fantasy-talking"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2504.04842"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis official publication record",
+          "url": "https://arxiv.org/abs/2504.04842",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-fantasy-talking2",
+      "canonicalWorkId": "fantasy-talking2",
+      "title": {
+        "en": "FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation",
+        "zh": "FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation"
+      },
+      "summary": {
+        "en": "Timestep-layer adaptive multi-expert preference optimization improves lip sync, motion, and visual quality.",
+        "zh": "通过时间步—网络层自适应多专家偏好优化，提升口型一致性、动作自然度与视觉质量。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "AAAI 2026",
+        "zh": "AAAI 2026"
+      },
+      "publicationType": "paper",
+      "series": "Fantasy",
+      "primaryResearchAreaId": "research-human-centric-ai",
+      "researchAreaIds": [
+        "research-human-centric-ai"
+      ],
+      "projectIds": [
+        "fantasy-talking2"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2508.11255"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation official publication record",
+          "url": "https://arxiv.org/abs/2508.11255",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-fantasy-hsi",
+      "canonicalWorkId": "fantasy-hsi",
+      "title": {
+        "en": "FantasyHSI: Video-Generation-Centric 4D Human Synthesis in Any Scene through a Graph-based Multi-Agent Framework",
+        "zh": "FantasyHSI: Video-Generation-Centric 4D Human Synthesis in Any Scene through a Graph-based Multi-Agent Framework"
+      },
+      "summary": {
+        "en": "A graph-based multi-agent framework connects video generation with dynamic 3D worlds for autonomous digital humans.",
+        "zh": "以图结构多智能体框架连接视频生成与三维世界动态，使数字人具备感知、规划与自主行动能力。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "AAAI 2026",
+        "zh": "AAAI 2026"
+      },
+      "publicationType": "paper",
+      "series": "Fantasy",
+      "primaryResearchAreaId": "research-human-centric-ai",
+      "researchAreaIds": [
+        "research-human-centric-ai",
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "fantasy-hsi"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.01232"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "FantasyHSI: Video-Generation-Centric 4D Human Synthesis in Any Scene through a Graph-based Multi-Agent Framework official publication record",
+          "url": "https://arxiv.org/abs/2509.01232",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-fantasy-portrait",
+      "canonicalWorkId": "fantasy-portrait",
+      "title": {
+        "en": "FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers",
+        "zh": "FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers"
+      },
+      "summary": {
+        "en": "Expression-aware diffusion generates expressive animation for single- and multi-character portraits.",
+        "zh": "将情绪增强学习与掩码交叉注意力结合，生成高质量且富有表现力的单人及多人肖像动画。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "arXiv 2025",
+        "zh": "arXiv 2025"
+      },
+      "publicationType": "paper",
+      "series": "Fantasy",
+      "primaryResearchAreaId": "research-human-centric-ai",
+      "researchAreaIds": [
+        "research-human-centric-ai"
+      ],
+      "projectIds": [
+        "fantasy-portrait"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2507.12956"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers official publication record",
+          "url": "https://arxiv.org/abs/2507.12956",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-fantasy-id",
+      "canonicalWorkId": "fantasy-id",
+      "title": {
+        "en": "FantasyID: Face Knowledge Enhanced ID-Preserving Video Generation",
+        "zh": "FantasyID: Face Knowledge Enhanced ID-Preserving Video Generation"
+      },
+      "summary": {
+        "en": "A framework using 3D face priors, multiview augmentation, and layer-aware injection to preserve identity in motion.",
+        "zh": "通过三维面部先验、多视角增强与层感知注入，提升运动场景中的身份保持视频生成。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "arXiv 2025",
+        "zh": "arXiv 2025"
+      },
+      "publicationType": "paper",
+      "series": "Fantasy",
+      "primaryResearchAreaId": "research-human-centric-ai",
+      "researchAreaIds": [
+        "research-human-centric-ai"
+      ],
+      "projectIds": [
+        "fantasy-id"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2502.13995"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "FantasyID: Face Knowledge Enhanced ID-Preserving Video Generation official publication record",
+          "url": "https://arxiv.org/abs/2502.13995",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-humanrig",
+      "canonicalWorkId": "humanrig",
+      "title": {
+        "en": "HumanRig: Learning Automatic Rigging for Humanoid Character in a Large Scale Dataset",
+        "zh": "HumanRig: Learning Automatic Rigging for Humanoid Character in a Large Scale Dataset"
+      },
+      "summary": {
+        "en": "A large-scale rigging dataset and transformer-based end-to-end automatic rigging method for generated humanoid characters.",
+        "zh": "首个面向三维生成数字人的自动绑骨数据集，以及基于 Transformer 的端到端自动绑骨算法。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "CVPR 2025 Highlight",
+        "zh": "CVPR 2025 Highlight"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-human-centric-ai",
+      "researchAreaIds": [
+        "research-human-centric-ai",
+        "research-3d-generation-reconstruction"
+      ],
+      "projectIds": [
+        "humanrig"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chu_HumanRig_Learning_Automatic_Rigging_for_Humanoid_Character_in_a_Large_CVPR_2025_paper.html"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "HumanRig: Learning Automatic Rigging for Humanoid Character in a Large Scale Dataset official publication record",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chu_HumanRig_Learning_Automatic_Rigging_for_Humanoid_Character_in_a_Large_CVPR_2025_paper.html",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-janusvln",
+      "canonicalWorkId": "janusvln",
+      "title": {
+        "en": "JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation",
+        "zh": "JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation"
+      },
+      "summary": {
+        "en": "Dual implicit memory separates semantic and spatial representations for compact, effective navigation.",
+        "zh": "以双重隐式记忆解耦视觉语义与空间感知，并分别建模为紧凑的隐式神经表示。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "ICLR 2026",
+        "zh": "ICLR 2026"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "janusvln"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.22548"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation official publication record",
+          "url": "https://arxiv.org/abs/2509.22548",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-ce-nav",
+      "canonicalWorkId": "ce-nav",
+      "title": {
+        "en": "CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation",
+        "zh": "CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation"
+      },
+      "summary": {
+        "en": "A flow-guided reinforcement refinement framework that serves as a plug-and-play fast system across embodiments.",
+        "zh": "一种跨具身实体局部导航框架，可作为一脑多形、可插拔的快系统。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "ICLR 2026",
+        "zh": "ICLR 2026"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "ce-nav"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.23203"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation official publication record",
+          "url": "https://arxiv.org/abs/2509.23203",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-omninav",
+      "canonicalWorkId": "omninav",
+      "title": {
+        "en": "OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation",
+        "zh": "OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation"
+      },
+      "summary": {
+        "en": "A fast-slow navigation framework spanning instruction, object, and point goals with public training, inference, and checkpoints.",
+        "zh": "以低延迟连续航点策略与快慢协同规划，统一多类导航及前沿探索任务。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "ICLR 2026",
+        "zh": "ICLR 2026"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "omninav"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.25687"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation official publication record",
+          "url": "https://arxiv.org/abs/2509.25687",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-fantasy-vln",
+      "canonicalWorkId": "fantasy-vln",
+      "title": {
+        "en": "FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation",
+        "zh": "FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation"
+      },
+      "summary": {
+        "en": "A unified multimodal reasoning framework for efficient, precise navigation from language instructions and visual observations.",
+        "zh": "将世界模型推演能力内化到视觉语言导航架构中，实现高效且精确的多模态推理。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "CVPR 2026",
+        "zh": "CVPR 2026"
+      },
+      "publicationType": "paper",
+      "series": "Fantasy",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "fantasy-vln"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2601.13976"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation official publication record",
+          "url": "https://arxiv.org/abs/2601.13976",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-seeing-space-motion",
+      "canonicalWorkId": "seeing-space-motion",
+      "title": {
+        "en": "Seeing Space and Motion: Enhancing Latent Actions with Spatial and Dynamic Awareness for VLA",
+        "zh": "Seeing Space and Motion: Enhancing Latent Actions with Spatial and Dynamic Awareness for VLA"
+      },
+      "summary": {
+        "en": "A vision-language-action approach combines spatial structure with dynamic reasoning in latent actions.",
+        "zh": "融合空间结构与动态推理的视觉—语言—动作新范式。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "arXiv 2025",
+        "zh": "arXiv 2025"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.26251"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "Seeing Space and Motion: Enhancing Latent Actions with Spatial and Dynamic Awareness for VLA official publication record",
+          "url": "https://arxiv.org/abs/2509.26251",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-abot-n0",
+      "canonicalWorkId": "abot-n0",
+      "title": {
+        "en": "ABot-N0: Technical Report on the VLA Foundation Model for Versatile Embodied Navigation",
+        "zh": "ABot-N0: Technical Report on the VLA Foundation Model for Versatile Embodied Navigation"
+      },
+      "summary": {
+        "en": "A technical foundation model for versatile embodied navigation.",
+        "zh": "面向多样化具身导航任务的视觉语言动作基础模型技术报告。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "Technical Report 2026",
+        "zh": "Technical Report 2026"
+      },
+      "publicationType": "report",
+      "series": "ABot",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "abot-n0"
+      ],
+      "links": [
+        {
+          "type": "report",
+          "label": {
+            "en": "Report",
+            "zh": "报告"
+          },
+          "url": "https://arxiv.org/abs/2602.11598"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "ABot-N0: Technical Report on the VLA Foundation Model for Versatile Embodied Navigation official publication record",
+          "url": "https://arxiv.org/abs/2602.11598",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-abot-n1",
+      "canonicalWorkId": "abot-n1",
+      "title": {
+        "en": "ABot-N1: Toward a General Visual Language Navigation Foundation Model",
+        "zh": "ABot-N1: Toward a General Visual Language Navigation Foundation Model"
+      },
+      "summary": {
+        "en": "A slow-fast foundation model architecture for five navigation paradigms, paired with new open benchmarks for real-world closed-loop evaluation.",
+        "zh": "覆盖多类导航范式的通用视觉语言导航基础模型。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "Technical Report 2026",
+        "zh": "Technical Report 2026"
+      },
+      "publicationType": "report",
+      "series": "ABot",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "abot-n1"
+      ],
+      "links": [
+        {
+          "type": "report",
+          "label": {
+            "en": "Report",
+            "zh": "报告"
+          },
+          "url": "https://arxiv.org/abs/2607.10383"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "ABot-N1: Toward a General Visual Language Navigation Foundation Model official publication record",
+          "url": "https://arxiv.org/abs/2607.10383",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-abot-m0",
+      "canonicalWorkId": "abot-m0",
+      "title": {
+        "en": "ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning",
+        "zh": "ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning"
+      },
+      "summary": {
+        "en": "A manipulation foundation model built around action manifold learning.",
+        "zh": "以动作流形学习为核心的机器人操作视觉语言动作基础模型。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "Technical Report 2026",
+        "zh": "Technical Report 2026"
+      },
+      "publicationType": "report",
+      "series": "ABot",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "abot-m0"
+      ],
+      "links": [
+        {
+          "type": "report",
+          "label": {
+            "en": "Report",
+            "zh": "报告"
+          },
+          "url": "https://arxiv.org/abs/2602.11236"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning official publication record",
+          "url": "https://arxiv.org/abs/2602.11236",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-abot-m05",
+      "canonicalWorkId": "abot-m05",
+      "title": {
+        "en": "ABot-M0.5: Unified Mobility-and-Manipulation World Action Model",
+        "zh": "ABot-M0.5: Unified Mobility-and-Manipulation World Action Model"
+      },
+      "summary": {
+        "en": "A World Action Model for long-horizon mobile manipulation with temporal, action-space, and train-test alignment.",
+        "zh": "统一移动与操作任务的动作条件视频生成模型。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "Technical Report 2026",
+        "zh": "Technical Report 2026"
+      },
+      "publicationType": "report",
+      "series": "ABot",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "abot-m05"
+      ],
+      "links": [
+        {
+          "type": "report",
+          "label": {
+            "en": "Report",
+            "zh": "报告"
+          },
+          "url": "https://arxiv.org/abs/2607.00678"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "ABot-M0.5: Unified Mobility-and-Manipulation World Action Model official publication record",
+          "url": "https://arxiv.org/abs/2607.00678",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-abot-agentos",
+      "canonicalWorkId": "abot-agentos",
+      "title": {
+        "en": "ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory",
+        "zh": "ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory"
+      },
+      "summary": {
+        "en": "A modular embodied-agent runtime for reasoning, skills, tools, verification, memory, and heterogeneous robot interfaces.",
+        "zh": "具备终身多模态记忆的通用机器人智能体操作系统。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "Technical Report 2026",
+        "zh": "Technical Report 2026"
+      },
+      "publicationType": "report",
+      "series": "ABot",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "abot-agentos"
+      ],
+      "links": [
+        {
+          "type": "report",
+          "label": {
+            "en": "Report",
+            "zh": "报告"
+          },
+          "url": "https://arxiv.org/abs/2607.10350"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory official publication record",
+          "url": "https://arxiv.org/abs/2607.10350",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-abot-explorer",
+      "canonicalWorkId": "abot-explorer",
+      "title": {
+        "en": "Explore Like Humans: Autonomous Exploration with Online SG-Memo Construction for Embodied Agents",
+        "zh": "Explore Like Humans: Autonomous Exploration with Online SG-Memo Construction for Embodied Agents"
+      },
+      "summary": {
+        "en": "A vision-language autonomous exploration agent for scene understanding and navigation in 3DGS and Habitat environments.",
+        "zh": "通过在线场景图记忆构建实现类人自主探索。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "IROS 2026",
+        "zh": "IROS 2026"
+      },
+      "publicationType": "paper",
+      "series": "ABot",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "abot-explorer"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2604.19034"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "Explore Like Humans: Autonomous Exploration with Online SG-Memo Construction for Embodied Agents official publication record",
+          "url": "https://arxiv.org/abs/2604.19034",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-abot-claw",
+      "canonicalWorkId": "abot-claw",
+      "title": {
+        "en": "ABot-Claw: A Foundation for Persistent, Cooperative, and Self-Evolving Robotic Agents",
+        "zh": "ABot-Claw: A Foundation for Persistent, Cooperative, and Self-Evolving Robotic Agents"
+      },
+      "summary": {
+        "en": "A foundation for persistent, cooperative, and self-evolving robotic agents.",
+        "zh": "面向持久运行、协同工作与自我演进机器人智能体的技术基础。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "Technical Report 2026",
+        "zh": "Technical Report 2026"
+      },
+      "publicationType": "report",
+      "series": "ABot",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "abot-claw"
+      ],
+      "links": [
+        {
+          "type": "report",
+          "label": {
+            "en": "Report",
+            "zh": "报告"
+          },
+          "url": "https://github.com/amap-cvlab/ABot-Claw/blob/main/tech_report/ABot-Claw_Technical_Report.pdf"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "ABot-Claw: A Foundation for Persistent, Cooperative, and Self-Evolving Robotic Agents official publication record",
+          "url": "https://github.com/amap-cvlab/ABot-Claw/blob/main/tech_report/ABot-Claw_Technical_Report.pdf",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-astranav-memory",
+      "canonicalWorkId": "astranav-memory",
+      "title": {
+        "en": "AstraNav-Memory: Contexts Compression for Long Memory",
+        "zh": "AstraNav-Memory: Contexts Compression for Long Memory"
+      },
+      "summary": {
+        "en": "A context-compression approach for retaining long-horizon navigation memory.",
+        "zh": "通过上下文压缩保留长时程导航记忆。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "CVPR 2026",
+        "zh": "CVPR 2026"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "astranav-memory"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_AstraNav-Memory_Contexts_Compression_for_Long_Memory_CVPR_2026_paper.html"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "AstraNav-Memory: Contexts Compression for Long Memory official publication record",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_AstraNav-Memory_Contexts_Compression_for_Long_Memory_CVPR_2026_paper.html",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-astranav-world",
+      "canonicalWorkId": "astranav-world",
+      "title": {
+        "en": "AstraNav-World: World Model for Foresight Control and Consistency",
+        "zh": "AstraNav-World: World Model for Foresight Control and Consistency"
+      },
+      "summary": {
+        "en": "A navigation world model designed for foresight control and temporal consistency.",
+        "zh": "面向前瞻控制与时间一致性的导航世界模型。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "arXiv 2025",
+        "zh": "arXiv 2025"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence",
+        "research-world-modeling"
+      ],
+      "projectIds": [
+        "astranav-world"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2512.21714"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "AstraNav-World: World Model for Foresight Control and Consistency official publication record",
+          "url": "https://arxiv.org/abs/2512.21714",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-socialnav",
+      "canonicalWorkId": "socialnav",
+      "title": {
+        "en": "SocialNav: Training Human-Inspired Foundation Model for Socially-Aware Embodied Navigation",
+        "zh": "SocialNav: Training Human-Inspired Foundation Model for Socially-Aware Embodied Navigation"
+      },
+      "summary": {
+        "en": "A foundation model for socially aware embodied navigation trained with human-inspired signals.",
+        "zh": "以人类行为启发信号训练的社会感知具身导航基础模型。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "CVPR 2026 Oral",
+        "zh": "CVPR 2026 Oral"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "socialnav"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_SocialNav_Training_Human-Inspired_Foundation_Model_for_Socially-Aware_Embodied_Navigation_CVPR_2026_paper.html"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "SocialNav: Training Human-Inspired Foundation Model for Socially-Aware Embodied Navigation official publication record",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_SocialNav_Training_Human-Inspired_Foundation_Model_for_Socially-Aware_Embodied_Navigation_CVPR_2026_paper.html",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-navforesee",
+      "canonicalWorkId": "navforesee",
+      "title": {
+        "en": "NavForesee: A Unified Vision-Language World Model for Hierarchical Planning and Dual-Horizon Navigation Prediction",
+        "zh": "NavForesee: A Unified Vision-Language World Model for Hierarchical Planning and Dual-Horizon Navigation Prediction"
+      },
+      "summary": {
+        "en": "A unified vision-language world model supports hierarchical planning and dual-horizon navigation prediction.",
+        "zh": "用于层级规划与双时间跨度导航预测的统一视觉语言世界模型。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "CVPR 2026",
+        "zh": "CVPR 2026"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence",
+        "research-world-modeling"
+      ],
+      "projectIds": [],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2512.01550"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "NavForesee: A Unified Vision-Language World Model for Hierarchical Planning and Dual-Horizon Navigation Prediction official publication record",
+          "url": "https://arxiv.org/abs/2512.01550",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-asyncshield",
+      "canonicalWorkId": "asyncshield",
+      "title": {
+        "en": "AsyncShield: A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation",
+        "zh": "AsyncShield: A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation"
+      },
+      "summary": {
+        "en": "A plug-and-play edge adapter safeguards asynchronous cloud-based vision-language-action navigation.",
+        "zh": "面向异步云端视觉语言动作导航的即插即用边缘适配器。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "IROS 2026",
+        "zh": "IROS 2026"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-embodied-intelligence",
+      "researchAreaIds": [
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2604.24086"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "AsyncShield: A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation official publication record",
+          "url": "https://arxiv.org/abs/2604.24086",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-fantasy-world",
+      "canonicalWorkId": "fantasy-world",
+      "title": {
+        "en": "FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction",
+        "zh": "FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction"
+      },
+      "summary": {
+        "en": "A unified feed-forward model jointly generates video and explorable, geometry-consistent 3D scenes.",
+        "zh": "统一视频先验与三维几何，生成几何一致且可探索的三维场景。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "ICLR 2026",
+        "zh": "ICLR 2026"
+      },
+      "publicationType": "paper",
+      "series": "Fantasy",
+      "primaryResearchAreaId": "research-world-modeling",
+      "researchAreaIds": [
+        "research-world-modeling",
+        "research-3d-generation-reconstruction"
+      ],
+      "projectIds": [
+        "fantasy-world"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.21657"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction official publication record",
+          "url": "https://arxiv.org/abs/2509.21657",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-world-env",
+      "canonicalWorkId": "world-env",
+      "title": {
+        "en": "World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training",
+        "zh": "World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training"
+      },
+      "summary": {
+        "en": "A post-training framework that uses a world model as a virtual environment for vision-language-action agents.",
+        "zh": "以世界模型作为虚拟环境的视觉语言动作模型后训练框架。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "arXiv 2025",
+        "zh": "arXiv 2025"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-world-modeling",
+      "researchAreaIds": [
+        "research-world-modeling",
+        "research-embodied-intelligence"
+      ],
+      "projectIds": [
+        "world-env"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2509.24948"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training official publication record",
+          "url": "https://arxiv.org/abs/2509.24948",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-abot-world",
+      "canonicalWorkId": "abot-world",
+      "title": {
+        "en": "ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU",
+        "zh": "ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU"
+      },
+      "summary": {
+        "en": "A real-time action-conditioned world model for open-ended exploration at 720P and 16 FPS on one RTX 5090.",
+        "zh": "在单张桌面级 GPU 上实现无限交互式世界推演。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "Technical Report 2026",
+        "zh": "Technical Report 2026"
+      },
+      "publicationType": "report",
+      "series": "ABot",
+      "primaryResearchAreaId": "research-world-modeling",
+      "researchAreaIds": [
+        "research-world-modeling"
+      ],
+      "projectIds": [
+        "abot-world"
+      ],
+      "links": [
+        {
+          "type": "report",
+          "label": {
+            "en": "Report",
+            "zh": "报告"
+          },
+          "url": "https://arxiv.org/abs/2607.19191"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU official publication record",
+          "url": "https://arxiv.org/abs/2607.19191",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-abot-3dworld",
+      "canonicalWorkId": "abot-3dworld",
+      "title": {
+        "en": "ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space",
+        "zh": "ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space"
+      },
+      "summary": {
+        "en": "One multimodal pipeline turns text, images, and video into explorable, geographically anchored 3D worlds.",
+        "zh": "将多模态输入转化为可探索三维空间的通用世界模型。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "Technical Report 2026",
+        "zh": "Technical Report 2026"
+      },
+      "publicationType": "report",
+      "series": "ABot",
+      "primaryResearchAreaId": "research-world-modeling",
+      "researchAreaIds": [
+        "research-world-modeling",
+        "research-3d-generation-reconstruction"
+      ],
+      "projectIds": [
+        "abot-3dworld"
+      ],
+      "links": [
+        {
+          "type": "report",
+          "label": {
+            "en": "Report",
+            "zh": "报告"
+          },
+          "url": "https://arxiv.org/abs/2607.11673"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space official publication record",
+          "url": "https://arxiv.org/abs/2607.11673",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-abot-earth",
+      "canonicalWorkId": "abot-earth",
+      "title": {
+        "en": "ABot-Earth 0.5: Generative 3D Earth Model",
+        "zh": "ABot-Earth 0.5: Generative 3D Earth Model"
+      },
+      "summary": {
+        "en": "A generative model for creating explorable 3D spatial content connected to geographic places.",
+        "zh": "面向真实地理地点生成可探索三维空间内容的模型。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "Technical Report 2026",
+        "zh": "Technical Report 2026"
+      },
+      "publicationType": "report",
+      "series": "ABot",
+      "primaryResearchAreaId": "research-world-modeling",
+      "researchAreaIds": [
+        "research-world-modeling",
+        "research-3d-generation-reconstruction"
+      ],
+      "projectIds": [
+        "abot-earth"
+      ],
+      "links": [
+        {
+          "type": "report",
+          "label": {
+            "en": "Report",
+            "zh": "报告"
+          },
+          "url": "https://arxiv.org/abs/2606.09967"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "ABot-Earth 0.5: Generative 3D Earth Model official publication record",
+          "url": "https://arxiv.org/abs/2606.09967",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-abot-physworld",
+      "canonicalWorkId": "abot-physworld",
+      "title": {
+        "en": "ABot-PhysWorld: Interactive World Foundation Model for Robotic Manipulation with Physics Alignment",
+        "zh": "ABot-PhysWorld: Interactive World Foundation Model for Robotic Manipulation with Physics Alignment"
+      },
+      "summary": {
+        "en": "An action-controllable 14B video world model with physics-aware alignment and zero-shot manipulation evaluation.",
+        "zh": "面向机器人操作、具备物理对齐能力的交互式世界基础模型。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "Technical Report 2026",
+        "zh": "Technical Report 2026"
+      },
+      "publicationType": "report",
+      "series": "ABot",
+      "primaryResearchAreaId": "research-world-modeling",
+      "researchAreaIds": [
+        "research-world-modeling"
+      ],
+      "projectIds": [
+        "abot-physworld"
+      ],
+      "links": [
+        {
+          "type": "report",
+          "label": {
+            "en": "Report",
+            "zh": "报告"
+          },
+          "url": "https://arxiv.org/abs/2603.23376"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "ABot-PhysWorld: Interactive World Foundation Model for Robotic Manipulation with Physics Alignment official publication record",
+          "url": "https://arxiv.org/abs/2603.23376",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-sat3dgen",
+      "canonicalWorkId": "sat3dgen",
+      "title": {
+        "en": "Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image",
+        "zh": "Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image"
+      },
+      "summary": {
+        "en": "A geometry-first feed-forward framework unifies 3D reconstruction and street-view video generation from a single satellite image.",
+        "zh": "无需三维标注，仅以单张遥感图像统一实现高保真几何重建与街景视频生成。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "ICLR 2026",
+        "zh": "ICLR 2026"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-3d-generation-reconstruction",
+      "researchAreaIds": [
+        "research-3d-generation-reconstruction"
+      ],
+      "projectIds": [
+        "sat3dgen"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2605.14984"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image official publication record",
+          "url": "https://arxiv.org/abs/2605.14984",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-clod-gs",
+      "canonicalWorkId": "clod-gs",
+      "title": {
+        "en": "CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering",
+        "zh": "CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering"
+      },
+      "summary": {
+        "en": "A single 3DGS model with smooth, distance-adaptive quality and performance scaling, without discrete LoD switching.",
+        "zh": "通过可学习的距离自适应透明度，在单一模型内实现连续细节层次渲染。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "ICLR 2026",
+        "zh": "ICLR 2026"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-3d-generation-reconstruction",
+      "researchAreaIds": [
+        "research-3d-generation-reconstruction"
+      ],
+      "projectIds": [
+        "clod-gs"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2510.09997"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering official publication record",
+          "url": "https://arxiv.org/abs/2510.09997",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-g3pt",
+      "canonicalWorkId": "g3pt",
+      "title": {
+        "en": "G3PT: Unleash the Power of Autoregressive Modeling in 3D Generation via Cross-scale Querying Transformer",
+        "zh": "G3PT: Unleash the Power of Autoregressive Modeling in 3D Generation via Cross-scale Querying Transformer"
+      },
+      "summary": {
+        "en": "A cross-scale querying transformer brings multiscale autoregressive modeling to native 3D generation.",
+        "zh": "首个基于多尺度自回归的原生三维生成基座模型。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "IJCAI 2025",
+        "zh": "IJCAI 2025"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-3d-generation-reconstruction",
+      "researchAreaIds": [
+        "research-3d-generation-reconstruction"
+      ],
+      "projectIds": [],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2409.06322"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "G3PT: Unleash the Power of Autoregressive Modeling in 3D Generation via Cross-scale Querying Transformer official publication record",
+          "url": "https://arxiv.org/abs/2409.06322",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-gf-nerf",
+      "canonicalWorkId": "gf-nerf",
+      "title": {
+        "en": "Global-Guided Focal Neural Radiance Field for Large-Scale Scene Representation",
+        "zh": "Global-Guided Focal Neural Radiance Field for Large-Scale Scene Representation"
+      },
+      "summary": {
+        "en": "A global-guided two-stage architecture renders large-scale scenes consistently and at high fidelity without prior knowledge.",
+        "zh": "通过全局引导的双阶段架构，实现无需先验知识的大规模场景一致、高保真渲染。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "WACV 2025",
+        "zh": "WACV 2025"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-3d-generation-reconstruction",
+      "researchAreaIds": [
+        "research-3d-generation-reconstruction"
+      ],
+      "projectIds": [
+        "gf-nerf"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2403.12839"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "Global-Guided Focal Neural Radiance Field for Large-Scale Scene Representation official publication record",
+          "url": "https://arxiv.org/abs/2403.12839",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-mvpainter",
+      "canonicalWorkId": "mvpainter",
+      "title": {
+        "en": "MVPainter: Accurate and Detailed 3D Texture Generation via Multi-View Diffusion with Geometric Control",
+        "zh": "MVPainter: Accurate and Detailed 3D Texture Generation via Multi-View Diffusion with Geometric Control"
+      },
+      "summary": {
+        "en": "Multi-view diffusion with geometric control produces detailed, consistent 3D textures and PBR materials from one reference image.",
+        "zh": "以几何控制的多视角扩散，从单张参考图生成高精度且几何一致的三维纹理及 PBR 材质。"
+      },
+      "year": 2025,
+      "venue": {
+        "en": "arXiv 2025",
+        "zh": "arXiv 2025"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-3d-generation-reconstruction",
+      "researchAreaIds": [
+        "research-3d-generation-reconstruction"
+      ],
+      "projectIds": [
+        "mvpainter"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://arxiv.org/abs/2505.12635"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "MVPainter: Accurate and Detailed 3D Texture Generation via Multi-View Diffusion with Geometric Control official publication record",
+          "url": "https://arxiv.org/abs/2505.12635",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-synthetic-speech",
+      "canonicalWorkId": "synthetic-speech",
+      "title": {
+        "en": "A Study on the Adverse Impact of Synthetic Speech on Speech Recognition",
+        "zh": "A Study on the Adverse Impact of Synthetic Speech on Speech Recognition"
+      },
+      "summary": {
+        "en": "An analysis of speech-recognition degradation under synthetic-speech interference and potential remedies.",
+        "zh": "合成语音干扰下的语音识别性能分析与新方案探索。"
+      },
+      "year": 2024,
+      "venue": {
+        "en": "ICASSP 2024",
+        "zh": "ICASSP 2024"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-general-deep-learning",
+      "researchAreaIds": [
+        "research-general-deep-learning"
+      ],
+      "projectIds": [],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://ieeexplore.ieee.org/document/10446991"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "A Study on the Adverse Impact of Synthetic Speech on Speech Recognition official publication record",
+          "url": "https://ieeexplore.ieee.org/document/10446991",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-dfvt",
+      "canonicalWorkId": "dfvt",
+      "title": {
+        "en": "Doubly-Fused ViT: Fuse Information from Dual Vision Transformer Streams",
+        "zh": "Doubly-Fused ViT: Fuse Information from Dual Vision Transformer Streams"
+      },
+      "summary": {
+        "en": "A dual-stream transformer architecture combines global context with fine spatial detail efficiently.",
+        "zh": "双融合视觉 Transformer 架构兼顾全局上下文建模与精细空间细节保留。"
+      },
+      "year": 2022,
+      "venue": {
+        "en": "ECCV 2022",
+        "zh": "ECCV 2022"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-general-deep-learning",
+      "researchAreaIds": [
+        "research-general-deep-learning"
+      ],
+      "projectIds": [
+        "dfvt"
+      ],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830723.pdf"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "Doubly-Fused ViT: Fuse Information from Dual Vision Transformer Streams official publication record",
+          "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830723.pdf",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-scmt",
+      "canonicalWorkId": "scmt",
+      "title": {
+        "en": "SCMT: Self-Correction Mean Teacher for Semi-supervised Object Detection",
+        "zh": "SCMT: Self-Correction Mean Teacher for Semi-supervised Object Detection"
+      },
+      "summary": {
+        "en": "A self-correcting mean-teacher method reduces noisy pseudo-label effects in semi-supervised object detection.",
+        "zh": "通过自我校正的教师架构减少噪声伪标签影响的半监督目标检测方法。"
+      },
+      "year": 2022,
+      "venue": {
+        "en": "IJCAI 2022",
+        "zh": "IJCAI 2022"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-general-deep-learning",
+      "researchAreaIds": [
+        "research-general-deep-learning"
+      ],
+      "projectIds": [],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://www.ijcai.org/proceedings/2022/0207.pdf"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "SCMT: Self-Correction Mean Teacher for Semi-supervised Object Detection official publication record",
+          "url": "https://www.ijcai.org/proceedings/2022/0207.pdf",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-dpose",
+      "canonicalWorkId": "dpose",
+      "title": {
+        "en": "DPOSE: Online Keypoint-CAM Guided Inference for Driver Pose Estimation",
+        "zh": "DPOSE: Online Keypoint-CAM Guided Inference for Driver Pose Estimation"
+      },
+      "summary": {
+        "en": "Online keypoint-CAM guidance improves driver-pose estimation with hard-example mining and alignment.",
+        "zh": "针对驾驶员监控场景的人体姿态估计，提出困难样本挖掘与在线关键点对齐优化方案。"
+      },
+      "year": 2023,
+      "venue": {
+        "en": "CVPR Workshop 2023",
+        "zh": "CVPR Workshop 2023"
+      },
+      "publicationType": "paper",
+      "series": "AMAP CV Lab",
+      "primaryResearchAreaId": "research-general-deep-learning",
+      "researchAreaIds": [
+        "research-general-deep-learning"
+      ],
+      "projectIds": [],
+      "links": [
+        {
+          "type": "paper",
+          "label": {
+            "en": "Paper",
+            "zh": "论文"
+          },
+          "url": "https://openaccess.thecvf.com/content/CVPR2023W/Precognition/papers/Guo_DPOSE_Online_Keypoint-CAM_Guided_Inference_for_Driver_Pose_Estimation_With_CVPRW_2023_paper.pdf"
+        }
+      ],
+      "legacyTech": true,
+      "evidence": [
+        {
+          "source": "DPOSE: Online Keypoint-CAM Guided Inference for Driver Pose Estimation official publication record",
+          "url": "https://openaccess.thecvf.com/content/CVPR2023W/Precognition/papers/Guo_DPOSE_Online_Keypoint-CAM_Guided_Inference_for_Driver_Pose_Estimation_With_CVPRW_2023_paper.pdf",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "id": "pub-abot-ocr",
+      "canonicalWorkId": "abot-ocr",
+      "title": {
+        "en": "ABot-OCR Technical Report",
+        "zh": "ABot-OCR Technical Report"
+      },
+      "summary": {
+        "en": "An end-to-end vision-language model that preserves text, formulas, tables, and layout in a single forward pass.",
+        "zh": "面向文档理解与结构化 Markdown 输出的高精度光学字符识别技术报告。"
+      },
+      "year": 2026,
+      "venue": {
+        "en": "Technical Report 2026",
+        "zh": "Technical Report 2026"
+      },
+      "publicationType": "report",
+      "series": "ABot",
+      "primaryResearchAreaId": "research-general-deep-learning",
+      "researchAreaIds": [
+        "research-general-deep-learning"
+      ],
+      "projectIds": [
+        "abot-ocr"
+      ],
+      "links": [
+        {
+          "type": "report",
+          "label": {
+            "en": "Report",
+            "zh": "报告"
+          },
+          "url": "https://arxiv.org/abs/2605.27978"
+        }
+      ],
+      "legacyTech": false,
+      "evidence": [
+        {
+          "source": "ABot-OCR Technical Report official publication record",
+          "url": "https://arxiv.org/abs/2605.27978",
+          "verifiedAt": "2026-08-10"
+        }
+      ]
+    }
+  ]
+}

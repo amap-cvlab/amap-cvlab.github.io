@@ -1,0 +1,832 @@
+{
+  "schemaVersion": "1.2.0",
+  "updatedAt": "2026-08-10",
+  "section": {
+    "index": "ABOT / 01",
+    "eyebrow": {
+      "en": "From foundations to execution",
+      "zh": "从基础到真实执行"
+    },
+    "action": {
+      "label": {
+        "en": "See all ABot work",
+        "zh": "查看全部 ABot 成果"
+      },
+      "href": "/works/?series=abot"
+    }
+  },
+  "title": {
+    "en": "The ABot Stack",
+    "zh": "ABot 技术栈"
+  },
+  "description": {
+    "en": "A connected stack that moves from Earth-scale spatial foundations, through interactive world models, to agents that navigate, manipulate, remember, and execute.",
+    "zh": "一套从地球尺度空间基础出发，经过交互式世界模型，最终走向导航、操作、记忆与执行智能体的完整技术栈。"
+  },
+  "layers": [
+    {
+      "id": "spatial-data-foundations",
+      "number": "01",
+      "title": {
+        "en": "Spatial & Data Foundations",
+        "zh": "空间与数据基础"
+      },
+      "description": {
+        "en": "Earth-scale spatial priors, photorealistic environments, and open data for training and evaluation.",
+        "zh": "面向训练与评测的地球尺度空间先验、高拟真环境与开放数据。"
+      },
+      "items": [
+        {
+          "id": "stack-abot-earth",
+          "projectRef": "abot-earth",
+          "name": {
+            "en": "ABot-Earth-0.5",
+            "zh": "ABot-Earth-0.5"
+          },
+          "tagline": {
+            "en": "Generative 3D Earth Model",
+            "zh": "生成式三维地球模型"
+          },
+          "summary": {
+            "en": "A generative 3D Earth model that connects geographic places with explorable spatial content.",
+            "zh": "连接真实地理地点与可探索空间内容的生成式三维地球模型。"
+          },
+          "date": {
+            "value": "2026-06-08",
+            "precision": "day"
+          },
+          "releaseStatus": {
+            "state": "research-preview",
+            "label": {
+              "en": "Paper + experience",
+              "zh": "论文 + 在线体验"
+            },
+            "artifacts": {
+              "paper": "released",
+              "projectPage": "released",
+              "studio": "released",
+              "code": "not-announced",
+              "modelWeights": "not-announced"
+            },
+            "note": {
+              "en": "The paper and interactive site are public; no code or model release is claimed.",
+              "zh": "论文与交互网站已公开；不宣称代码或模型权重已经发布。"
+            }
+          },
+          "links": [
+            {
+              "type": "project",
+              "label": {
+                "en": "Experience",
+                "zh": "在线体验"
+              },
+              "url": "https://abot-earth.amap.com/"
+            },
+            {
+              "type": "paper",
+              "label": {
+                "en": "Technical report",
+                "zh": "技术报告"
+              },
+              "url": "https://arxiv.org/abs/2606.09967"
+            },
+            {
+              "type": "github",
+              "label": {
+                "en": "Project repository",
+                "zh": "项目仓库"
+              },
+              "url": "https://github.com/amap-cvlab/ABot-Earth-0.5"
+            }
+          ],
+          "media": {
+            "cover": "/assets/projects/abot-earth-cover.webp",
+            "alt": {
+              "en": "ABot-Earth global 3D generation overview",
+              "zh": "ABot-Earth 全球三维生成概览"
+            }
+          },
+          "evidence": [
+            {
+              "source": "ABot-Earth-0.5 arXiv record",
+              "url": "https://arxiv.org/abs/2606.09967",
+              "verifiedAt": "2026-08-08"
+            },
+            {
+              "source": "ABot-Earth-0.5 official repository",
+              "url": "https://github.com/amap-cvlab/ABot-Earth-0.5",
+              "verifiedAt": "2026-08-08"
+            }
+          ],
+          "editorialNote": "The official arXiv publication date is used. The repository README line dated July 29, 2025 is inconsistent with the 2026 public record and is intentionally not reproduced.",
+          "featured": true,
+          "featuredRank": 4
+        },
+        {
+          "id": "stack-spatial-environments",
+          "projectRef": "abot-n1",
+          "name": {
+            "en": "3DGS Environments",
+            "zh": "3DGS 高拟真环境"
+          },
+          "tagline": {
+            "en": "Real places, executable evaluation",
+            "zh": "真实地点，可执行评测"
+          },
+          "summary": {
+            "en": "Photorealistic indoor and outdoor 3D Gaussian Splatting scenes support closed-loop navigation evaluation and spatial learning.",
+            "zh": "高拟真的室内外 3D Gaussian Splatting 场景，为闭环导航评测与空间学习提供环境基础。"
+          },
+          "date": {
+            "value": "2026-07-11",
+            "precision": "day"
+          },
+          "releaseStatus": {
+            "state": "open-source",
+            "label": {
+              "en": "Benchmarks + data released",
+              "zh": "基准与数据已发布"
+            },
+            "artifacts": {
+              "benchmark": "released",
+              "data": "released",
+              "evaluationCode": "released"
+            },
+            "note": {
+              "en": "ABotN-PointBench, ABotN-POIBench, and Short-Horizon OVON data and evaluation tools are public.",
+              "zh": "ABotN-PointBench、ABotN-POIBench 与 Short-Horizon OVON 的数据和评测工具已公开。"
+            }
+          },
+          "links": [
+            {
+              "type": "github",
+              "label": {
+                "en": "Benchmark toolkit",
+                "zh": "基准工具"
+              },
+              "url": "https://github.com/amap-cvlab/ABot-Navigation/tree/ABotN-Bench"
+            },
+            {
+              "type": "dataset",
+              "label": {
+                "en": "Datasets on Hugging Face",
+                "zh": "Hugging Face 数据集"
+              },
+              "url": "https://huggingface.co/acvlab"
+            }
+          ],
+          "media": {
+            "cover": "/assets/projects/spatial-environments-map.webp",
+            "alt": {
+              "en": "Map of high-fidelity 3DGS environments",
+              "zh": "高拟真 3DGS 环境地图"
+            }
+          },
+          "evidence": [
+            {
+              "source": "ABotN-Bench official release branch",
+              "url": "https://github.com/amap-cvlab/ABot-Navigation/tree/ABotN-Bench",
+              "verifiedAt": "2026-08-08"
+            }
+          ],
+          "featured": false,
+          "featuredRank": 8
+        },
+        {
+          "id": "stack-open-datasets",
+          "projectRef": "abot-world",
+          "name": {
+            "en": "Open Datasets",
+            "zh": "开放数据集"
+          },
+          "tagline": {
+            "en": "Action-annotated data for world learning",
+            "zh": "面向世界学习的动作标注数据"
+          },
+          "summary": {
+            "en": "The ABot-World Explorer 500-hour dataset provides video training data with action annotations for interactive world modeling.",
+            "zh": "ABot-World Explorer 500 小时数据集提供带动作标注的视频训练数据，服务于交互式世界建模。"
+          },
+          "date": {
+            "value": "2026-08-03",
+            "precision": "day"
+          },
+          "releaseStatus": {
+            "state": "open-source",
+            "label": {
+              "en": "500-hour dataset released",
+              "zh": "500 小时数据集已发布"
+            },
+            "artifacts": {
+              "data": "released"
+            },
+            "note": {
+              "en": "The 500-hour action-annotated training dataset is available from Hugging Face and ModelScope.",
+              "zh": "500 小时动作标注训练数据已在 Hugging Face 与 ModelScope 发布。"
+            }
+          },
+          "links": [
+            {
+              "type": "dataset",
+              "label": {
+                "en": "Hugging Face",
+                "zh": "Hugging Face"
+              },
+              "url": "https://huggingface.co/datasets/acvlab/ABot-World-Explorer-500h"
+            },
+            {
+              "type": "dataset",
+              "label": {
+                "en": "ModelScope",
+                "zh": "ModelScope"
+              },
+              "url": "https://modelscope.cn/datasets/amap_cvlab/ABot-World-Explorer-500h"
+            }
+          ],
+          "media": {
+            "cover": "/assets/projects/open-datasets-map.webp",
+            "alt": {
+              "en": "Geographic distribution of open world-model training data",
+              "zh": "开放世界模型训练数据的地理分布"
+            }
+          },
+          "evidence": [
+            {
+              "source": "ABot-World official repository release log",
+              "url": "https://github.com/amap-cvlab/ABot-World",
+              "verifiedAt": "2026-08-08"
+            },
+            {
+              "source": "ABot-World Explorer 500h on Hugging Face",
+              "url": "https://huggingface.co/datasets/acvlab/ABot-World-Explorer-500h",
+              "verifiedAt": "2026-08-08"
+            }
+          ],
+          "featured": true,
+          "featuredRank": 2
+        }
+      ]
+    },
+    {
+      "id": "world-foundation-models",
+      "number": "02",
+      "title": {
+        "en": "World & Foundation Models",
+        "zh": "世界与基础模型"
+      },
+      "description": {
+        "en": "Models that generate explorable worlds, preserve physical structure, and respond to actions.",
+        "zh": "生成可探索世界、保持物理结构并响应动作的模型。"
+      },
+      "items": [
+        {
+          "id": "stack-abot-world",
+          "projectRef": "abot-world",
+          "name": {
+            "en": "ABot-World-0",
+            "zh": "ABot-World-0"
+          },
+          "tagline": {
+            "en": "Infinite interactive world rollout on a single desktop GPU",
+            "zh": "在单张桌面级 GPU 上实现无限交互式世界推演"
+          },
+          "summary": {
+            "en": "A real-time action-conditioned world model with open-ended rollout, 720P generation at 16 FPS, and a practical local deployment path.",
+            "zh": "支持开放式持续推演的实时动作条件世界模型，以 720P、16 FPS 运行，并提供可实际落地的本地部署路径。"
+          },
+          "date": {
+            "value": "2026-07-09",
+            "precision": "day"
+          },
+          "releaseStatus": {
+            "state": "open-source",
+            "label": {
+              "en": "Model + inference + demo + data",
+              "zh": "模型 + 推理 + 演示 + 数据"
+            },
+            "artifacts": {
+              "paper": "released",
+              "projectPage": "released",
+              "inferenceCode": "released",
+              "modelWeights": "released",
+              "demo": "released",
+              "data": "released",
+              "teacherModel": "not-announced"
+            },
+            "note": {
+              "en": "The causal student model, inference code, local Gradio demo, online Studio, and 500-hour dataset are public; the bidirectional teacher model remains on the roadmap.",
+              "zh": "因果学生模型、推理代码、本地 Gradio、在线 Studio 与 500 小时数据集均已公开；双向教师模型仍在路线图中。"
+            }
+          },
+          "links": [
+            {
+              "type": "studio",
+              "label": {
+                "en": "ABot World Studio",
+                "zh": "ABot 世界工作室"
+              },
+              "url": "https://abot-world.amap.com"
+            },
+            {
+              "type": "github",
+              "label": {
+                "en": "Code",
+                "zh": "代码"
+              },
+              "url": "https://github.com/amap-cvlab/ABot-World"
+            },
+            {
+              "type": "paper",
+              "label": {
+                "en": "Technical report",
+                "zh": "技术报告"
+              },
+              "url": "https://arxiv.org/abs/2607.19191"
+            },
+            {
+              "type": "model",
+              "label": {
+                "en": "Model on Hugging Face",
+                "zh": "Hugging Face 模型"
+              },
+              "url": "https://huggingface.co/acvlab/ABot-World-0-5B-LF"
+            }
+          ],
+          "media": {
+            "cover": "/assets/projects/abot-world-cover.webp",
+            "alt": {
+              "en": "Interactive ABot-World rollout across diverse generated environments",
+              "zh": "ABot-World 在多样生成环境中的交互式推演"
+            }
+          },
+          "evidence": [
+            {
+              "source": "ABot-World official repository",
+              "url": "https://github.com/amap-cvlab/ABot-World",
+              "verifiedAt": "2026-08-08"
+            },
+            {
+              "source": "ABot-World-0 technical report",
+              "url": "https://arxiv.org/abs/2607.19191",
+              "verifiedAt": "2026-08-08"
+            }
+          ],
+          "featured": true,
+          "featuredRank": 1
+        },
+        {
+          "id": "stack-abot-3dworld",
+          "projectRef": "abot-3dworld",
+          "name": {
+            "en": "ABot-3DWorld",
+            "zh": "ABot-3DWorld"
+          },
+          "tagline": {
+            "en": "A universal world model to explore any 3D space",
+            "zh": "探索任意三维空间的通用世界模型"
+          },
+          "summary": {
+            "en": "A unified multimodal pipeline that turns text, images, and video into explorable 3D worlds anchored to geographic places.",
+            "zh": "通过统一多模态管线，将文本、图像与视频转化为锚定真实地理地点的可探索三维世界。"
+          },
+          "date": {
+            "value": "2026-07-13",
+            "precision": "day"
+          },
+          "releaseStatus": {
+            "state": "research-preview",
+            "label": {
+              "en": "Paper + project page + Studio",
+              "zh": "论文 + 项目页 + Studio"
+            },
+            "artifacts": {
+              "paper": "released",
+              "projectPage": "released",
+              "studio": "released",
+              "code": "not-announced",
+              "modelWeights": "not-announced"
+            },
+            "note": {
+              "en": "The paper, project experience, and Studio entry are public; no model or implementation release is claimed.",
+              "zh": "论文、项目体验与 Studio 入口已公开；不宣称模型权重或实现代码已发布。"
+            }
+          },
+          "links": [
+            {
+              "type": "project",
+              "label": {
+                "en": "Project page",
+                "zh": "项目页"
+              },
+              "url": "https://amap-cvlab.github.io/ABot-3DWorld/"
+            },
+            {
+              "type": "paper",
+              "label": {
+                "en": "Technical report",
+                "zh": "技术报告"
+              },
+              "url": "https://arxiv.org/abs/2607.11673"
+            },
+            {
+              "type": "studio",
+              "label": {
+                "en": "Explore in Studio",
+                "zh": "在 Studio 中探索"
+              },
+              "url": "https://abot-world.amap.com/plaza"
+            }
+          ],
+          "media": {
+            "cover": "/assets/projects/abot-3dworld-cover.webp",
+            "alt": {
+              "en": "A gallery of explorable worlds generated by ABot-3DWorld",
+              "zh": "ABot-3DWorld 生成的可探索世界画廊"
+            }
+          },
+          "evidence": [
+            {
+              "source": "ABot-3DWorld technical report",
+              "url": "https://arxiv.org/abs/2607.11673",
+              "verifiedAt": "2026-08-08"
+            },
+            {
+              "source": "ABot-3DWorld official project page source",
+              "url": "https://github.com/amap-cvlab/ABot-3DWorld",
+              "verifiedAt": "2026-08-08"
+            }
+          ],
+          "featured": true,
+          "featuredRank": 5
+        },
+        {
+          "id": "stack-abot-physworld",
+          "projectRef": "abot-physworld",
+          "name": {
+            "en": "ABot-PhysWorld",
+            "zh": "ABot-PhysWorld"
+          },
+          "tagline": {
+            "en": "Physics-aligned interactive world model for manipulation",
+            "zh": "面向机器人操作的物理对齐交互式世界模型"
+          },
+          "summary": {
+            "en": "A 14B action-controllable video world model for physically plausible robot-object interaction and zero-shot generalization.",
+            "zh": "一个 140 亿参数、可由动作控制的视频世界模型，聚焦符合物理规律的机器人—物体交互与零样本泛化。"
+          },
+          "date": {
+            "value": "2026-03-24",
+            "precision": "day"
+          },
+          "releaseStatus": {
+            "state": "open-source",
+            "label": {
+              "en": "Model + training + inference + benchmark",
+              "zh": "模型 + 训练 + 推理 + 基准"
+            },
+            "artifacts": {
+              "paper": "released",
+              "inferenceCode": "released",
+              "trainingCode": "released",
+              "a2vCode": "released",
+              "dpoCode": "released",
+              "modelWeights": "released",
+              "data": "released",
+              "benchmark": "released"
+            },
+            "note": {
+              "en": "Inference, SFT, A2V, DPO, model, training data, and EZS-Bench resources are public.",
+              "zh": "推理、SFT、A2V、DPO、模型、训练数据与 EZS-Bench 资源均已公开。"
+            }
+          },
+          "links": [
+            {
+              "type": "github",
+              "label": {
+                "en": "Code and resources",
+                "zh": "代码与资源"
+              },
+              "url": "https://github.com/amap-cvlab/ABot-PhysWorld"
+            },
+            {
+              "type": "paper",
+              "label": {
+                "en": "Technical report",
+                "zh": "技术报告"
+              },
+              "url": "https://arxiv.org/abs/2603.23376"
+            },
+            {
+              "type": "model",
+              "label": {
+                "en": "ModelScope model",
+                "zh": "ModelScope 模型"
+              },
+              "url": "https://www.modelscope.cn/models/amap_cvlab/Abot-PhysWorld"
+            }
+          ],
+          "media": {
+            "cover": "/assets/projects/abot-physworld-scene.webp",
+            "alt": {
+              "en": "Robot manipulation interactions generated by ABot-PhysWorld",
+              "zh": "ABot-PhysWorld 生成的机器人操作交互"
+            }
+          },
+          "evidence": [
+            {
+              "source": "ABot-PhysWorld official repository and release log",
+              "url": "https://github.com/amap-cvlab/ABot-PhysWorld",
+              "verifiedAt": "2026-08-08"
+            },
+            {
+              "source": "ABot-PhysWorld technical report",
+              "url": "https://arxiv.org/abs/2603.23376",
+              "verifiedAt": "2026-08-08"
+            }
+          ],
+          "featured": true,
+          "featuredRank": 7
+        }
+      ]
+    },
+    {
+      "id": "agents-real-execution",
+      "number": "03",
+      "title": {
+        "en": "Agents & Real Execution",
+        "zh": "智能体与真实执行"
+      },
+      "description": {
+        "en": "Systems that turn world understanding into memory, planning, navigation, manipulation, and verified action.",
+        "zh": "将世界理解转化为记忆、规划、导航、操作与可验证行动的系统。"
+      },
+      "items": [
+        {
+          "id": "stack-abot-agentos",
+          "projectRef": "abot-agentos",
+          "name": {
+            "en": "ABot-AgentOS",
+            "zh": "ABot-AgentOS"
+          },
+          "tagline": {
+            "en": "A general robotic Agent OS with lifelong multimodal memory",
+            "zh": "具备终身多模态记忆的通用机器人 Agent OS"
+          },
+          "summary": {
+            "en": "A modular runtime and training framework that coordinates reasoning, skills, tools, verification, memory, and heterogeneous robot interfaces.",
+            "zh": "协调推理、技能、工具、验证、记忆与异构机器人接口的模块化运行时和训练框架。"
+          },
+          "date": {
+            "value": "2026-07-11",
+            "precision": "day"
+          },
+          "releaseStatus": {
+            "state": "research-preview",
+            "label": {
+              "en": "Report + project page",
+              "zh": "报告 + 项目页"
+            },
+            "artifacts": {
+              "paper": "released",
+              "projectPage": "released",
+              "code": "preparing",
+              "resources": "preparing"
+            },
+            "note": {
+              "en": "The technical report and project page are public. The repository explicitly says code and resources are being prepared.",
+              "zh": "技术报告与项目页已公开；仓库明确说明代码和资源仍在准备中。"
+            }
+          },
+          "links": [
+            {
+              "type": "project",
+              "label": {
+                "en": "Project page",
+                "zh": "项目页"
+              },
+              "url": "https://amap-cvlab.github.io/ABot-AgentOS"
+            },
+            {
+              "type": "paper",
+              "label": {
+                "en": "Technical report",
+                "zh": "技术报告"
+              },
+              "url": "https://arxiv.org/abs/2607.10350"
+            },
+            {
+              "type": "github",
+              "label": {
+                "en": "Release status",
+                "zh": "发布状态"
+              },
+              "url": "https://github.com/amap-cvlab/ABot-AgentOS"
+            }
+          ],
+          "media": {
+            "cover": "/assets/projects/abot-agentos-framework.webp",
+            "alt": {
+              "en": "ABot-AgentOS architecture and embodied agents",
+              "zh": "ABot-AgentOS 架构与具身智能体"
+            }
+          },
+          "evidence": [
+            {
+              "source": "ABot-AgentOS official repository",
+              "url": "https://github.com/amap-cvlab/ABot-AgentOS",
+              "verifiedAt": "2026-08-08"
+            },
+            {
+              "source": "ABot-AgentOS technical report",
+              "url": "https://arxiv.org/abs/2607.10350",
+              "verifiedAt": "2026-08-08"
+            }
+          ],
+          "featured": true,
+          "featuredRank": 6
+        },
+        {
+          "id": "stack-abot-m05",
+          "projectRef": "abot-m05",
+          "name": {
+            "en": "ABot-M0.5",
+            "zh": "ABot-M0.5"
+          },
+          "tagline": {
+            "en": "Unified mobility-and-manipulation World Action Model",
+            "zh": "统一移动与操作的世界动作模型"
+          },
+          "summary": {
+            "en": "A World Action Model that aligns temporal granularity, heterogeneous action spaces, and training-time conditions for long-horizon mobile manipulation.",
+            "zh": "通过对齐时间粒度、异构动作空间与训练时条件，面向长时程移动操作的世界动作模型。"
+          },
+          "date": {
+            "value": "2026-07-01",
+            "precision": "day"
+          },
+          "releaseStatus": {
+            "state": "partial-release",
+            "label": {
+              "en": "Inference + weights + evaluation",
+              "zh": "推理 + 权重 + 评测"
+            },
+            "artifacts": {
+              "paper": "released",
+              "projectPage": "released",
+              "inferenceCode": "released",
+              "modelWeights": "released",
+              "evaluationCode": "released",
+              "trainingCode": "not-announced"
+            },
+            "note": {
+              "en": "Inference code, pretrained weights, and evaluation scripts are public; this entry does not claim a full training-code release for M0.5.",
+              "zh": "推理代码、预训练权重与评测脚本已公开；本条目不宣称 M0.5 的完整训练代码已发布。"
+            }
+          },
+          "links": [
+            {
+              "type": "project",
+              "label": {
+                "en": "Project page",
+                "zh": "项目页"
+              },
+              "url": "https://amap-cvlab.github.io/ABot-Manipulation/"
+            },
+            {
+              "type": "github",
+              "label": {
+                "en": "Inference and evaluation",
+                "zh": "推理与评测"
+              },
+              "url": "https://github.com/amap-cvlab/ABot-Manipulation"
+            },
+            {
+              "type": "paper",
+              "label": {
+                "en": "Technical report",
+                "zh": "技术报告"
+              },
+              "url": "https://arxiv.org/abs/2607.00678"
+            },
+            {
+              "type": "model",
+              "label": {
+                "en": "Model on Hugging Face",
+                "zh": "Hugging Face 模型"
+              },
+              "url": "https://huggingface.co/acvlab/abot-m0.5"
+            }
+          ],
+          "media": {
+            "cover": "/assets/projects/abot-m05-cover.webp",
+            "alt": {
+              "en": "ABot-M0.5 mobile manipulation demonstrations",
+              "zh": "ABot-M0.5 移动操作演示"
+            }
+          },
+          "evidence": [
+            {
+              "source": "ABot-Manipulation official repository release log",
+              "url": "https://github.com/amap-cvlab/ABot-Manipulation",
+              "verifiedAt": "2026-08-08"
+            },
+            {
+              "source": "ABot-M0.5 technical report",
+              "url": "https://arxiv.org/abs/2607.00678",
+              "verifiedAt": "2026-08-08"
+            }
+          ],
+          "featured": true,
+          "featuredRank": 3
+        },
+        {
+          "id": "stack-abot-n1",
+          "projectRef": "abot-n1",
+          "name": {
+            "en": "ABot-N1",
+            "zh": "ABot-N1"
+          },
+          "tagline": {
+            "en": "Toward a general visual-language navigation foundation model",
+            "zh": "迈向通用视觉语言导航基础模型"
+          },
+          "summary": {
+            "en": "A slow-fast navigation architecture that uses explicit reasoning and pixel goals to connect high-level intent with continuous control across five navigation paradigms.",
+            "zh": "以显式推理与像素目标连接高层意图和连续控制的快慢双系统导航架构，覆盖五类导航范式。"
+          },
+          "date": {
+            "value": "2026-07-11",
+            "precision": "day"
+          },
+          "releaseStatus": {
+            "state": "partial-release",
+            "label": {
+              "en": "Paper + benchmarks + data + evaluation",
+              "zh": "论文 + 基准 + 数据 + 评测"
+            },
+            "artifacts": {
+              "paper": "released",
+              "projectPage": "released",
+              "benchmark": "released",
+              "data": "released",
+              "evaluationCode": "released",
+              "modelCode": "not-announced",
+              "modelWeights": "not-announced"
+            },
+            "note": {
+              "en": "The benchmark suites, data, and evaluation toolkit are public. This entry does not claim that the ABot-N1 model implementation or weights are released.",
+              "zh": "基准套件、数据与评测工具已公开；本条目不宣称 ABot-N1 模型实现或权重已经发布。"
+            }
+          },
+          "links": [
+            {
+              "type": "project",
+              "label": {
+                "en": "Project page",
+                "zh": "项目页"
+              },
+              "url": "https://amap-cvlab.github.io/ABot-Navigation/ABot-N1/"
+            },
+            {
+              "type": "paper",
+              "label": {
+                "en": "Technical report",
+                "zh": "技术报告"
+              },
+              "url": "https://arxiv.org/abs/2607.10383"
+            },
+            {
+              "type": "github",
+              "label": {
+                "en": "Benchmarks and evaluation",
+                "zh": "基准与评测"
+              },
+              "url": "https://github.com/amap-cvlab/ABot-Navigation/tree/ABotN-Bench"
+            }
+          ],
+          "media": {
+            "cover": "/assets/projects/abot-n1-cover.webp",
+            "alt": {
+              "en": "ABot-N1 navigating indoor and outdoor environments",
+              "zh": "ABot-N1 在室内外环境中进行导航"
+            }
+          },
+          "evidence": [
+            {
+              "source": "ABot-N1 technical report",
+              "url": "https://arxiv.org/abs/2607.10383",
+              "verifiedAt": "2026-08-08"
+            },
+            {
+              "source": "ABotN-Bench official release branch",
+              "url": "https://github.com/amap-cvlab/ABot-Navigation/tree/ABotN-Bench",
+              "verifiedAt": "2026-08-08"
+            }
+          ],
+          "featured": true,
+          "featuredRank": 5
+        }
+      ]
+    }
+  ]
+}

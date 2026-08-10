@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "section": {
+    "index": "ABOUT / 05",
+    "eyebrow": {
+      "en": "About the lab",
+      "zh": "关于实验室"
+    },
+    "action": {
+      "label": {
+        "en": "Explore our GitHub",
+        "zh": "访问团队 GitHub"
+      }
+    }
+  },
+  "intro": {
+    "eyebrow": {
+      "en": "About AMAP CV Lab",
+      "zh": "关于高德视觉技术中心"
+    },
+    "title": {
+      "en": "AI at the intersection of the physical and digital worlds",
+      "zh": "在物理世界与数字世界的交汇处构建 AI"
+    },
+    "lead": {
+      "en": "Alibaba AMAP CV Lab advances computer vision and its real-world applications as a core technology team behind AMAP's spatial intelligent internet.",
+      "zh": "阿里巴巴高德视觉技术中心聚焦计算机视觉前沿研究与真实世界应用，是高德空间智能互联网的重要技术力量。"
+    },
+    "body": [
+      {
+        "en": "Our research spans the full path from perception to generation, and from human-centered intelligence to world modeling. We connect large-scale spatial data, generative models, and embodied systems instead of treating them as isolated capabilities.",
+        "zh": "我们的研究覆盖从感知到生成、从以人为中心的智能到世界建模的完整链路，并将大规模空间数据、生成模型与具身系统连接为一个整体。"
+      },
+      {
+        "en": "This end-to-end view turns research into systems that can understand places, imagine possible futures, navigate complex spaces, and execute tasks in the real world.",
+        "zh": "这种端到端视角让研究真正成为可运行的系统：理解地点、想象未来、穿行复杂空间，并在真实世界中完成任务。"
+      }
+    ],
+    "media": {
+      "image": "/assets/backgrounds/spatial-atlas.webp",
+      "alt": {
+        "en": "AMAP CV Lab research connecting maps, generated worlds, and robots",
+        "zh": "高德视觉技术中心连接地图、生成世界与机器人的研究体系"
+      }
+    }
+  },
+  "pillars": [
+    {
+      "id": "about-pillar-understand",
+      "number": "01",
+      "title": {
+        "en": "Understand",
+        "zh": "理解"
+      },
+      "description": {
+        "en": "Build spatial representations from maps, sensors, images, video, and reconstructed 3D environments.",
+        "zh": "从地图、传感器、图像、视频与三维重建环境中构建空间表征。"
+      },
+      "stageId": "spatial-data-foundations"
+    },
+    {
+      "id": "about-pillar-simulate",
+      "number": "02",
+      "title": {
+        "en": "Simulate",
+        "zh": "模拟"
+      },
+      "description": {
+        "en": "Model dynamic, explorable, and physically meaningful worlds for prediction, generation, and training.",
+        "zh": "建模动态、可探索且具有物理意义的世界，用于预测、生成与训练。"
+      },
+      "stageId": "world-foundation-models"
+    },
+    {
+      "id": "about-pillar-act",
+      "number": "03",
+      "title": {
+        "en": "Act",
+        "zh": "行动"
+      },
+      "description": {
+        "en": "Turn perception and world knowledge into navigation, manipulation, memory, tool use, and verified execution.",
+        "zh": "将感知与世界知识转化为导航、操作、记忆、工具使用与可验证执行。"
+      },
+      "stageId": "agents-real-execution"
+    }
+  ],
+  "sources": [
+    {
+      "source": "AMAP CV Lab official organization profile",
+      "url": "https://github.com/amap-cvlab",
+      "verifiedAt": "2026-08-08"
+    }
+  ]
+}

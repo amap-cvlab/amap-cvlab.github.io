@@ -1,350 +1,60 @@
-# Alibaba AMAP CV Lab
+# AMAP CV Lab Homepage and Works Index
 
-[中文阅读](README_zh.md)
+A bilingual, data-driven homepage for Alibaba AMAP CV Lab and the ABot Stack, plus a complete Projects & Publications index. The lightweight React/Vite site uses an “Atlas Worldline” to connect the lab-wide Understand → Simulate → Act narrative with a dedicated ABot Stack observatory.
 
-# 👋 About
+The build has two real static entries for GitHub Pages:
 
-The Alibaba AMAP CV Lab focuses on cutting-edge research and innovative applications centered around computer vision technology, dedicated to building the core technological capabilities of the spatiotemporal internet. Positioned at the intersection of the physical and digital worlds, we empower smart mobility, daily life, and virtual spaces through AI-driven understanding and generation.
+- `/` — the editorial homepage, including six selected works and the complete lab-news archive.
+- `/works/` — the complete, filterable Works index. It contains 48 canonical works formed from 40 project records and 47 publication/report records.
 
-As the core technical driving force behind AMAP, our research spans the entire chain from perception to generation, and from human-centric intelligence to world modeling. We are structured into six major research domains:
+## Content model
 
-- 🗺️ **Map & Autonomous Driving:** Integrating multimodal perception with high-definition map generation to enable spatial semantic understanding and regulation-aware intelligent driving.
-- 🕺🏻 **Human-Centric AI:** Building AI systems that understand human emotion, identity, and behavior to achieve natural visual generation and interaction.
-- 🧭 **Embodied Intelligence:** Studying agents that perceive, plan, and act within both virtual and physical environments, unifying vision, language, and motion intelligence.
-- 🌐 **World Modeling:** Constructing dynamic, interactive models of the world to empower AI with the ability to understand, predict, and generate complex environments.
-- 🧊 **3D Generation & Reconstruction:** Advancing 3D scene modeling, rendering, and generation with continuous level-of-detail control and physically realistic synthesis.
-- 🧠 **General Deep Learning:** Exploring general representation learning, model optimization, and multimodal alignment as foundational algorithms for spatiotemporal intelligence.
+All public copy and release metadata live in independent JSON modules under `public/data/`:
 
-The AMAP CV Lab stands at the forefront of computer vision research and application, serving as a key technological practitioner in Alibaba’s spatial intelligent internet.
-We believe that AI’s ability to understand the world defines the future of intelligent mobility and everyday life.
+| Module | Purpose |
+| --- | --- |
+| `site.json` | Brand, navigation, hero worldline, global UI labels, footer |
+| `about.json` | Lab introduction, three capability pillars, and closing section |
+| `research-areas.json` | Six official research areas, their presentation stages, and reverse project coverage |
+| `abot-stack.json` | Three-layer ABot Stack and its nine visible nodes |
+| `projects.json` | 40 project entities, homepage selection metadata, links, media, areas, and release state |
+| `publications.json` | 47 publication/report entities and explicit `projectIds` relationships |
+| `works.json` | Works-page copy, filter labels, statistics labels, help text, and empty states only |
+| `news.json` | Chronological releases, news, product milestones, and evidence |
 
----
+Visible bilingual fields use `{ "en": "…", "zh": "…" }`. Project and publication records remain separate sources of truth and are merged at runtime only through explicit `canonicalWorkId` / `projectIds` relationships. A project with a related publication renders as one hybrid work, so the index contains 48 unique works rather than 87 duplicated rows.
 
-_We welcome contributions, issues, and feedback!_
-Feel free to ⭐ the repos below to stay updated.
+The homepage loads only its six original modules. The Works entry uses `loadWorksContent` to load `projects.json`, `publications.json`, `research-areas.json`, `site.json`, and `works.json`; changing the publications archive therefore does not increase the homepage data payload.
 
-# 🔈 Latest News
+The content validator prevents missing required fields, invalid URLs, broken assets, duplicate or dangling references, unsupported release states, navigation mismatches, venue/year drift, invalid home selection, and canonical-work count regressions. It also protects the historical 29-work catalog, the six official research-area counts, the seven Fantasy-AMAP research projects, and the explicit 40 / 47 / 48 entity relationship.
 
-- 🏛 **Jan, 2026** – We are thrilled to announce that **7 papers** from our team have been accepted to ICLR 2026, highlighting our latest breakthroughs in map & autonomous driving ([**Online Navigation Refinement**](https://wallelwan.github.io/OMA-MAT/)), embodied AI ([**JanusVLN**](https://miv-xjtu.github.io/JanusVLN.github.io/), [**CE-Nav**](https://ce-nav.github.io/), [**OmniNav**](https://arxiv.org/abs/2509.25687)), world modeling ([**FantasyWorld**](https://fantasy-amap.github.io/fantasy-world/)), and 3D generation (**Sat3DGen**, **CLoD-GS**).
-- 📢 **Jan, 2026** – We released the training and inference code and model weights of [**FantasyVLN**](https://fantasy-amap.github.io/fantasy-vln/).
-- 🏆 **Dec, 2025** - [**FantasyWorld**](https://fantasy-amap.github.io/fantasy-world/) ranked <strong>1st</strong> on the [**WorldScore**](https://huggingface.co/spaces/Howieeeee/WorldScore_Leaderboard) Leaderboard (by **Stanford Prof. Fei-Fei Li's Team**), validating our approach against global state-of-the-art models.
-- 🏛 **Nov, 2025** – We are thrilled to announce that **5 papers** from our team have been accepted to AAAI 2026, including 1 Oral, highlighting our latest breakthroughs in autonomous driving ([**UniMapGen**](https://amap-cvlab.github.io/UniMapGen/) (*Oral*), [**PriorDrive**](https://miv-xjtu.github.io/PriorDrive/), [**PAMR**](https://miv-xjtu.github.io/PAMR/)) and video generation & digital humans from our [**Fantasy AIGC Family**](https://fantasy-amap.github.io/) ([**FantasyTalking2**](https://fantasy-amap.github.io/fantasy-talking2/), [**FantasyHSI**](https://fantasy-amap.github.io/fantasy-hsi/)).
-- 🏛 **Sep, 2025** – Our paper [**FutureSightDrive**](https://miv-xjtu.github.io/FSDrive.github.io/) is accepted by NeurIPS 2025 (Spotlight).
-- 🏛 **Jul, 2025** – Our paper [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/) is accepted by ACM MM 2025.
-- 🏛 **Jun, 2025** – Our paper [**SeqGrowGraph**](https://openaccess.thecvf.com/content/ICCV2025/papers/Xie_SeqGrowGraph_Learning_Lane_Topology_as_a_Chain_of_Graph_Expansions_ICCV_2025_paper.pdf) is accepted by ICCV 2025.
-- 📢 **May, 2025** – We released the full project of [**FSDrive**](https://miv-xjtu.github.io/FSDrive.github.io/).
-- 🏛 **Apr, 2025** – Our paper [**G3PT**](https://arxiv.org/abs/2409.06322) is accepted by IJCAI 2025.
-- 📢 **Apr, 2025** – We released the inference code and model weights of [**FantasyTalking**](https://fantasy-amap.github.io/fantasy-talking/), [**FantasyID**](https://fantasy-amap.github.io/fantasy-id/).
+## Local development
 
+```bash
+npm install
+npm run dev
+```
 
-# 🔧 Public Technologies
+Quality checks:
 
-## 🗺️ Map & Autonomous Driving
+```bash
+npm run check:content
+npm run test:ui
+npm run build
+npm run test:sites
+```
 
-The core of our research lies in integrating perception, mapping, and decision-making for intelligent transportation. We develop next-generation 3D map engines, traffic rule reasoning, and scene-level behavior modeling, enabling AI to understand spatial context and make interpretable decisions in real-world urban environments.
-<br><br>
+`npm run build` writes both `dist/client/index.html` and `dist/client/works/index.html` for GitHub Pages, then prepares the same output for Sites. The Sites worker also resolves `/works` and `/works/` directly to the nested entry; neither deployment path relies on a single-page-app rewrite.
 
-### 🛣 Online Navigation Refinement: Achieving Lane-Level Guidance by Associating Standard-Definition and Online Perception Maps
+## Publishing
 
-[![Project](https://img.shields.io/badge/🌐%20%20Project-OMA%20MAT-blue.svg)](https://wallelwan.github.io/OMA-MAT/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
-[![arXiv](https://img.shields.io/badge/Arxiv-2507.07487-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.07487)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/WallelWan/OMA-MAT)
-![GitHub Stars](https://img.shields.io/github/stars/WallelWan/OMA-MAT)
+`.github/workflows/deploy-pages.yml` builds and deploys the root site whenever `main` is pushed. In GitHub repository settings, choose **GitHub Actions** as the Pages source.
 
-The first benchmark for Online Navigation Refinement, which proposes a path-aware transformer to associate standard maps with online perception and unifies global topology with real-time geometry for low-cost lane-level navigation.
-<br><br>
+## Editorial rules
 
-### 🚘 FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FSDrive-blue.svg)](https://miv-xjtu.github.io/FSDrive.github.io/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-NeurIPS%202025%20%28Spotlight%29-green.svg)](https://neurips.cc/virtual/2025/poster/116)
-[![arXiv](https://img.shields.io/badge/Arxiv-2505.17685-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2505.17685)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/FSDrive)
-![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/FSDrive)
-
-The first VLA for autonomous driving visual reasoning, which proposes spatio-temporal CoT to think visually about trajectory planning and unifies visual generation and understanding with minimal data.
-<br><br>
-
-### 🗺 UniMapGen: A Generative Frameworkfor Large-Scale Map Construction from Multi-modal Data
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-UniMapGen-blue.svg)](https://amap-cvlab.github.io/UniMapGen/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026%20%28Oral%29-green.svg)](https://arxiv.org/pdf/2509.22262)
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.22262-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22262)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/UniMapGen)
-![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/UniMapGen)
-
-A generative unified framework that autoregressively generates smooth and topologically consistent vectorized maps from multi-modal inputs, enabling scalable, occlusion-robust city-scale mapping without costly on-site data collection.
-<br><br>
-
-### 🛣️ PriorDrive: Enhancing Online HD Mapping with Unified Vector Priors
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-PriorDrive-blue.svg)](https://miv-xjtu.github.io/PriorDrive/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://arxiv.org/abs/2409.05352)
-[![arXiv](https://img.shields.io/badge/Arxiv-2409.05352-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2409.05352)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/PriorDrive)
-![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/PriorDrive)
-
-This is the first framework that unifies the encoding and integration of diverse vectorized prior maps (such as SD maps, outdated HD maps, and historical maps) to enhance online HD map construction.
-<br><br>
-
-### 🚥 Persistent Autoregressive Mapping with Traffic Rules for Autonomous Driving
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-PAMR-blue.svg)](https://miv-xjtu.github.io/PAMR/)
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.22756-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22756)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/PAMR)
-![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/PAMR)
-
-Pioneering a generative co-reasoning paradigm in autonomous mapping, this work (PAMR) unifies the autoregressive construction of lane geometry and persistent traffic rules, enabling vehicles to build maps with long-term memory and consistent rule awareness across extended sequences.
-<br><br>
-
-### 📑 SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions
-
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICCV%202025-green.svg)](https://openaccess.thecvf.com/content/ICCV2025/papers/Xie_SeqGrowGraph_Learning_Lane_Topology_as_a_Chain_of_Graph_Expansions_ICCV_2025_paper.pdf)
-[![arXiv](https://img.shields.io/badge/Arxiv-2507.04822v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.04822v1)
-
-A generative framework that reframes lane network learning as a process of incrementally building an adjacency matrix.
-<br><br>
-
-### 🚗 Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-MapDR-blue.svg)](https://miv-xjtu.github.io/MapDR/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-CVPR%202025%20%28Highlight%29-green.svg)](https://openaccess.thecvf.com/content/CVPR2025/papers/Chang_Driving_by_the_Rules_A_Benchmark_for_Integrating_Traffic_Sign_CVPR_2025_paper.pdf)
-[![arXiv](https://img.shields.io/badge/Arxiv-2410.23780-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.23780)
-
-Benchmark and multi-modal approach for integrating lane-level traffic sign regulations into vectorized HD maps.
-<br><br>
-
-## 🕺🏻 Human-Centric AI
-
-Centered on generative AI, our digital human research advances from driven generation to autonomous action. Through the [Fantasy AIGC Family](https://github.com/Fantasy-AMAP), we achieve expressive, identity-consistent, and physically realistic video generation via multimodal diffusion and 3D-aware modeling.
-<br><br>
-
-### 🗣️ FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyTalking-blue.svg)](https://fantasy-amap.github.io/fantasy-talking/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ACM%20MM%202025-green.svg)](https://dl.acm.org/doi/10.1145/3746027.3755217)
-[![arXiv](https://img.shields.io/badge/Arxiv-2504.04842-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2504.04842)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-talking)
-![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-talking)
-[![HuggingFace Model](https://img.shields.io/badge/🤗-HuggingFace-FFD21E.svg)](https://huggingface.co/acvlab/FantasyTalking)
-[![HuggingFace Space](https://img.shields.io/badge/🤗-HuggingFace%20Space-FFD21E.svg)](https://huggingface.co/spaces/acvlab/FantasyTalking)
-[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyTalking)
-
-The first Wan-based high-fidelity audio-driven avatar system that synchronizes facial expressions, lip motion, and body gestures in dynamic scenes through dual-stage audio-visual alignment and controllable motion modulation.
-<br><br>
-
-### 🎙️ FantasyTalking2: Timestep-Layer Adaptive Preference Optimization for Audio-Driven Portrait Animation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyTalking2-blue.svg)](https://fantasy-amap.github.io/fantasy-talking2/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://doi.org/10.48550/arXiv.2508.11255)
-[![arXiv](https://img.shields.io/badge/Arxiv-2508.11255v1-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2508.11255v1)
-[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-talking2)
-
-A novel Timestep-Layer Adaptive Multi-Expert Preference Optimization (TLPO) method enhances the quality of audio-driven avatar in three dimensions: lip-sync, motion naturalness, and visual quality.
-<br><br>
-
-### 🗿 FantasyHSI: Video-Generation-Centric 4D Human Synthesis In Any Scene through A Graph-based Multi-Agent Framework
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyHSI-blue.svg)](https://fantasy-amap.github.io/fantasy-hsi/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-AAAI%202026-green.svg)](https://doi.org/10.48550/arXiv.2509.01232)
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.01232-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.01232)
-[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-hsi)
-
-A graph-based multi-agent framework that grounds video generation within 3D world dynamics, enabling digital humans to perceive, plan, and act autonomously, thus serving as the technical bridge that links human modeling to world modeling through unified perception–action reasoning.
-<br><br>
-
-### 🤡 FantasyPortrait: Enhancing Multi-Character Portrait Animation with Expression-Augmented Diffusion Transformers
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyPortrait-blue.svg)](https://fantasy-amap.github.io/fantasy-portrait/)
-[![arXiv](https://img.shields.io/badge/Arxiv-2507.12956-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.12956)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-portrait)
-![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-portrait)
-
-A novel expression-driven video-generation method that pairs emotion-enhanced learning with masked cross-attention, enabling the creation of high-quality, richly expressive animations for both single and multi-portrait scenarios.
-<br><br>
-
-### 🆔 FantasyID: Face Knowledge Enhanced ID-Preserving Video Generation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyID-blue.svg)](https://fantasy-amap.github.io/fantasy-id/)
-[![arXiv](https://img.shields.io/badge/Arxiv-2502.13995-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.13995)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-id)
-![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-id)
-[![HuggingFace Model](https://img.shields.io/badge/🤗-HuggingFace-FFD21E.svg)](https://huggingface.co/acvlab/FantasyID)
-[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyID)
-
-A tuning-free text-to-video model that leverages 3D facial priors, multi-view augmentation, and layer-aware guidance injection to deliver dynamic, identity-preserving video generation.
-<br><br>
-
-### 💃🏻 HumanRig: Learning Automatic Rigging for Humanoid Characters in Animation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-HumanRig-blue.svg)](https://c8241998.github.io/HumanRig/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-CVPR%202025%20%28Highlight%29-green.svg)](https://openaccess.thecvf.com/content/CVPR2025/papers/Chu_HumanRig_Learning_Automatic_Rigging_for_Humanoid_Character_in_a_Large_CVPR_2025_paper.pdf)
-[![arXiv](https://img.shields.io/badge/Arxiv-2412.02317-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.02317)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/c8241998/HumanRig)
-![GitHub Stars](https://img.shields.io/github/stars/c8241998/HumanRig)
-[![HuggingFace Dataset](https://img.shields.io/badge/🤗-HuggingFace%20Dataset-FFD21E.svg)](https://huggingface.co/datasets/jellyczd/HumanRig)
-
-The first dataset for automatic rigging of 3D generated digital humans and a transformer-based end-to-end automatic rigging algorithm.
-<br><br>
-
-## 🧭 Embodied AI
-
-We study perception, reasoning, and action of intelligent agents in both virtual and physical environments. By integrating vision-language models and reinforcement learning, we build embodied agents capable of environmental perception, goal planning, and task execution, forming a unified cognitive foundation for robots and digital humans.
-<br><br>
-
-### 🧠 JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-JanusVLN-blue.svg)](https://miv-xjtu.github.io/JanusVLN.github.io/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.22548-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.22548)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/MIV-XJTU/JanusVLN)
-![GitHub Stars](https://img.shields.io/github/stars/MIV-XJTU/JanusVLN)
-[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/misstl/JanusVLN_Extra)
-
-The first visual-language navigation agent with dual implicit memory decouples visual semantics and spatial perception and models them respectively as compact implicit neural representations.
-<br><br>
-
-### CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-CE%20Nav-blue.svg)](https://ce-nav.github.io/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.23203-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.23203)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/CE-Nav)
-![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/CE-Nav)
-
-A novel cross-embodiment local navigation framework, which can serve as a "one brain, multiple forms", plug-and-play fast system.
-<br><br>
-
-### OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation
-
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.25687-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.25687)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/OmniNav)
-![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/OmniNav)
-
-OmniNav is a unified embodied navigation framework that combines a lightweight, real-time (up to 5 Hz) continuous waypoint policy with a fast–slow planning architecture and large-scale vision-language multi-task training to robustly handle instruction-, object-, and point-goal navigation and frontier exploration, achieving state-of-the-art performance and real-world validation.
-<br><br>
-
-### 🕵🏻‍♂️ FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-and-Language Navigation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyVLN-blue.svg)](https://fantasy-amap.github.io/fantasy-vln/)
-[![arXiv](https://img.shields.io/badge/Arxiv-2601.13976-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2601.13976)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-vln)
-![GitHub Stars](https://img.shields.io/github/stars/Fantasy-AMAP/fantasy-vln)
-[![HuggingFace Model](https://img.shields.io/badge/🤗-HuggingFace-FFD21E.svg)](https://huggingface.co/acvlab/FantasyVLN)
-[![ModelScope](https://img.shields.io/badge/👾-ModelScope-604DF4.svg)](https://modelscope.cn/models/amap_cvlab/FantasyVLN)
-
-A unified multimodal Chain-of-Thought (CoT) reasoning framework that internalizes the inference capabilities of world models into the VLN architecture, enabling efficient and precise navigation based on natural language instructions and visual observations.
-<br><br>
-
-### Seeing Space and Motion: Enhancing Latent Actions with Spatial and Dynamic Awareness for VLA
-
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.26251-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.26251)
-
-A Robust Vision-Language-Action Framework with Structural Perception and Explicit Dynamics Reasoning.
-<br><br>
-
-## 🌐 World Modeling
-
-We aim to construct dynamic, interactive world models for understanding, predicting, and generating physically consistent spatiotemporal phenomena. By leveraging multimodal modeling and generative learning, our research enables a perception-to-simulation loop that empowers AI to comprehend and recreate the real world.
-<br><br>
-
-### 🌏 FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-FantasyWorld-blue.svg)](https://fantasy-amap.github.io/fantasy-world/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.21657-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.21657)
-[![GitHub](https://img.shields.io/badge/Code%20%28Comming%20Soon%29-GitHub-181717.svg?logo=GitHub)](https://github.com/Fantasy-AMAP/fantasy-world)
-
-A unified world model integrating video priors and geometric grounding for synthesizing explorable and geometrically consistent 3D scenes.
-<br><br>
-
-### World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training
-
-[![arXiv](https://img.shields.io/badge/Arxiv-2509.24948-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.24948)
-
-A novel framework leveraging world model as a virtual environment for VLA post training.
-<br><br>
-
-## 🧊 3D Generation & Reconstruction
-
-Our research in 3D generation and reconstruction covers Gaussian Splatting, NeRF, and 3D-aware diffusion, aiming for real-time rendering, continuous level-of-detail control, and semantically consistent 3D scene synthesis.
-<br><br>
-
-### 🛰 Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image
-
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
-
-A feed-forward generative framework for synthesizing street-view-level 3D content from a single satellite image based on a geometry-first strategy. Without requiring 3D annotations.
-<br><br>
-
-### 💠 CLoD-GS: Continuous Level-of-Detail Gaussian Splatting for Real-Time Rendering
-
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICLR%202026-green.svg)]()
-[![arXiv](https://img.shields.io/badge/Arxiv-2510.09997-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2510.09997)
-
-CLoD-GS equips 3D Gaussian Splatting with learnable distance-adaptive opacity, enabling smooth, storage-efficient, artifact-free continuous level-of-detail rendering from a single model.
-<br><br>
-
-### 🧸 G3PT: Unleash the Power of Autoregressive Modeling in 3D Generative Tasks
-
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-IJCAI%202025-green.svg)](https://www.ijcai.org/proceedings/2025/262)
-[![arXiv](https://img.shields.io/badge/Arxiv-2409.06322-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2409.06322)
-
-The first native 3D generation foundational model based on next-scale autoregression.
-<br><br>
-
-### 🏙 Global-Guided Focal Neural Radiance Field for Large-Scale Scene Representation
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-GF%20NeRF-blue.svg)](https://shaomq2187.github.io/GF-NeRF/)
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-WACV%202025-green.svg)](https://ieeexplore.ieee.org/abstract/document/10943871)
-[![arXiv](https://img.shields.io/badge/Arxiv-2403.12839-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2403.12839)
-
-GF-NeRF introduces a global-guided two-stage architecture to achieve consistent and high-fidelity large-scale scene rendering without relying on prior scene knowledge.
-<br><br>
-
-### 🎨 MVPainter: Accurate and Detailed 3D Texture Generation via Multi-View Diffusion with Geometric Control
-
-[![Project](https://img.shields.io/badge/🌐%20%20Project-MVPainter-blue.svg)](https://amap-cvlab.github.io/MV-Painter)
-[![arXiv](https://img.shields.io/badge/Arxiv-2505.12635-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2505.12635)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/amap-cvlab/MV-Painter)
-![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/MV-Painter)
-
-Geometrically controlled multi-view diffusion model for generating high-fidelity, detail-rich, and geometrically consistent 3D textures and PBR materials from a single reference image.
-<br><br>
-
-## 🧠 General Deep Learning
-
-We focus on general representation learning and model optimization as the foundation for multimodal and cross-domain AI systems. Our research includes Transformer architecture optimization, distributed training, model compression, and preference alignment (DPO, RLHF) to enhance generalization and interpretability.
-<br><br>
-
-### 🎙️ A Study on the Adverse Impact of Synthetic Speech on Speech Recognition
-
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ICASSP%202024-green.svg)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10446991)
-
-Performance analysis and novel solution exploration for speech recognition under synthetic speech interference.
-<br><br>
-
-### Doubly-Fused ViT: Fuse Information from Dual Vision Transformer Streams
-
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-ECCV%202022-green.svg)](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830723.pdf)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=GitHub)](https://github.com/ginobilinie/DFvT)
-![GitHub Stars](https://img.shields.io/github/stars/ginobilinie/DFvT)
-
-DFvT introduces a doubly-fused Vision Transformer that combines efficient global context modeling with fine-grained spatial detail preservation to achieve high accuracy and efficiency.
-<br><br>
-
-### SCMT: Self-Correction Mean Teacher for Semi-supervised Object Detection
-
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-IJCAI%202022-green.svg)](https://www.ijcai.org/proceedings/2022/0207.pdf)
-
-A self-correction mean teacher architecture that mitigates the impact of noisy pseudo-labels, offering a novel technological breakthrough in the field of semi-supervised object detection.
-<br><br>
-
-### DPOSE: Online Keypoint-CAM Guided Inference for Driver Pose Estimation
-
-[![Conference](https://img.shields.io/badge/%F0%9F%8F%9B%20%20Conference-CVPR%20Workshop%202023-green.svg)](https://openaccess.thecvf.com/content/CVPR2023W/Precognition/papers/Guo_DPOSE_Online_Keypoint-CAM_Guided_Inference_for_Driver_Pose_Estimation_With_CVPRW_2023_paper.pdf)
-
-An optimization scheme for a proprietary HPE task in DMS scenarios which involves a pose-wise hard mining strategy for distribution balance and an online keypoint-aligned Grad-CAM loss to constrain activations to semantic regions.
-<br><br>
+- Edit entity content directly in the JSON module that owns it. Do not add a generated aggregate Works catalog or hard-code work records in JSX.
+- Keep release claims artifact-specific: paper, project page, code, weights, data, benchmark, or demo.
+- Do not label previews as open-source releases.
+- Prefer official GitHub repositories, project pages, arXiv records, model/data hubs, and Alibaba Group news as evidence.
+- Keep media local; do not hotlink production images.
+- Update `public/assets/ATTRIBUTION.md` when adding or replacing an asset.

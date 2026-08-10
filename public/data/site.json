@@ -1,0 +1,260 @@
+{
+  "schemaVersion": "1.2.0",
+  "updatedAt": "2026-08-10",
+  "defaultLocale": "en",
+  "brand": {
+    "name": {
+      "en": "Alibaba AMAP CV Lab",
+      "zh": "阿里巴巴高德视觉技术中心"
+    },
+    "shortName": {
+      "en": "AMAP CV Lab",
+      "zh": "高德视觉技术中心"
+    },
+    "logo": "/assets/brand/amap-cvlab-logo.png",
+    "organizationUrl": "https://github.com/amap-cvlab"
+  },
+  "navigation": [
+    {
+      "id": "nav-lab",
+      "label": {
+        "en": "Lab",
+        "zh": "实验室"
+      },
+      "href": "#top"
+    },
+    {
+      "id": "nav-abot-stack",
+      "label": {
+        "en": "ABot Stack",
+        "zh": "ABot 技术栈"
+      },
+      "href": "#abot-stack"
+    },
+    {
+      "id": "nav-research",
+      "label": {
+        "en": "Research",
+        "zh": "研究"
+      },
+      "href": "#research"
+    },
+    {
+      "id": "nav-works",
+      "label": {
+        "en": "Works",
+        "zh": "成果"
+      },
+      "href": "/works/"
+    },
+    {
+      "id": "nav-releases",
+      "label": {
+        "en": "Releases",
+        "zh": "动态"
+      },
+      "href": "#releases"
+    },
+    {
+      "id": "nav-about",
+      "label": {
+        "en": "About",
+        "zh": "关于"
+      },
+      "href": "#about"
+    }
+  ],
+  "hero": {
+    "brandLabel": {
+      "en": "ALIBABA · AMAP CV LAB",
+      "zh": "阿里巴巴 · 高德视觉技术中心"
+    },
+    "eyebrow": {
+      "en": "Spatial intelligence, built end to end",
+      "zh": "端到端构建空间智能"
+    },
+    "title": {
+      "en": "From Earth-scale data, through world models, to embodied action.",
+      "zh": "从地球尺度数据，经由世界模型，到具身智能行动。"
+    },
+    "titleLines": [
+      {
+        "en": "From Earth-scale",
+        "zh": "从地球尺度数据，"
+      },
+      {
+        "en": "data to world models",
+        "zh": "经由世界模型，"
+      },
+      {
+        "en": "to embodied action.",
+        "zh": "到具身智能行动。"
+      }
+    ],
+    "description": {
+      "en": "AMAP CV Lab builds the models, environments, and agents that let AI understand, simulate, and operate in the real world.",
+      "zh": "高德视觉技术中心构建模型、环境与智能体，让 AI 能够理解、模拟并行动于真实世界。"
+    },
+    "primaryAction": {
+      "label": {
+        "en": "Explore the ABot Stack",
+        "zh": "探索 ABot 技术栈"
+      },
+      "href": "#abot-stack"
+    },
+    "secondaryAction": {
+      "label": {
+        "en": "View all releases",
+        "zh": "查看全部动态"
+      },
+      "href": "#releases"
+    },
+    "researchSystemLabel": {
+      "en": "AMAP CV Lab research stages from understanding through simulation to action",
+      "zh": "高德视觉技术中心从理解、模拟到行动的研究阶段"
+    },
+    "projectsLabel": {
+      "en": "research works",
+      "zh": "项研究成果"
+    },
+    "releasesLabel": {
+      "en": "lab releases",
+      "zh": "条实验室动态"
+    },
+    "worldlineAction": {
+      "label": {
+        "en": "Continue to the ABot Stack",
+        "zh": "继续探索 ABot 技术栈"
+      },
+      "href": "#abot-stack"
+    },
+    "signalReel": {
+      "label": {
+        "en": "Latest from the lab",
+        "zh": "最新实验室动态"
+      },
+      "hint": {
+        "en": "Latest updates",
+        "zh": "最新动态"
+      },
+      "trackLabel": {
+        "en": "Browse the latest AMAP CV Lab releases",
+        "zh": "浏览高德视觉技术中心最新动态"
+      },
+      "previousLabel": {
+        "en": "Show the previous release",
+        "zh": "查看上一条动态"
+      },
+      "nextLabel": {
+        "en": "Show the next release",
+        "zh": "查看下一条动态"
+      },
+      "pauseLabel": {
+        "en": "Pause automatic reel playback",
+        "zh": "暂停动态自动播放"
+      },
+      "pauseText": {
+        "en": "Pause",
+        "zh": "暂停"
+      },
+      "playLabel": {
+        "en": "Resume automatic reel playback",
+        "zh": "继续动态自动播放"
+      },
+      "playText": {
+        "en": "Play",
+        "zh": "播放"
+      }
+    },
+    "media": {
+      "image": "/assets/backgrounds/spatial-atlas.webp",
+      "alt": {
+        "en": "A layered atlas connecting Earth-scale spatial data, world models, and embodied agents",
+        "zh": "连接地球尺度空间数据、世界模型与具身智能体的分层图谱"
+      }
+    },
+    "worksCount": 48
+  },
+  "ui": {
+    "skipToContentLabel": {
+      "en": "Skip to main content",
+      "zh": "跳转到主要内容"
+    },
+    "homeLabel": {
+      "en": "AMAP CV Lab home",
+      "zh": "高德视觉技术中心首页"
+    },
+    "primaryNavigationLabel": {
+      "en": "Primary navigation",
+      "zh": "主导航"
+    },
+    "githubLabel": {
+      "en": "AMAP CV Lab on GitHub",
+      "zh": "高德视觉技术中心 GitHub 主页"
+    },
+    "githubShortLabel": {
+      "en": "GitHub",
+      "zh": "GitHub"
+    },
+    "languageToggleLabel": {
+      "en": "Switch language",
+      "zh": "切换语言"
+    },
+    "englishLabel": {
+      "en": "EN",
+      "zh": "EN"
+    },
+    "chineseLabel": {
+      "en": "中文",
+      "zh": "中文"
+    },
+    "openMenuLabel": {
+      "en": "Open navigation",
+      "zh": "打开导航"
+    },
+    "closeMenuLabel": {
+      "en": "Close navigation",
+      "zh": "关闭导航"
+    }
+  },
+  "footer": {
+    "statement": {
+      "en": "Building spatial intelligence for mobility, life, and open-ended worlds.",
+      "zh": "为出行、生活与开放世界构建空间智能。"
+    },
+    "copyright": {
+      "en": "© 2026 Alibaba AMAP CV Lab. All rights reserved.",
+      "zh": "© 2026 阿里巴巴高德视觉技术中心。保留所有权利。"
+    },
+    "links": [
+      {
+        "id": "footer-github",
+        "label": {
+          "en": "GitHub",
+          "zh": "GitHub"
+        },
+        "url": "https://github.com/amap-cvlab"
+      },
+      {
+        "id": "footer-abot-world",
+        "label": {
+          "en": "ABot World Studio",
+          "zh": "ABot 世界工作室"
+        },
+        "url": "https://abot-world.amap.com"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "AMAP CV Lab GitHub organization profile",
+      "url": "https://github.com/amap-cvlab",
+      "verifiedAt": "2026-08-08"
+    },
+    {
+      "source": "ABot-World official repository",
+      "url": "https://github.com/amap-cvlab/ABot-World",
+      "verifiedAt": "2026-08-08"
+    }
+  ]
+}

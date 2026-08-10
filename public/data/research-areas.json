@@ -1,0 +1,240 @@
+{
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2026-08-10",
+  "section": {
+    "index": "RESEARCH / 02",
+    "eyebrow": {
+      "en": "Connected research areas",
+      "zh": "关联研究方向"
+    }
+  },
+  "title": {
+    "en": "Research, connected by one spatial intelligence arc",
+    "zh": "以空间智能主线连接全部研究"
+  },
+  "description": {
+    "en": "Our research areas contribute to a shared end-to-end path: Spatial & Data Foundations → World & Foundation Models → Agents & Real Execution.",
+    "zh": "各研究方向共同汇入一条端到端路径：空间与数据基础 → 世界与基础模型 → 智能体与真实执行。"
+  },
+  "areas": [
+    {
+      "id": "research-map-autonomous-driving",
+      "order": 1,
+      "title": {
+        "en": "Map & Autonomous Driving",
+        "zh": "地图与自动驾驶"
+      },
+      "description": {
+        "en": "Generative mapping, lane topology, traffic-rule reasoning, and future-aware planning for scalable urban mobility.",
+        "zh": "面向可扩展城市出行的生成式地图、车道拓扑、交通规则推理与未来感知规划。"
+      },
+      "stageIds": [
+        "spatial-data-foundations",
+        "agents-real-execution"
+      ],
+      "projectIds": [
+        "unimapgen",
+        "future-sight-drive",
+        "online-navigation-refinement",
+        "prior-drive",
+        "pamr",
+        "mapdr",
+        "reasoning-over-space"
+      ],
+      "icon": "map-trifold",
+      "featured": true,
+      "featuredRank": 4,
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official organization profile",
+          "url": "https://github.com/amap-cvlab",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "worksHref": "/works/?area=research-map-autonomous-driving"
+    },
+    {
+      "id": "research-human-centric-ai",
+      "order": 2,
+      "title": {
+        "en": "Human-Centric AI",
+        "zh": "数字人"
+      },
+      "description": {
+        "en": "Identity-aware, expressive, and physically grounded generation for digital humans and 4D characters.",
+        "zh": "面向数字人与四维角色的身份一致、富有表现力且具物理基础的生成技术。"
+      },
+      "stageIds": [
+        "world-foundation-models"
+      ],
+      "projectIds": [
+        "fantasy-talking",
+        "fantasy-talking2",
+        "fantasy-hsi",
+        "fantasy-portrait",
+        "fantasy-id",
+        "humanrig"
+      ],
+      "icon": "person-arms-spread",
+      "featured": false,
+      "featuredRank": 6,
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official organization profile",
+          "url": "https://github.com/amap-cvlab",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "worksHref": "/works/?area=research-human-centric-ai"
+    },
+    {
+      "id": "research-embodied-intelligence",
+      "order": 3,
+      "title": {
+        "en": "Embodied AI",
+        "zh": "具身智能"
+      },
+      "description": {
+        "en": "Agents that perceive, reason, remember, navigate, manipulate, cooperate, and act in virtual and physical worlds.",
+        "zh": "让智能体在虚拟与真实世界中完成感知、推理、记忆、导航、操作、协作与行动。"
+      },
+      "stageIds": [
+        "agents-real-execution"
+      ],
+      "projectIds": [
+        "abot-m05",
+        "abot-n1",
+        "abot-agentos",
+        "abot-explorer",
+        "omninav",
+        "fantasy-hsi",
+        "janusvln",
+        "ce-nav",
+        "fantasy-vln",
+        "world-env",
+        "abot-n0",
+        "abot-m0",
+        "abot-claw",
+        "abot-er-preview",
+        "astranav-memory",
+        "astranav-world",
+        "socialnav"
+      ],
+      "icon": "robot",
+      "featured": true,
+      "featuredRank": 1,
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official organization profile",
+          "url": "https://github.com/amap-cvlab",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "worksHref": "/works/?area=research-embodied-intelligence"
+    },
+    {
+      "id": "research-world-modeling",
+      "order": 4,
+      "title": {
+        "en": "World Modeling",
+        "zh": "世界模型"
+      },
+      "description": {
+        "en": "Dynamic and interactive models that predict and generate environments under actions, geometry, and physics.",
+        "zh": "在动作、几何与物理约束下预测并生成环境的动态交互式模型。"
+      },
+      "stageIds": [
+        "world-foundation-models"
+      ],
+      "projectIds": [
+        "abot-world",
+        "abot-3dworld",
+        "abot-earth",
+        "abot-physworld",
+        "fantasy-world",
+        "world-env",
+        "astranav-world"
+      ],
+      "icon": "globe-hemisphere-west",
+      "featured": true,
+      "featuredRank": 2,
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official organization profile",
+          "url": "https://github.com/amap-cvlab",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "worksHref": "/works/?area=research-world-modeling"
+    },
+    {
+      "id": "research-3d-generation-reconstruction",
+      "order": 5,
+      "title": {
+        "en": "3D Generation & Reconstruction",
+        "zh": "3D生成与重建"
+      },
+      "description": {
+        "en": "Generative 3D, Gaussian Splatting, neural rendering, reconstruction, and texturing for explorable spaces.",
+        "zh": "面向可探索空间的生成式三维、高斯泼溅、神经渲染、重建与纹理生成。"
+      },
+      "stageIds": [
+        "spatial-data-foundations",
+        "world-foundation-models"
+      ],
+      "projectIds": [
+        "abot-3dworld",
+        "abot-earth",
+        "clod-gs",
+        "humanrig",
+        "fantasy-world",
+        "sat3dgen",
+        "gf-nerf",
+        "mvpainter"
+      ],
+      "icon": "cube-focus",
+      "featured": true,
+      "featuredRank": 3,
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official organization profile",
+          "url": "https://github.com/amap-cvlab",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "worksHref": "/works/?area=research-3d-generation-reconstruction"
+    },
+    {
+      "id": "research-general-deep-learning",
+      "order": 6,
+      "title": {
+        "en": "General Deep Learning",
+        "zh": "通用深度学习"
+      },
+      "description": {
+        "en": "Representation learning, model architecture, multimodal understanding, and optimization that support the full stack.",
+        "zh": "支撑完整技术栈的表征学习、模型架构、多模态理解与优化方法。"
+      },
+      "stageIds": [
+        "spatial-data-foundations",
+        "world-foundation-models",
+        "agents-real-execution"
+      ],
+      "projectIds": [
+        "abot-ocr",
+        "dfvt"
+      ],
+      "icon": "circles-three-plus",
+      "featured": false,
+      "featuredRank": 5,
+      "evidence": [
+        {
+          "source": "AMAP CV Lab official organization profile",
+          "url": "https://github.com/amap-cvlab",
+          "verifiedAt": "2026-08-08"
+        }
+      ],
+      "worksHref": "/works/?area=research-general-deep-learning"
+    }
+  ]
+}

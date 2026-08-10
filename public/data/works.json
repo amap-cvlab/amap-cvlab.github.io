@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-08-10",
+  "page": {
+    "documentTitle": {
+      "en": "Works · AMAP CV Lab",
+      "zh": "研究成果 · 高德视觉技术中心"
+    },
+    "skipLabel": {
+      "en": "Skip to works",
+      "zh": "跳转到研究成果"
+    },
+    "eyebrow": {
+      "en": "Complete works index",
+      "zh": "项目与论文完整索引"
+    },
+    "title": {
+      "en": "Projects & Publications",
+      "zh": "研究成果"
+    },
+    "description": {
+      "en": "Explore the lab’s complete public record across connected research areas. Each work is merged once, even when it includes both a project page and a publication.",
+      "zh": "浏览实验室横跨关联研究方向的完整公开成果。同一成果即使同时包含项目主页与论文，也只会合并呈现一次。"
+    },
+    "stats": {
+      "works": {
+        "en": "works",
+        "zh": "项成果"
+      },
+      "areas": {
+        "en": "areas",
+        "zh": "个方向"
+      },
+      "projects": {
+        "en": "with project page",
+        "zh": "含项目主页"
+      },
+      "publications": {
+        "en": "with publication",
+        "zh": "含论文或报告"
+      }
+    }
+  },
+  "filters": {
+    "regionLabel": {
+      "en": "Filter research works",
+      "zh": "筛选研究成果"
+    },
+    "searchLabel": {
+      "en": "Search works",
+      "zh": "搜索成果"
+    },
+    "searchPlaceholder": {
+      "en": "Search title, summary, venue, or series",
+      "zh": "搜索标题、摘要、会议或系列"
+    },
+    "typeLabel": {
+      "en": "Availability",
+      "zh": "成果形态"
+    },
+    "typeOptions": [
+      {
+        "id": "works-type-all",
+        "value": "all",
+        "label": {
+          "en": "All works",
+          "zh": "全部成果"
+        }
+      },
+      {
+        "id": "works-type-project",
+        "value": "project",
+        "label": {
+          "en": "With project page",
+          "zh": "含项目主页"
+        }
+      },
+      {
+        "id": "works-type-publication",
+        "value": "publication",
+        "label": {
+          "en": "With publication",
+          "zh": "含论文或报告"
+        }
+      }
+    ],
+    "typeHelp": {
+      "en": "One work can include both a project page and a publication.",
+      "zh": "同一成果可同时包含项目主页与论文。"
+    },
+    "areaLabel": {
+      "en": "Research area",
+      "zh": "研究方向"
+    },
+    "areaAll": {
+      "en": "All areas",
+      "zh": "全部方向"
+    },
+    "yearLabel": {
+      "en": "Year",
+      "zh": "年份"
+    },
+    "yearAll": {
+      "en": "All years",
+      "zh": "全部年份"
+    },
+    "resetLabel": {
+      "en": "Reset filters",
+      "zh": "重置筛选"
+    },
+    "openLabel": {
+      "en": "Open filters",
+      "zh": "打开筛选"
+    },
+    "closeLabel": {
+      "en": "Close filters",
+      "zh": "关闭筛选"
+    },
+    "resultsLabel": {
+      "en": "results",
+      "zh": "项结果"
+    }
+  },
+  "list": {
+    "groupCountLabel": {
+      "en": "works",
+      "zh": "项成果"
+    },
+    "projectBadge": {
+      "en": "Project",
+      "zh": "项目"
+    },
+    "publicationBadge": {
+      "en": "Publication",
+      "zh": "论文或报告"
+    },
+    "secondaryAreaLabel": {
+      "en": "Also connects",
+      "zh": "关联方向"
+    },
+    "moreLabel": {
+      "en": "More",
+      "zh": "更多"
+    },
+    "emptyTitle": {
+      "en": "No work matches these filters",
+      "zh": "没有符合当前筛选的成果"
+    },
+    "emptyDescription": {
+      "en": "Try a broader search or reset the filters.",
+      "zh": "请尝试更宽泛的搜索，或重置筛选。"
+    }
+  }
+}
